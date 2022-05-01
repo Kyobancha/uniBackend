@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 app.all('/publicUsers', router);
+app.all('/publicUsers/:userID', router);
 
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);
