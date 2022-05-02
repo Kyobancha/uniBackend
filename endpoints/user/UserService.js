@@ -23,12 +23,13 @@ function getAll(res){
 }
 
 function get(req, res){
-    User.find({userID: req.params.userID}, function (err, docs) {
+    User.findOne({userID: req.params.userID}, function (err, docs) {
         if(err){
             res.setHeader("HTTP", "Bad Request"); //overwork
+        } else {
+            res.send(docs)
         }
-        res.send(docs)
-    });
+    })
 }
 
 function update(req, res){

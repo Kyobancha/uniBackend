@@ -17,8 +17,11 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
-app.all('/publicUsers', router);
-app.all('/publicUsers/:userID', router);
+app.use('/publicUsers', router);
+app.use((req, res) => {
+    res.status(404);
+    res.send("Not found");
+});
 
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);

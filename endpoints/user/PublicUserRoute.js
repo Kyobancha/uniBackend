@@ -4,28 +4,19 @@ const router = express.Router();
 const { User } = require('./UserModel');
 const UserService = require('./UserService');
 
-
-
-router.get('/publicUsers', (req, res, next) => {
+router.get('/', (req, res) => {
     UserService.getAll(res);
 })
-.get('/publicUsers/:userID', (req, res) => {
-    console.log("gotcha");
+.get('/:userID', (req, res) => {
     UserService.get(req, res);
 })
-.post('/publicUsers', (req, res) => {
+.post('/', (req, res) => {
     UserService.create(req, res);
 })
-.put('/publicUsers', (req, res) => {
-    res.send('This command is not available...yet?')
-})
-.put('/publicUsers/:userID', (req, res) => {
+.put('/:userID', (req, res) => {
     UserService.update(req, res);
 })
-.delete('/publicUsers', (req, res) => {
-    res.send('Hallo')
-})
-.delete('/publicUsers/:userID', (req, res) => {
+.delete('/:userID', (req, res) => {
     UserService.remove(req, res);
 })
 module.exports = router;
