@@ -4,7 +4,7 @@ GET http://localhost:8080/publicUsers
 
 // Lege ersten User an, der Administrator ist
 ###
-POST http://localhost:8080/publicUserss
+POST http://localhost:8080/publicUsers
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 // Rufe den User mit UserID admin ab. 
 ###
-GET http://localhost:8080/publicUsers/admins
+GET http://localhost:8080/publicUsers/admin
 
 // Lege zweiten User an. Prüfe UserID und UserName, ob die Angaben korrekt sind.
 ###
