@@ -1,6 +1,5 @@
 const { User } = require("./UserModel");
 
-
 function create(req, res){
     const user = new User({
         userID: req.body.userID,
@@ -68,17 +67,17 @@ function update(req, res){
         if(doc){
             return User.updateOne({userID: req.params.userID}, req.body)
         } else{
-            res.status(403);
             throw new Error({status: 403});
         }
     })
-    .then(() => {
+    .then(user => {
         res.status(204);
         res.send("");
         console.log('User updated');
     })
     .catch(err => {
         if(err.status = 403){
+            res.status(403);
             res.send("No user with the provided id exits so far.");
         } else{
             res.status(500);
