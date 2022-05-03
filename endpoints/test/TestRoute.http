@@ -35,7 +35,9 @@ PUT http://localhost:8080/publicUsers/manfred
 Content-Type: application/json
 
 {
-    "userName": "Manfred Müller"
+    "userName": "Manfred Müller",
+    "password": "asdfgasdasd",
+    "isAdmin": true
 }
 
 // Rufe alle User ab. Es sollten 2 User zurückgegeben werden.
