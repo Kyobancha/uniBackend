@@ -52,7 +52,20 @@ router.get('/', (req, res) => {
     })
 })
 .put('/:userID', (req, res) => {
-    UserService.update(req, res);
+    UserService.update(req, res)
+    .then(result => {
+        if(result === 403){
+            res.status(403);
+            res.send("No user with the provided id exits so far.");
+        } else if(result === 204){
+            res.status(204);
+            res.send("User updated");
+        }
+    })
+    .catch(error => {
+        res.status(500);
+        res.send(error.message);
+    })
 })
 .delete('/:userID', (req, res) => {
     UserService.remove(req, res)

@@ -36,7 +36,7 @@ Content-Type: application/json
 
 {
     "userName": "Manfred Müller",
-    "password": "asdfgasdasd",
+    "password": "asdfss",
     "isAdmin": true
 }
 
