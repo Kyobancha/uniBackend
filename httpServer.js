@@ -1,5 +1,6 @@
 const express = require('express');
-const router = require('./endpoints/user/PublicUserRoute');
+const publicUserRouter = require('./endpoints/user/PublicUserRoute');
+const authenticationRouter = require('./endpoints/authentication/AuthenticationRoute');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const config = require('config');
@@ -22,7 +23,8 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
-app.use('/publicUsers', router);
+app.use('/publicUsers', publicUserRouter);
+app.use('/authenticate', authenticationRouter);
 app.use((req, res) => {
     res.status(404);
     res.send("Not found");

@@ -1,7 +1,5 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const router = express.Router();
-const { User } = require('./UserModel');
 const UserService = require('./UserService');
 
 router.get('/', (req, res) => {
@@ -46,7 +44,7 @@ router.get('/', (req, res) => {
             console.log('User saved')
         }
     })
-    .catch(error => {
+    .catch(error => {      
         res.status(500)
         res.send(error.message)
     })

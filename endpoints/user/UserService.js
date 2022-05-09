@@ -1,5 +1,22 @@
 const { User } = require("./UserModel");
 
+function authenticate(userId, password){
+    return new Promise((resolve, reject) => {
+        User.findOne({userID: userId}).exec()
+        .then(user => {
+            user.comparePassword(password, (error, isMatch) => {
+                if(error){
+                    throw new Error("This is our fault, sorry!");
+                }
+                resolve(isMatch);
+            });
+        })
+        .catch(() => {
+            reject(false);
+        })
+    })
+}
+
 function create(req){
     let user = new User({
         userID: req.body.userID,
@@ -84,4 +101,4 @@ async function remove(req){
     }
 }
 
-module.exports = {create, getAll, get, update, remove}
+module.exports = {authenticate, create, getAll, get, update, remove}
