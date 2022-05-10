@@ -15,6 +15,7 @@
     "body-parser": "^1.20.0",
     "config": "^3.3.7",
     "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.1",
     "salt": "^0.5.5"

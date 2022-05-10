@@ -1,9 +1,11 @@
 const express = require('express');
 const publicUserRouter = require('./endpoints/user/PublicUserRoute');
 const authenticationRouter = require('./endpoints/authentication/AuthenticationRoute');
+const userService = require('./endpoints/user/UserService');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const config = require('config');
+
 
 const dbConnectionString = config.get('db.connectionString')
 const dbUseNewUrlParser = config.get('db.connectionOptions.useNewUrlParser');
@@ -33,3 +35,6 @@ app.use((req, res) => {
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);
 })
+
+//AN DIE DATENBANK BEI "ON" DRANHÄNGEN
+userService.createDefaultAdmin();

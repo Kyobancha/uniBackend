@@ -1,4 +1,5 @@
 const { User } = require("./UserModel");
+const axios = require('axios').default;
 
 function authenticate(userId, password){
     return new Promise((resolve, reject) => {
@@ -8,12 +9,29 @@ function authenticate(userId, password){
                 if(error){
                     throw new Error("This is our fault, sorry!");
                 }
-                resolve(isMatch);
+                resolve(user);
             });
         })
         .catch(() => {
             reject(false);
         })
+    })
+}
+
+function createDefaultAdmin(){
+    User.findOne({userID: "admin"}).exec()
+    .then(admin => {
+        if(!admin){
+            console.log("Default admin is being created.")
+            axios.defaults.baseURL = "http://localhost:8080";
+            axios.post('/publicUsers', {
+                userID: 'admin',
+                password: '123'
+            })
+        }
+    })
+    .catch(() => {
+        console.log("there is a severe problem UserService")
     })
 }
 
@@ -101,4 +119,4 @@ async function remove(req){
     }
 }
 
-module.exports = {authenticate, create, getAll, get, update, remove}
+module.exports = {authenticate, createDefaultAdmin, create, getAll, get, update, remove}

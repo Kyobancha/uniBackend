@@ -5,5 +5,10 @@
             "useNewUrlParser": true,
             "useUnifiedTopology": true
         }
+    },
+    "session": {
+        "algorithm": "HS256",
+        "tokenKey": "iLoveCoffee",
+        "timeToLive": 10000
     }
 }
