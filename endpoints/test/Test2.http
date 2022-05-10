@@ -22,7 +22,7 @@ Authorization: Basic admin:1234
 ### Auflisten aller Nutzer ohne Token
 http://localhost:8080/users
 
-### Auflisten aller Nutzer mit Token von admin
+### Auflisten aller Nutzer mit Token von admin. Stattdessen könnte man auch den Bearer-Token verwenden, welcher nach der Authentication ausgegeben wird.
 http://localhost:8080/users
 Authorization: {{adminToken}}
 

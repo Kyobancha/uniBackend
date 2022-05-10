@@ -11,7 +11,7 @@ async function authenticate(req){
         const [userId, password] = credentials.split(':');
         return UserService.authenticate(userId, password)
         .then(user => {
-            if (!isMatch) {
+            if (!user) {
                 return 401;
             } else{
                 return user;
@@ -24,11 +24,9 @@ async function authenticate(req){
 }
 
 //premise is, that the authentication went successfully
-function createToken(userId){
+function createToken(user){
     return new Promise((resolve, reject) => {
-        const jwtKey = 'my_secret_key';
-        //NOTE
-        const token = jwt.sign({ userId, userName}, jwtKey, {
+        const token = jwt.sign({ userID: user.userID, userName: user.userName, isAdministrator: user.isAdministrator}, config.get("session.tokenKey"), {
             algorithm: config.get("session.algorithm"),
             expiresIn: config.get("session.timeToLive")
         })
@@ -36,18 +34,23 @@ function createToken(userId){
     })
 }
 
-// function verify(token){
-//     // Retrieve the token from the header or as a cookie
-//     // If there is a token, verify it the with secret key
-//     try {
-//         var payload = jwt.verify(token, jwtKey)
-//     } catch (e) {
-//     // if the token is wrong, an exception is thrown
-//     if (e instanceof jwt.JsonWebTokenError) {
-//     // Not logged in, redirect to error page
-//     }
-//     // Do the action the user requested
-// }
+function isAuthenticated(req, res, next) {
+    if (typeof req.headers.authorization !== "undefined") {
+        let token = req.headers.authorization.split(" ")[1];
+        let privateKey = config.get('session.tokenKey');
+        let algorithm = config.get('session.algorithm');
+        jwt.verify(token, privateKey, { algorithm: algorithm }, (err, user) => {
+        if (err) {
+            res.status(500).json({ error: "Not Authorized" });
+            return;
+        }
+            return next();
+        });
+    } else {
+        res.status(500).json({ error: "Not Authorized" });
+        return;
+    }
+}
 
 
-module.exports = { authenticate, createToken }
+module.exports = { authenticate, createToken, isAuthenticated }

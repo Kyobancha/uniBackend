@@ -9,7 +9,11 @@ function authenticate(userId, password){
                 if(error){
                     throw new Error("This is our fault, sorry!");
                 }
-                resolve(user);
+                if(isMatch){
+                    resolve(user);
+                } else{
+                    resolve(401)
+                }
             });
         })
         .catch(() => {

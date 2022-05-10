@@ -8,16 +8,14 @@ router.get('/', (req, res) => {
         if(result === 401){
             res.status(401)
             res.setHeader('WWW-Authenticate', 'Basic realm="Secure Area"');
-            res.send({ message: 'Missing Authorization Header of wrong credentials.' });
-        } else if (typeof result === 'string' || result instanceof String){
+            res.send({ message: 'Missing Authorization Header or wrong credentials.' });
+        } else if (typeof result === 'object' && result !== null){
             AuthenticationService.createToken(result)
-            .then(result => {
-                console.log(result);
-                res.setHeader('Authorization', 'Bearer ' + result);
+            .then(token => {
+                res.setHeader('Authorization', 'Bearer ' + token);
                 res.send({ message: 'Authentication was successful' });
             })
         } else {
-            console.log(result)
             res.status(400);
             res.send({ message: 'Please check your request data.' });
         }
