@@ -4,20 +4,39 @@ const UserService = require('./UserService');
 const { isAuthenticated } = require('../authentication/AuthenticationService');
 
 router.get('/', isAuthenticated, (req, res) => {
-    UserService.getAll()
-    .then(users => {
-        res.send(users)
+    //having this middleware function and getUserFromToken is kinda overkill
+    UserService.getUserFromToken(req)
+    .then(result => {
+        if(result.isAdministrator){
+            UserService.getAll(req)
+            .then(users => {
+                res.send(users)
+            })
+            .catch(error => {
+                res.status(500)
+                res.send(error.message);
+            })
+        } else{
+            res.status(403).send("You don't have the needed permission");
+        }
     })
     .catch(error => {
-        res.status(500)
+        res.status(505)
         res.send(error.message);
     })
 })
 .get('/:userID', isAuthenticated, (req, res) => {
     UserService.get(req, res)
-    .then(user => {
-        if(user){
-            res.send(user);
+    .then(resUser => {
+        if(resUser){
+            UserService.getUserFromToken(req)
+            .then(reqUser => {
+                if(reqUser.isAdministrator || reqUser.userID === resUser.userID){
+                    res.send(resUser);
+                } else{
+                    res.status(403).send("You don't have the needed permission");
+                }
+            })
         } else{
             res.status(404)
             res.send("This user doesn't exist");
