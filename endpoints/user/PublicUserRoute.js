@@ -52,12 +52,14 @@ router.get('/', (req, res) => {
 .put('/:userID', (req, res) => {
     UserService.update(req, res)
     .then(result => {
-        if(result === 403){
-            res.status(403);
+        if(result === 404){
+            res.status(404);
             res.send("No user with the provided id exits so far.");
         } else if(result === 204){
             res.status(204);
             res.send("User updated");
+        } else{
+            reject(new Error("This is our fault, sorry!"));
         }
     })
     .catch(error => {
@@ -68,6 +70,7 @@ router.get('/', (req, res) => {
 .delete('/:userID', (req, res) => {
     UserService.remove(req, res)
     .then(deleteObject => {
+        console.log(deleteObject)
         if(deleteObject.deletedCount === 0){
             res.status(404);
             res.send("This user doesn't exist");

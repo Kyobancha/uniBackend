@@ -2,25 +2,21 @@ const { ForumThread } = require("./ForumThreadModel");
 const UserService = require('../user/UserService');
 
 function create(req){
-    if(req.user.isAdministrator){
-        let thread = new ForumThread({
-            ownerID: req.user.userID,
-            name: req.body.name ? req.body.name : "My forum thread",
-            description: req.body.description ? req.body.description : ""
-        });
+    let thread = new ForumThread({
+        ownerID: req.user.userID,
+        name: req.body.name,
+        description: req.body.description ? req.body.description : ""
+    });
 
-        return new Promise((resolve, reject) => {
-            thread.save()
-            .then(() => {
-                resolve(thread);
-            })
-            .catch(() => {
-                reject(new Error("This is our fault, sorry!"))
-            })
+    return new Promise((resolve, reject) => {
+        thread.save()
+        .then(() => {
+            resolve(thread);
         })
-    } else{
-        return 
-    }
+        .catch(() => {
+            resolve(403)
+        })
+    })
 }
 
 async function getAll(){
@@ -52,32 +48,21 @@ function get(req){
     })
 }
 
-//TODO was ist, wenn im body ein fehlerhafter key steht?
 function update(req){
     return new Promise((resolve, reject) => {
-        User.findOne({userID: req.params.userID}).exec()
-        .then(doc => {
-            doc;
-            if(doc){
-                doc.userID = (req.body.userID ? req.body.userID : doc.userID);
-                doc.userName = (req.body.userName ? req.body.userName : doc.userName);
-                doc.isAdministrator = (req.body.isAdministrator ? req.body.isAdministrator : doc.isAdministrator);
-                doc.comparePassword(req.body.password, (error, isMatch) => {
-                    if(error){
-                        throw new Error("This is our fault, sorry!");
-                    }
-                    if(!isMatch){
-                        doc.password = req.body.password;
-                    }
-                    doc.save();
-                    resolve(204);
-                });
-            } else{
-                resolve(403);
+        ForumThread.findOne({_id: req.params.id}).exec()
+        .then(thread => {
+            if(thread){
+                thread.name = (req.body.name ? req.body.name : thread.name);
+                thread.description = (req.body.description ? req.body.description : thread.description);
+                thread.save();
+                resolve(204);
+            } else {
+                reject(new Error("This is our fault, sorry!"))
             }
         })
         .catch(() => {
-            reject(new Error("This is our fault, sorry!"));
+            resolve(404)
         })
     });
 }

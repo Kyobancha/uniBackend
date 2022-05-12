@@ -64,12 +64,14 @@ router.get('/', isAuthenticated, (req, res) => {
     if(req.user.isAdministrator){
         UserService.update(req, res)
         .then(result => {
-            if(result === 403){
-                res.status(403);
+            if(result === 404){
+                res.status(404);
                 res.send("No user with the provided id exits so far.");
             } else if(result === 204){
                 res.status(204);
                 res.send("User updated");
+            } else{
+                reject(new Error("This is our fault, sorry!"));
             }
         })
         .catch(error => {

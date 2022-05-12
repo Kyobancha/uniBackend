@@ -40,6 +40,14 @@ Content-Type: application/json
     "isAdmin": true
 }
 
+###
+PUT http://localhost:8080/publicUsers/manfred
+Content-Type: application/json
+
+{
+    "userName": "Susi Sunkist"
+}
+
 // Rufe alle User ab. Es sollten 2 User zurückgegeben werden.
 ###
 GET http://localhost:8080/publicUsers

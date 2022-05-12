@@ -1,7 +1,5 @@
 const { User } = require("./UserModel");
 const axios = require('axios').default;
-const config = require('config');
-const jwt = require('jsonwebtoken');
 
 function authenticate(userId, password){
     return new Promise((resolve, reject) => {
@@ -71,7 +69,6 @@ function create(req){
     })
 }
 
-//right of isAdministrator needed
 async function getAll(){
     try{
         return User.find().exec();
@@ -80,7 +77,6 @@ async function getAll(){
     }
 }
 
-//user can only get themself
 async function get(req){
     try{
         return User.findOne({userID: req.params.userID}).exec();
@@ -89,32 +85,33 @@ async function get(req){
     }
 }
 
-//TODO was ist, wenn im body ein fehlerhafter key steht?
 function update(req){
     return new Promise((resolve, reject) => {
         User.findOne({userID: req.params.userID}).exec()
-        .then(doc => {
-            doc;
-            if(doc){
-                doc.userID = (req.body.userID ? req.body.userID : doc.userID);
-                doc.userName = (req.body.userName ? req.body.userName : doc.userName);
-                doc.isAdministrator = (req.body.isAdministrator ? req.body.isAdministrator : doc.isAdministrator);
-                doc.comparePassword(req.body.password, (error, isMatch) => {
-                    if(error){
-                        throw new Error("This is our fault, sorry!");
-                    }
-                    if(!isMatch){
-                        doc.password = req.body.password;
-                    }
-                    doc.save();
-                    resolve(204);
-                });
+        .then(user => {
+            user;
+            if(user){
+                user.userID = (req.body.userID ? req.body.userID : user.userID);
+                user.userName = (req.body.userName ? req.body.userName : user.userName);
+                user.isAdministrator = (req.body.isAdministrator ? req.body.isAdministrator : user.isAdministrator);
+                if(req.body.password){
+                    user.comparePassword(req.body.password, (error, isMatch) => {
+                        if(error){
+                            throw new Error("This is our fault, sorry!");
+                        }
+                        if(!isMatch){
+                            user.password = req.body.password;
+                        }
+                    });
+                }
+                user.save();
+                resolve(204);
             } else{
-                resolve(403);
+                reject(new Error("This is our fault, sorry!"));
             }
         })
         .catch(() => {
-            reject(new Error("This is our fault, sorry!"));
+            resolve(405);
         })
     });
 }

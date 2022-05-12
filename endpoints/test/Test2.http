@@ -82,7 +82,7 @@ Authorization: {{manfredToken}}
 ### Auflisten aller Foren ohne Token
 GET http://localhost:8080/forumThreads
 
-// Lege ein erstes Forum an, der Administrator ist owner
+// Lege ein erstes gültiges Forum an, der Administrator ist owner
 ###
 # @name createForumRequest
 POST http://localhost:8080/forumThreads
@@ -94,7 +94,19 @@ Content-Type: application/json
     "description": "Forum 1"
 }
 
-// Lege ein erstes Forum an, der Administrator ist owner
+// Lege ein ungültiges Forum an, der Administrator ist owner
+###
+# @name createForumRequest
+POST http://localhost:8080/forumThreads
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "name": "",
+    "description": ""
+}
+
+// Lege ein zweites gültiges Forum an, der Administrator ist owner
 ###
 # @name createForumRequest
 POST http://localhost:8080/forumThreads
@@ -106,16 +118,16 @@ Content-Type: application/json
     "description": "Forum 2"
 }
 
-// Lege ein erstes Forum an, der Administrator ist owner
+// Lege ein zweites ungültiges Forum an, der manfred ist owner
 ###
 # @name createForumRequest
 POST http://localhost:8080/forumThreads
-Authorization: {{adminToken}}
+Authorization: {{manfredToken}}
 Content-Type: application/json
 
 {
-    "name": "",
-    "description": ""
+    "name": "Mein erstes Forum",
+    "description": "Forum 1"
 }
 
 ###
@@ -133,6 +145,15 @@ http://localhost:8080/forumThreads/{{forumThreadID}}
 
 ### Ändere die forumDescription in dem existierenden Forum
 PUT http://localhost:8080/forumThreads/{{forumThreadID}}
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "description": "Das ist der neue Text, warum auch nicht."
+}
+
+### Änderen eines nicht-existierenden forumThreads
+PUT http://localhost:8080/forumThreads/nonexistent
 Authorization: {{adminToken}}
 Content-Type: application/json
 
