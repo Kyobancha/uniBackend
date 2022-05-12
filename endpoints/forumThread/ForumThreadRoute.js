@@ -14,29 +14,28 @@ router.get('/', (req, res) => {
         res.send(error.message);
     })
 })
-.get('/myForumThreads', (req, res) => {
-    ForumThreadService.getUserThreads(req)
-    .then(resUser => {
-        if(resUser){
-            UserService.getUserFromToken(req)
-            .then(reqUser => {
-                if(reqUser.isAdministrator || reqUser.userID === resUser.userID){
-                    res.send(resUser);
-                } else{
-                    res.status(403).send("You don't have the needed permission");
-                }
-            })
-        } else{
-            res.status(404)
-            res.send("This user doesn't exist");
-        }
-    })
-    .catch(error => {
-        res.status(500)
-        res.send(error.message);
-    })
+.get('/myForumThreads', isAuthenticated, (req, res) => {
+    if(req.user){
+        console.log(req.user);
+        ForumThreadService.getUserThreads(req)
+        .then(threads => {
+            if(threads){
+                res.send(threads);
+            } else{
+                res.status(404)
+                res.send("This user doesn't exist");
+            }
+        })
+        .catch(error => {
+            res.status(500)
+            res.send(error.message);
+        })
+    }
 })
-.get('/:ownerID', (req, res) => {
+.get('/ownerID=:ownerID', (req, res) => {
+    console.log("test")
+    console.log(req.query)
+    console.log(req.params.ownerID)
     UserService.get(req, res)
     .then(resUser => {
         if(resUser){
@@ -58,28 +57,45 @@ router.get('/', (req, res) => {
         res.send(error.message);
     })
 })
-.post('/', isAuthenticated, (req, res) => {
-    console.log("hi")
-    ForumThreadService.create(req)
-    .then(result => {
-        console.log(result)
-        if(result === 400){
-            res.status(400);
-            res.send("A user ID is required");
-            // console.log(error);
-        } else if(result === 405){
-            res.status(405);
-            res.send("This user ID is already taken. Please choose another one.");
+.get('/:id', (req, res) => {
+    ForumThreadService.get(req)
+    .then(thread => {
+        if(thread){
+            res.send(thread);
         } else{
-            res.status(201);
-            res.send(result);
-            console.log('User saved')
+            res.status(404)
+            res.send("This thread doesn't exist");
         }
     })
-    .catch(error => {      
+    .catch(error => {
         res.status(500)
-        res.send(error.message)
+        res.send(error.message);
     })
+})
+.post('/', isAuthenticated, (req, res) => {
+    if(req.user){
+        ForumThreadService.create(req)
+        .then(result => {
+            if(result === 400){
+                res.status(400);
+                res.send("A user ID is required");
+                // console.log(error);
+            } else if(result === 405){
+                res.status(405);
+                res.send("This user ID is already taken. Please choose another one.");
+            } else{
+                res.status(201);
+                res.send(result);
+                console.log('User saved')
+            }
+        })
+        .catch(error => {      
+            res.status(500)
+            res.send(error.message)
+        })
+    } else{
+        res.status(403).send("You don't have the needed permission");
+    }
 })
 .put('/:userID', isAuthenticated, (req, res) => {
     UserService.update(req, res)
@@ -97,12 +113,12 @@ router.get('/', (req, res) => {
         res.send(error.message);
     })
 })
-.delete('/:userID', isAuthenticated, (req, res) => {
-    UserService.remove(req, res)
+.delete('/:id', isAuthenticated, (req, res) => {
+    ForumThreadService.remove(req)
     .then(deleteObject => {
         if(deleteObject.deletedCount === 0){
             res.status(404);
-            res.send("This user doesn't exist");
+            res.send("This thread doesn't exist");
         } else{
             res.status(204);
             res.send();

@@ -42,25 +42,6 @@ function createDefaultAdmin(){
     })
 }
 
-function getUserFromToken(req) {
-    return new Promise((resolve, reject) => {
-        if (typeof req.headers.authorization !== "undefined") {
-            let token = req.headers.authorization.split(" ")[1];
-            let privateKey = config.get('session.tokenKey');
-            let algorithm = config.get('session.algorithm');
-            resolve(jwt.verify(token, privateKey, { algorithm: algorithm }, (err, user) => {
-                if (err) {
-                    return 403;
-                } else{
-                    return user;
-                }
-            }));
-        } else {
-            reject(new Error("This is our fault, sorry!"));
-        }
-    })
-}
-
 function create(req){
     let user = new User({
         userID: req.body.userID,
@@ -146,4 +127,4 @@ async function remove(req){
     }
 }
 
-module.exports = {authenticate, createDefaultAdmin, getUserFromToken, create, getAll, get, update, remove}
+module.exports = {authenticate, createDefaultAdmin, create, getAll, get, update, remove}

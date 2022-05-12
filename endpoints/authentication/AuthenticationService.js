@@ -40,14 +40,16 @@ function isAuthenticated(req, res, next) {
         let privateKey = config.get('session.tokenKey');
         let algorithm = config.get('session.algorithm');
         jwt.verify(token, privateKey, { algorithm: algorithm }, (err, user) => {
-        if (err) {
-            res.status(500).json({ error: "Not Authorized" });
-            return;
-        }
-            return next();
+            if (err) {
+                res.status(401).json({ error: "Not Authorized" });
+                return;
+            } else{
+                req.user = user;
+                return next();
+            }
         });
     } else {
-        res.status(500).json({ error: "Not Authorized" });
+        res.status(401).json({ error: "Not Authorized" });
         return;
     }
 }

@@ -37,6 +37,17 @@ Content-Type: application/json
     "password": "asdf"
 }
 
+### Lege neuen user manfred an
+POST http://localhost:8080/users
+Authorization: {{manfredToken}}
+Content-Type: application/json
+
+{
+    "userID": "manfred",
+    "userName": "Manfred Mustermann",
+    "password": "asdf"
+}
+
 ### Abrufen des angelegten Users mit dem Admin-Token
 GET http://localhost:8080/users/manfred
 Authorization: {{adminToken}}
@@ -80,7 +91,31 @@ Content-Type: application/json
 
 {
     "name": "Mein erstes Forum",
-    "description": "Das ist ein erstes Forum, das ich im Rahmen der Tests angelegt habe"
+    "description": "Forum 1"
+}
+
+// Lege ein erstes Forum an, der Administrator ist owner
+###
+# @name createForumRequest
+POST http://localhost:8080/forumThreads
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "name": "Mein zweites Forum",
+    "description": "Forum 2"
+}
+
+// Lege ein erstes Forum an, der Administrator ist owner
+###
+# @name createForumRequest
+POST http://localhost:8080/forumThreads
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "name": "",
+    "description": ""
 }
 
 ###
@@ -88,6 +123,9 @@ Content-Type: application/json
 
 ### Auflisten aller Foren ohne Token, nun sollte es ein Forum geben
 http://localhost:8080/forumThreads
+
+### Abrufen eines nicht-existierenden Forum-Threads
+http://localhost:8080/forumThreads/123
 
 ### Abrufen von dem angelegten Forum-Thread
 http://localhost:8080/forumThreads/{{forumThreadID}}

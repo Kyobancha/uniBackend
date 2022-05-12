@@ -2,10 +2,9 @@ const { ForumThread } = require("./ForumThreadModel");
 const UserService = require('../user/UserService');
 
 function create(req){
-    return UserService.getUserFromToken(req)
-    .then(user => {
+    if(req.user.isAdministrator){
         let thread = new ForumThread({
-            ownerID: user.userID,
+            ownerID: req.user.userID,
             name: req.body.name ? req.body.name : "My forum thread",
             description: req.body.description ? req.body.description : ""
         });
@@ -19,7 +18,9 @@ function create(req){
                 reject(new Error("This is our fault, sorry!"))
             })
         })
-    })
+    } else{
+        return 
+    }
 }
 
 async function getAll(){
@@ -31,18 +32,24 @@ async function getAll(){
 }
 
 async function getUserThreads(req){
-    let user = await UserService.getUserFromToken(req)
-    ForumThread.findOne({ownerID: user.userID}).exec();
-}
-
-async function get(req){
-    console.log(req.originalUrl)
-    
     try{
-        return ForumThread.findOne({userID: req.params.userID}).exec();
+        return ForumThread.find({ownerID: req.user.userID}).exec()
     } catch{
         throw new Error("This is our fault, sorry!");
     }
+}
+
+function get(req){
+    return new Promise((resolve, reject) => {
+        console.log(typeof req.params.id)
+        ForumThread.findOne({_id: req.params.id}).exec()
+        .then(result => {
+            resolve(result)
+        })
+        .catch(() => {
+            resolve(undefined)
+        })
+    })
 }
 
 //TODO was ist, wenn im body ein fehlerhafter key steht?
@@ -77,10 +84,7 @@ function update(req){
 
 async function remove(req){
     try{
-        UserService.getUserFromToken(req)
-        .then(user => {
-            return ForumThread.deleteOne({ownerID: user.userID}).exec();
-        })
+        return ForumThread.deleteOne({_id: req.params.id}).exec();
     } catch{
         throw new Error("This is our fault, sorry!");
     }
