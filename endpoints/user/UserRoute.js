@@ -21,7 +21,7 @@ router.get('/', isAuthenticated, (req, res) => {
         }
     })
     .catch(error => {
-        res.status(505)
+        res.status(500)
         res.send(error.message);
     })
 })
@@ -43,7 +43,7 @@ router.get('/', isAuthenticated, (req, res) => {
         }
     })
     .catch(error => {
-        res.status(505)
+        res.status(500)
         res.send(error.message);
     })
 })
