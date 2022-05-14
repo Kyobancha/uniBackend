@@ -4,6 +4,7 @@ const authenticationRouter = require('./endpoints/authentication/AuthenticationR
 const userRouter = require('./endpoints/user/UserRoute');
 const userService = require('./endpoints/user/UserService');
 const forumThreadRoute = require('./endpoints/forumThread/ForumThreadRoute');
+const forumMessageRoute = require('./endpoints/forumMessage/ForumMessageRoute');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const config = require('config');
@@ -33,6 +34,7 @@ app.use('/publicUsers', publicUserRouter);
 app.use('/authenticate', authenticationRouter);
 app.use('/users', userRouter);
 app.use('/forumThreads', forumThreadRoute);
+app.use('/forumMessages', forumMessageRoute);
 app.use((req, res) => {
     res.status(404);
     res.send("Not found");

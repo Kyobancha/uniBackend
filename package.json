@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./httpServer.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "set NODE_ENV=production&& node ./httpServer.js",
+    "test": "set NODE_ENV=production&& node ./httpServer.js"
   },
   "author": "Timo Huynh",
   "license": "ISC",

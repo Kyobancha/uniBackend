@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const { isAuthenticated } = require('../authentication/AuthenticationService');
 const ForumThreadService = require('./ForumThreadService');
-const UserService = require('../user/UserService');
 
 router.get('/', (req, res) => {
     if(req.query.ownerID){
