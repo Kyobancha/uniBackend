@@ -109,10 +109,10 @@ Content-Type: application/json
 }
 
 ### Auflisten der Foren des Administrators
-GET http://localhost:8080/forumThreads?ownerID=admin
+GET https://localhost/forumThreads?ownerID=admin
 
 ### Foren für admin auflisten (es sollte 1 sein)
-GET http://localhost:8080/forumThreads?ownerID=manfred
+GET https://localhost/forumThreads?ownerID=manfred
 
 ###
 # @name createForumRequest
@@ -127,6 +127,16 @@ Content-Type: application/json
 
 ### Auflisten der Foren für den User manfred, diese Funktion sollte nur der Admin nutzen
 GET https://localhost/forumThreads?ownerID=manfred
+
+
+
+
+
+
+
+
+
+
 
 ### Forumnachrichten für einen bestimmten Forum-Thread abrufen
 GET https://localhost/forumThreads/{{forumThreadID}}/forumMessages
@@ -146,8 +156,8 @@ Content-Type: application/json
 
 {
     "forumThreadID": "{{forumThreadID}}",
-    "messageTitle": "Meine erste Forumnachricht",
-    "messageText": "Das wollte ich nur kurz in das Forum schreiben."
+    "title": "Meine erste Forumnachricht",
+    "text": "Das wollte ich nur kurz in das Forum schreiben."
 }
 ###
 @forumMessageID = {{createForumMessageRequest.response.body._id}}

@@ -1,21 +1,40 @@
 const { ForumMessage } = require("./ForumMessageModel");
+const { ForumThread } = require("../forumThread/ForumThreadModel");
 
 function create(req){
-    let thread = new ForumMessage({
-        ownerID: req.user.userID,
-        name: req.body.name,
-        description: req.body.description ? req.body.description : ""
+    let message = new ForumMessage({
+        forumThreadID: req.body.forumThreadID,
+        title: req.body.title,
+        text: req.body.text ? req.body.text : "",
+        authorID: req
+        .user.userID
     });
 
     return new Promise((resolve, reject) => {
-        thread.save()
-        .then(() => {
-            resolve(thread);
+        ForumThread.findOne({_id: message.forumThreadID}).exec()
+        .then(thread => {
+            if(thread){
+                resolve message.save();
+            } else {
+                reject()
+            }
         })
         .catch(() => {
             resolve(403)
         })
+        .then(thread => {
+            console.log("test")
+        })
     })
+    
+        message.save()
+        .then(() => {
+            resolve(message);
+        })
+        .catch(() => {
+            resolve(403)
+        })
+    
 }
 
 async function getAll(){

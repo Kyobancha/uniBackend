@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
                 res.send("A user ID is required");
             } else if(result === 403){
                 res.status(403);
-                res.send("A title is required");
+                res.send("Wrong format");
             } else if(result === 405){
                 res.status(405);
                 res.send("This user ID is already taken. Please choose another one.");

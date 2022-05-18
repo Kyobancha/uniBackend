@@ -16,6 +16,6 @@ const forumMessageSchema = new mongoose.Schema({
     }
 })
 
-const ForumThread = new mongoose.model("ForumMessage", forumMessageSchema)
+const ForumMessage = new mongoose.model("ForumMessage", forumMessageSchema)
 
-module.exports = { ForumThread };
+module.exports = { ForumMessage };

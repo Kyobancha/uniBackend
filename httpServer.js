@@ -9,6 +9,11 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const config = require('config');
 
+const https = require('https');
+const fs = require('fs');
+const key = fs.readFileSync('./certificates/key.pem');
+const cert = fs.readFileSync('./certificates/cert.pem');
+
 const dbConnectionString = config.get('db.connectionString')
 const dbUseNewUrlParser = config.get('db.connectionOptions.useNewUrlParser');
 const dbUseUnifiedTopology = config.get('db.connectionOptions.useUnifiedTopology');
@@ -22,7 +27,7 @@ db.once('open', () => {
 });
 
 const app = express();
-const port = 8080;
+const server = https.createServer({key: key, cert: cert }, app);
 
 //needed so we can actually read the request body
 app.use(bodyParser.json())
@@ -40,6 +45,6 @@ app.use((req, res) => {
     res.send("Not found");
 });
 
-app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}`);
-})
+server.listen(443, () => {
+    console.log('listening on 443')
+});

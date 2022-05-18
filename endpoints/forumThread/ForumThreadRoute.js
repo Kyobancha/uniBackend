@@ -58,6 +58,21 @@ router.get('/', (req, res) => {
         res.send(error.message);
     })
 })
+.get('/:id/forumMessages', (req, res) => {
+    ForumThreadService.get(req)
+    .then(thread => {
+        if(thread){
+            res.send(thread);
+        } else{
+            res.status(404)
+            res.send("This forum thread doesn't exist");
+        }
+    })
+    .catch(error => {
+        res.status(500)
+        res.send(error.message);
+    })
+})
 .post('/', isAuthenticated, (req, res) => {
     if(req.user){
         ForumThreadService.create(req)

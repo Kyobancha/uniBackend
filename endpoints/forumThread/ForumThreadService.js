@@ -37,7 +37,6 @@ async function getUserThreads(req){
 
 function get(req){
     return new Promise((resolve, reject) => {
-        console.log(typeof req.params.id)
         ForumThread.findOne({_id: req.params.id}).exec()
         .then(result => {
             resolve(result)
