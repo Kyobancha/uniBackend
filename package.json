@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=production&& node ./httpServer.js",
-    "test": "set NODE_ENV=production&& node ./httpServer.js"
+    "test": "mocha"
   },
   "author": "Timo Huynh",
   "license": "ISC",
@@ -18,9 +18,11 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.1",
+    "nodemailer": "^6.7.5",
     "salt": "^0.5.5"
   },
   "devDependencies": {
+    "mocha": "^10.0.0",
     "nodemon": "^2.0.16"
   }
 }

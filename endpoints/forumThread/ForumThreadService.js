@@ -1,5 +1,4 @@
 const { ForumThread } = require("./ForumThreadModel");
-const UserService = require('../user/UserService');
 
 function create(req){
     let thread = new ForumThread({

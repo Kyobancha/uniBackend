@@ -20,12 +20,13 @@ function createDefaultAdmin(){
     .then(admin => {
         if(!admin){
             console.log("Default admin is being created.")
-            // axios.defaults.baseURL = "https://localhost";
-            // axios.post('/publicUsers', {
-            //     userID: 'admin',
-            //     password: '123',
-            //     isAdministrator: true
-            // })
+            let user = new User({
+                userID: 'admin',
+                userName: 'admin',
+                password: '123',
+                isAdministrator: true
+            });
+            user.save()
         }
     })
     .catch(() => {

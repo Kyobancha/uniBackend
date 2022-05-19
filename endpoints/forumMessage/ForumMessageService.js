@@ -57,10 +57,8 @@ function update(req){
         .then(message => {
             if(message){
                 if(req.body.forumThreadID){
-                    console.log(req.body.forumThreadID)
-                    ForumThread.find({forumThreadID: req.body.forumThreadID}).exec()
-                    .then(result => {
-                        console.log(result)
+                    ForumThread.findOne({_id: req.body.forumThreadID}).exec()
+                    .then(() => {
                         message.title = (req.body.title ? req.body.title : message.title);
                         message.text = (req.body.text ? req.body.text : message.text);
                         message.forumThreadID = (req.body.forumThreadID ? req.body.forumThreadID : message.forumThreadID);
