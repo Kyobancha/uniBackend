@@ -1,4 +1,4 @@
-var assert = require('assert');
+var assert = require("chai").assert;
 
 describe('Array', function () {
   describe('#indexOf()', function () {
@@ -7,3 +7,9 @@ describe('Array', function () {
     });
   });
 });
+
+// assert.typeOf(foo, 'string');
+// assert.equal(foo, 'bar');
+// assert.lengthOf(foo, 3)
+// assert.property(tea, 'flavors');
+// assert.lengthOf(tea.flavors, 3);
