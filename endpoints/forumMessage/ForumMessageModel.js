@@ -10,10 +10,7 @@ const forumMessageSchema = new mongoose.Schema({
         required: true,
     },
     text: String,
-    authorID: {
-        type: String,
-        required: true,
-    }
+    authorID: String,
 })
 
 const ForumMessage = new mongoose.model("ForumMessage", forumMessageSchema)

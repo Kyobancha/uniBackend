@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { isAuthenticated } = require('../authentication/AuthenticationService');
 const ForumThreadService = require('./ForumThreadService');
+const ForumMessageService = require('../forumMessage/ForumMessageService');
 
 router.get('/', (req, res) => {
     if(req.query.ownerID){
@@ -9,7 +10,12 @@ router.get('/', (req, res) => {
         req.user.userID = req.query.ownerID;
         ForumThreadService.getUserThreads(req)
         .then(threads => {
-            res.send(threads)
+            if(threads){
+                res.send(threads)
+            } else{
+                res.status(404)
+                res.send("This user doesn't exist");
+            }
         })
         .catch(error => {
             res.status(500)
@@ -44,6 +50,7 @@ router.get('/', (req, res) => {
     }
 })
 .get('/:id', (req, res) => {
+    console.log("this one not")
     ForumThreadService.get(req)
     .then(thread => {
         if(thread){
@@ -62,7 +69,21 @@ router.get('/', (req, res) => {
     ForumThreadService.get(req)
     .then(thread => {
         if(thread){
-            res.send(thread);
+            req.thread = {}
+            req.thread.threadID = req.params.id;
+            ForumMessageService.getThreadMessages(req)
+            .then(messages => {
+                if(messages){
+                    res.send(messages)
+                } else{
+                    res.status(404)
+                    res.send("This forum thread doesn't exist");
+                }
+            })
+            .catch(error => {
+                res.status(500)
+                res.send(error.message);
+            })
         } else{
             res.status(404)
             res.send("This forum thread doesn't exist");
@@ -79,10 +100,7 @@ router.get('/', (req, res) => {
         .then(result => {
             if(result === 400){
                 res.status(400);
-                res.send("A user ID is required");
-            } else if(result === 403){
-                res.status(403);
-                res.send("A title is required");
+                res.send("The request is malformed or just invalid");
             } else if(result === 405){
                 res.status(405);
                 res.send("This user ID is already taken. Please choose another one.");

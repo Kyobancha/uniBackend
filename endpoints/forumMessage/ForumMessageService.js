@@ -6,34 +6,20 @@ function create(req){
         forumThreadID: req.body.forumThreadID,
         title: req.body.title,
         text: req.body.text ? req.body.text : "",
-        authorID: req
-        .user.userID
+        authorID: req.user.userID
     });
 
     return new Promise((resolve, reject) => {
         ForumThread.findOne({_id: message.forumThreadID}).exec()
         .then(thread => {
             if(thread){
-                resolve message.save();
-            } else {
-                reject()
+                resolve(message.save());
             }
         })
         .catch(() => {
-            resolve(403)
-        })
-        .then(thread => {
-            console.log("test")
+            resolve(400)
         })
     })
-    
-        message.save()
-        .then(() => {
-            resolve(message);
-        })
-        .catch(() => {
-            resolve(403)
-        })
     
 }
 
@@ -45,9 +31,9 @@ async function getAll(){
     }
 }
 
-async function getUserThreads(req){
+async function getThreadMessages(req){
     try{
-        return ForumMessage.find({ownerID: req.user.userID}).exec()
+        return ForumMessage.find({forumThreadID: req.thread.threadID}).exec()
     } catch{
         throw new Error("This is our fault, sorry!");
     }
@@ -55,7 +41,6 @@ async function getUserThreads(req){
 
 function get(req){
     return new Promise((resolve, reject) => {
-        console.log(typeof req.params.id)
         ForumMessage.findOne({_id: req.params.id}).exec()
         .then(result => {
             resolve(result)
@@ -69,12 +54,29 @@ function get(req){
 function update(req){
     return new Promise((resolve, reject) => {
         ForumMessage.findOne({_id: req.params.id}).exec()
-        .then(thread => {
-            if(thread){
-                thread.name = (req.body.name ? req.body.name : thread.name);
-                thread.description = (req.body.description ? req.body.description : thread.description);
-                thread.save();
-                resolve(204);
+        .then(message => {
+            if(message){
+                if(req.body.forumThreadID){
+                    console.log(req.body.forumThreadID)
+                    ForumThread.find({forumThreadID: req.body.forumThreadID}).exec()
+                    .then(result => {
+                        console.log(result)
+                        message.title = (req.body.title ? req.body.title : message.title);
+                        message.text = (req.body.text ? req.body.text : message.text);
+                        message.forumThreadID = (req.body.forumThreadID ? req.body.forumThreadID : message.forumThreadID);
+                        message.save();
+                        resolve(204);
+                    })
+                    .catch(() => {
+                        console.log(req.body.forumThreadID)
+                        resolve(404);
+                    })
+                } else{
+                    message.title = (req.body.title ? req.body.title : message.title);
+                    message.text = (req.body.text ? req.body.text : message.text);
+                    message.save();
+                    resolve(204);
+                }
             } else {
                 reject(new Error("This is our fault, sorry!"))
             }
@@ -93,4 +95,4 @@ async function remove(req){
     }
 }
 
-module.exports = {create, getAll, getUserThreads, get, update, remove}
+module.exports = {create, getAll, getThreadMessages, get, update, remove}

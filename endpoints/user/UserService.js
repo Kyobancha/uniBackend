@@ -6,18 +6,11 @@ function authenticate(userId, password){
         User.findOne({userID: userId}).exec()
         .then(user => {
             user.comparePassword(password, (error, isMatch) => {
-                if(error){
-                    throw new Error("This is our fault, sorry!");
-                }
-                if(isMatch){
-                    resolve(user);
-                } else{
-                    resolve(401)
-                }
+                resolve(user);
             });
         })
         .catch(() => {
-            reject(false);
+            resolve(401)
         })
     })
 }
@@ -27,12 +20,12 @@ function createDefaultAdmin(){
     .then(admin => {
         if(!admin){
             console.log("Default admin is being created.")
-            axios.defaults.baseURL = "http://localhost:8080";
-            axios.post('/publicUsers', {
-                userID: 'admin',
-                password: '123',
-                isAdministrator: true
-            })
+            // axios.defaults.baseURL = "https://localhost";
+            // axios.post('/publicUsers', {
+            //     userID: 'admin',
+            //     password: '123',
+            //     isAdministrator: true
+            // })
         }
     })
     .catch(() => {

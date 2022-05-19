@@ -4,14 +4,33 @@ const { isAuthenticated } = require('../authentication/AuthenticationService');
 const ForumMessageService = require('./ForumMessageService');
 
 router.get('/', (req, res) => {
-    ForumMessageService.getAll()
-    .then(messages => {
-        res.send(messages)
-    })
-    .catch(error => {
-        res.status(500)
-        res.send(error.message);
-    })
+    if(req.query.forumThreadID){
+        console.log(req.query.forumThreadID)
+        req.thread = {}
+        req.thread.threadID = req.query.forumThreadID;
+        ForumMessageService.getThreadMessages(req)
+        .then(messages => {
+            if(messages){
+                res.send(messages)
+            } else{
+                res.status(404)
+                res.send("This forum thread doesn't exist");
+            }
+        })
+        .catch(error => {
+            res.status(500)
+            res.send(error.message);
+        })
+    } else{
+        ForumMessageService.getAll()
+        .then(messages => {
+            res.send(messages)
+        })
+        .catch(error => {
+            res.status(500)
+            res.send(error.message);
+        })
+    }
 })
 .get('/:id', (req, res) => {
     ForumMessageService.get(req)
@@ -20,7 +39,7 @@ router.get('/', (req, res) => {
             res.send(thread);
         } else{
             res.status(404)
-            res.send("This forum thread doesn't exist");
+            res.send("This forum message doesn't exist");
         }
     })
     .catch(error => {
@@ -34,7 +53,7 @@ router.get('/', (req, res) => {
         .then(result => {
             if(result === 400){
                 res.status(400);
-                res.send("A user ID is required");
+                res.send("The request ist malformed");
             } else if(result === 403){
                 res.status(403);
                 res.send("Wrong format");

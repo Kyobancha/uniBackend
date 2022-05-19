@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
         if(result === 401){
             res.status(401)
             res.setHeader('WWW-Authenticate', 'Basic realm="Secure Area"');
-            res.send({ message: 'Missing Authorization Header or wrong credentials.' });
+            res.send({ message: "Missing Authorization Header, user doesn't exist yet, or wrong credentials." });
         } else if (typeof result === 'object' && result !== null){
             AuthenticationService.createToken(result)
             .then(token => {

@@ -99,13 +99,13 @@ GET https://localhost/forumThreads/{{forumThreadID}}
 GET https://localhost/forumThreads/{{forumThreadID}}
 WebMessageBodyStyle: Wrapped
 
-### Ändere die forumDescription in dem existierenden Forum
+### Ändere die description in dem existierenden Forum
 PUT https://localhost/forumThreads/{{forumThreadID}}
 Authorization: {{adminToken}}
 Content-Type: application/json
 
 {
-    "forumDescription": "Das ist der neue Text"
+    "description": "Das ist der neue Text"
 }
 
 ### Auflisten der Foren des Administrators
@@ -135,8 +135,57 @@ GET https://localhost/forumThreads?ownerID=manfred
 
 
 
+//AXIOS IS CURRENTLY BROKEN
+###
+POST https://localhost/publicUsers
+Content-Type: application/json
 
+{
+    "userID": "admin",
+    "userName": "Udo",
+    "password": "123",
+    "isAdministrator": true
+}
 
+// Anlegen von Manfred
+###
+POST https://localhost/users
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "userID": "manfred",
+    "userName": "Manfred Mustermann",
+    "password": "asdf"
+}
+
+// Login mit Basic Authentication als manfred mit korrekten Credentials admin:123
+###
+# @name loginManfredCorrect
+GET https://localhost/authenticate
+Authorization: Basic manfred:asdf
+###
+@manfredToken = {{loginManfredCorrect.response.headers.Authorization}}
+
+###
+# @name createForumRequest
+POST https://localhost/forumThreads
+Authorization: {{manfredToken}}
+Content-Type: application/json
+
+{
+    "name": "Manfreds erstes Forum",
+    "description": "Das ist der Text von Manfred"
+}
+
+### Auflisten aller Forumnachrichten ohne Token
+GET https://localhost/forumMessages
+
+### Forumnachrichten für einen bestimmten Forum-Thread abrufen
+GET https://localhost/forumMessages/62853e02f2d0841240b64196
+
+### Forumnachrichten für einen bestimmten Forum-Thread abrufen
+GET https://localhost/forumMessages?forumThreadID={{forumThreadID}}
 
 ### Forumnachrichten für einen bestimmten Forum-Thread abrufen
 GET https://localhost/forumThreads/{{forumThreadID}}/forumMessages
@@ -146,7 +195,7 @@ DELETE  https://localhost/forumThreads/{{forumThreadID}}
 Authorization: {{adminToken}}
 
 ### Auflisten aller Forumnachrichten ohne Token
-https://localhost/forumMessages
+GET https://localhost/forumMessages
 
 ###
 # @name createForumMessageRequest
@@ -161,6 +210,18 @@ Content-Type: application/json
 }
 ###
 @forumMessageID = {{createForumMessageRequest.response.body._id}}
+
+###
+PUT https://localhost/forumMessages/6285575e66f1dbba803836ab
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+    "forumThreadID": "62855a3f20a0c30deb1b1dd2",
+    "title": "PUT HAT IM TITEL GEKLAPPT",
+    "text": "PUT HAT IM TEXT GEKLAPPT"
+}
+
 
 ###
 // Anlegen mit falscher Forum ID

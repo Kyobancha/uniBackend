@@ -14,6 +14,14 @@ const fs = require('fs');
 const key = fs.readFileSync('./certificates/key.pem');
 const cert = fs.readFileSync('./certificates/cert.pem');
 
+//seems to be a bad one
+// const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+
+// https.globalAgent.options.ca = [
+//     fs.readFileSync('./certificates/key.pem'),
+//     fs.readFileSync('./certificates/cert.pem')
+// ]
+
 const dbConnectionString = config.get('db.connectionString')
 const dbUseNewUrlParser = config.get('db.connectionOptions.useNewUrlParser');
 const dbUseUnifiedTopology = config.get('db.connectionOptions.useUnifiedTopology');
@@ -28,6 +36,7 @@ db.once('open', () => {
 
 const app = express();
 const server = https.createServer({key: key, cert: cert }, app);
+// const server = https.createServer(app);
 
 //needed so we can actually read the request body
 app.use(bodyParser.json())
