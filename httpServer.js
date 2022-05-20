@@ -13,6 +13,7 @@ const key = fs.readFileSync('./certificates/key.pem');
 const cert = fs.readFileSync('./certificates/cert.pem');
 
 let app;
+let server;
 
 function getServer(){
     return app;
@@ -20,7 +21,7 @@ function getServer(){
 
 function startServer(){
     app = express();
-    const server = https.createServer({key: key, cert: cert }, app);
+    server = https.createServer({key: key, cert: cert }, app);
 
     //needed so we can actually read the request body
     app.use(bodyParser.json())
