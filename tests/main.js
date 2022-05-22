@@ -10,7 +10,7 @@ describe("All tests", () => {
     // add a test hook
     before(() => {
         server = httpServer.getServer();
-    })
+    });
 
     after(() => {
         console.log("Shutting down application");
@@ -36,4 +36,4 @@ describe("All tests", () => {
     describe.skip("Forum Messages Tests", function () {
         require("./mochaTests/forumMessageTests");
     });
-})
+});

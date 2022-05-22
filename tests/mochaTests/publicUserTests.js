@@ -2,65 +2,134 @@ const { assert } = require("chai");
 const request = require("supertest");
 const httpServer = require("../../httpServer.js");
 const server = httpServer.getServer();
+const { admin, manfred } = require("../testUtils/testUsers.js")
+const winston = require("../../config/winston.js")
+const testUtils = require("../testUtils/testUsers.js")
 
-describe("GET", () => {
-    it('should return an Array', () => {
-        request(server)
+describe("testing GET function on /publicUsers", () => {
+    it("should return an array with the admin as default user.", () => {
+        return request(server)
             .get("/publicUsers")
-            .expect(res => {
-                console.log(res.statusCode)
-                res.statusCode = 201
-                console.log(res.statusCode)
-            })
-            .then(res => {
-                assert.typeOf(res.body, "array")
-                // assert.isNull(res.body, "SUPER LONG STRRIIIIIIIIIIIIIIIIIIIIIIING")
-                assert.typeOf(res.body, "int", "------------------------------------")
-                assert('foo' !== 'bar', 'foo is not bar');
-                done();
-            })
-            .catch(err => {
-                done(err)
-            })
-    })
-    it('shut the duck up', () => {
-        request(server)
+            .then((res) => {
+                assert.typeOf(res.body, "array");
+                assert.equal(res.statusCode, 200);
+            });
+    });
+    it("should return a 404 on a non-existing user", () => {
+        return request(server)
+            .get("/publicUsers/unknown")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 404);
+            });
+    });
+    it("should delete the admin user", () => {
+        return request(server)
+            .delete("/publicUsers/admin")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 204);
+            });
+    });
+    it("should return an empty array to prove that the admin was deleted", () => {
+        return request(server)
+            .get("/publicUsers/admin")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 404);
+            });
+    });
+    it("should return a 404 on the second attempt to delete the same user", () => {
+        return request(server)
+            .delete("/publicUsers/admin")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 404);
+            });
+    });
+    it("should add a new admin user", () => {
+        return request(server)
+            .post("/publicUsers")
+            .send(admin)
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 201);
+            });
+    });
+    it("should return the admin user", () => {
+        return request(server)
+            .get("/publicUsers/admin")
+            .then((res) => {
+                assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 200);
+            });
+    });
+    it("should add a new user named 'manfred'", () => {
+        return request(server)
+            .post("/publicUsers")
+            .send(manfred)
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 201);
+            });
+    });
+    it("should not add the same user 'manfred' again", () => {
+        return request(server)
+            .post("/publicUsers")
+            .send(manfred)
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 405);
+            });
+    });
+    it("should get both users 'admin' and 'manfred'", () => {
+        return request(server)
             .get("/publicUsers")
-            .expect(res => {
-                console.log(res.statusCode)
-                res.statusCode = 201
+            .then((res) => {
+                assert.typeOf(res.body, "array");
+                assert.typeOf(res.body[1], "object");
+                assert.hasAllKeys(res.body[1], "userID", "userName", "password", "isAdministrator");
+                assert.equal(res.statusCode, 200);
+            });
+    });
+    it("should update manfred", () => {
+        return request(server)
+            .put("/publicUsers/manfred")
+            .send({
+                userName: "tobias",
+                password: "12345"
             })
-            .assert(() => {
-                // assert.fail(new Error("Some error message here"));
-            })
-            .then(res => {
-                throw new Error("Some error message here");
-                assert.fail()
-                assert.typeOf(res.body, "int", "------------------------------------")
-                assert('foo' !== 'bar', 'foo is not bar');
-                done();
-            })
-            .catch(err => {
-                assert.fail(new Error("Some error message here"));
-            })
-    })
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
+                assert.equal(res.statusCode, 204);
+            });
+    });
+    it("should return tobias", () => {
+        return request(server)
+            .get("/publicUsers/manfred")
+            .then((res) => {
+                assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
+                assert.equal(res.body.userID, "manfred")
+                assert.equal(res.body.userName, "manfred")
+                assert.equal(res.body.password, "12345")
+                assert.equal(res.body.isAdministrator, false)
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 200);
+            });
+    });
+    it("should not add a user without a valid userID", () => {
+        return request(server)
+            .post("/publicUsers")
+            .send( {} )
+            .then((res) => {
+                assert.doesNotHaveAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 400);
+            });
+    });
 });
-//   // assert.typeOf(foo, 'string');
-//   // assert.equal(foo, 'bar');
-//   // assert.lengthOf(foo, 3)
-//   // assert.property(tea, 'flavors');
-//   // assert.lengthOf(tea.flavors, 3);
-
-//   var expect = require("chai").expect;
-//   const request = require("supertest");
-//   const app = require("./httpServer");
-//   describe("Test the basic application", function () {
-//     describe("Test the root page", function () {
-//       it("Test the home page", function () {
-//         request(app).get("/").expect(200);
-//       });
-//     });
-//   });
 
 //testst direkt den Service Layer
 // describe("Test Login mit Json-Body über Session-Service", function () {
@@ -76,20 +145,3 @@ describe("GET", () => {
 //         })
 //     });
 // })
-
-
-//sendet Request
-// describe("Test Login mit Json-Body über Route", function () {
-//     it("Login mit Json-Daten via HTTP-Request", function () {
-//         user = { ...require('../utils/loginUser1.json') }
-//         request(app).post('/login')
-//             .send(user)
-//             .expect(function (err, res) {
-//                 var jsonContent = testUtils.parseJsonBody(res);
-//                 expect(jsonContent => {
-//                     expect(jsonContent.userID).to.equal(user.userID);
-//                 });
-//             }).end(function (err, res) {
-//             });
-//     });
-// });

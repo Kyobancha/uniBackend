@@ -30,18 +30,16 @@ router.get('/', (req, res) => {
 .post('/', (req, res) => {
     UserService.create(req)
     .then(result => {
-        console.log(result)
         if(result === 400){
             res.status(400);
             res.send("A user ID is required");
-            // console.log(error);
         } else if(result === 405){
             res.status(405);
             res.send("This user ID is already taken. Please choose another one.");
         } else{
             res.status(201);
             res.send(result);
-            console.log('User saved')
+            // console.log('User saved')
         }
     })
     .catch(error => {      
@@ -70,7 +68,6 @@ router.get('/', (req, res) => {
 .delete('/:userID', (req, res) => {
     UserService.remove(req, res)
     .then(deleteObject => {
-        console.log(deleteObject)
         if(deleteObject.deletedCount === 0){
             res.status(404);
             res.send("This user doesn't exist");
