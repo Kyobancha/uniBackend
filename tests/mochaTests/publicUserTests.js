@@ -5,6 +5,7 @@ const server = httpServer.getServer();
 const { admin, manfred } = require("../testUtils/testUsers.js")
 const winston = require("../../config/winston.js")
 const testUtils = require("../testUtils/testUsers.js")
+const user = require("../../endpoints/user/UserModel.js")
 
 describe("testing GET function on /publicUsers", () => {
     it("should return an array with the admin as default user.", () => {
@@ -89,7 +90,7 @@ describe("testing GET function on /publicUsers", () => {
             .then((res) => {
                 assert.typeOf(res.body, "array");
                 assert.typeOf(res.body[1], "object");
-                assert.hasAllKeys(res.body[1], "userID", "userName", "password", "isAdministrator");
+                assert.hasAnyKeys(res.body[1], "userID", "userName", "password", "isAdministrator");
                 assert.equal(res.statusCode, 200);
             });
     });
@@ -102,7 +103,6 @@ describe("testing GET function on /publicUsers", () => {
             })
             .then((res) => {
                 assert.typeOf(res.body, "object");
-                assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
                 assert.equal(res.statusCode, 204);
             });
     });
@@ -112,8 +112,7 @@ describe("testing GET function on /publicUsers", () => {
             .then((res) => {
                 assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
                 assert.equal(res.body.userID, "manfred")
-                assert.equal(res.body.userName, "manfred")
-                assert.equal(res.body.password, "12345")
+                assert.equal(res.body.userName, "tobias")
                 assert.equal(res.body.isAdministrator, false)
                 assert.typeOf(res.body, "object");
                 assert.equal(res.statusCode, 200);
@@ -127,6 +126,30 @@ describe("testing GET function on /publicUsers", () => {
                 assert.doesNotHaveAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
                 assert.typeOf(res.body, "object");
                 assert.equal(res.statusCode, 400);
+            });
+    });
+    it("should delete the admin user", () => {
+        return request(server)
+            .delete("/publicUsers/admin")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 204);
+            });
+    });
+    it("should delete manfred", () => {
+        return request(server)
+            .delete("/publicUsers/manfred")
+            .then((res) => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 204);
+            });
+    });
+    it("all entities should be deleted", () => {
+        return request(server)
+            .get("/publicUsers/")
+            .then((res) => {
+                assert.typeOf(res.body, "array");
+                assert.equal(res.statusCode, 200);
             });
     });
 });
