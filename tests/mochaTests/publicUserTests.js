@@ -1,7 +1,7 @@
 const { assert } = require("chai");
 const request = require("supertest");
 const httpServer = require("../../httpServer.js");
-const server = httpServer.getServer();
+const server = httpServer.getApp();
 const { admin, manfred } = require("../testUtils/testUsers.js")
 const winston = require("../../config/winston.js")
 const testUtils = require("../testUtils/testUsers.js")

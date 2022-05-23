@@ -1,21 +1,25 @@
 const database = require("../database/database.js");
 const httpServer = require("../httpServer.js");
 const request = require("supertest");
+const logger = require("../config/winston.js");
 const assert = require("chai").assert;
 
-let server;
+let app;
 
 //top level
 describe("All tests", () => {
     // add a test hook
     before(() => {
-        server = httpServer.getServer();
+        app = httpServer.getApp();
     });
 
     after(() => {
-        console.log("Shutting down application");
-        // database.close();
-        // server.close();
+        try{
+            logger.info("Shutting down application");
+            database.closeDb();
+        } catch(err){
+            logger.error(err)
+        }
     });
 
     describe.skip("Execute Application Tests", function () {

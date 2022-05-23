@@ -13,38 +13,28 @@ const key = fs.readFileSync("./certificates/key.pem");
 const cert = fs.readFileSync("./certificates/cert.pem");
 const winston = require("./config/winston");
 const morgan = require("morgan");
+const logger = require("./config/winston");
 
 let app;
 let server;
 
-function getServer() {
-    return app;
+function startServer(){
+    server = https.createServer({ key: key, cert: cert }, getApp());
+    server.listen(443, () => {
+        logger.info("listening on 443");
+    });
 }
 
-function startServer() {
+function closeServer() {
+    server.close();
+}
+
+function startApp() {
     app = express();
-    server = https.createServer({ key: key, cert: cert }, app);
 
     //needed so we can actually read the request body
     app.use(bodyParser.json());
     app.use(morgan("combined", { stream: winston.stream }));
-    // error handler
-    // app.use(function (err, req, res, next) {
-    //     // set locals, only providing error in development
-    //     res.locals.message = err.message;
-    //     res.locals.error = req.app.get("env") === "production" ? err : {};
-
-    //     // add this line to include winston logging
-    //     winston.error(
-    //         `${err.status || 500} - ${err.message} - ${req.originalUrl} - ${
-    //             req.method
-    //         } - ${req.ip}`
-    //     );
-
-    //     // render the error page
-    //     res.status(err.status || 500);
-    //     res.render("error");
-    // });
     app.get("/", (req, res) => {
         res.send("Hello World!");
     });
@@ -58,13 +48,17 @@ function startServer() {
         res.status(404);
         res.send("Not found");
     });
+}
 
-    server.listen(443, () => {
-        console.log("listening on 443");
-    });
+function getApp() {
+    return app;
 }
 
 database.startDb();
-startServer();
+startApp();
 
-module.exports = { getServer, startServer };
+if (process.env.NODE_ENV !== "development") {
+    startServer();
+}
+
+module.exports = { closeServer, getApp: getApp, startServer: startApp };

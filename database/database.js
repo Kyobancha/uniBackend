@@ -16,4 +16,8 @@ function startDb(){
     });
 }
 
-module.exports = { startDb }
+function closeDb(){
+    mongoose.connection.close()
+}
+
+module.exports = { startDb, closeDb}

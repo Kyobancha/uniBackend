@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=production&& node ./httpServer.js",
-    "test": "mocha ./tests"
+    "start": "NODE_ENV=production&& node ./httpServer.js",
+    "test": "NODE_ENV=development&& mocha ./tests"
   },
   "author": "Timo Huynh",
   "license": "ISC",

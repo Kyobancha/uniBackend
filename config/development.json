@@ -1,6 +1,6 @@
 {
     "db": {
-        "connectionString": "mongodb://localhost:27017/WebII-default",
+        "connectionString": "mongodb://localhost:27017/WebII-dev",
         "connectionOptions": {
             "useNewUrlParser": true,
             "useUnifiedTopology": true
@@ -9,6 +9,6 @@
     "session": {
         "algorithm": "HS256",
         "tokenKey": "iLoveCoffee",
-        "timeToLive": 50000
+        "timeToLive": 90000
     }
 }

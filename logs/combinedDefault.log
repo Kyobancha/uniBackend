@@ -1,0 +1,36 @@
+202205-23 15:53:08 [32minfo[39m: Started application in development mode
+202205-23 15:53:08 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:08 +0000] "GET /publicUsers HTTP/1.1" 200 2 "-" "-"
+
+202205-23 15:53:08 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:08 +0000] "GET /publicUsers/unknown HTTP/1.1" 404 23 "-" "-"
+
+202205-23 15:53:08 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:08 +0000] "DELETE /publicUsers/admin HTTP/1.1" 204 - "-" "-"
+
+202205-23 15:53:08 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:08 +0000] "GET /publicUsers/admin HTTP/1.1" 404 23 "-" "-"
+
+202205-23 15:53:08 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:08 +0000] "DELETE /publicUsers/admin HTTP/1.1" 404 23 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "POST /publicUsers HTTP/1.1" 201 173 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "GET /publicUsers/admin HTTP/1.1" 200 173 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "POST /publicUsers HTTP/1.1" 201 191 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "POST /publicUsers HTTP/1.1" 405 57 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "GET /publicUsers HTTP/1.1" 200 367 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "PUT /publicUsers/manfred HTTP/1.1" 204 - "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "GET /publicUsers/manfred HTTP/1.1" 200 179 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "POST /publicUsers HTTP/1.1" 400 21 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "DELETE /publicUsers/admin HTTP/1.1" 204 - "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "DELETE /publicUsers/manfred HTTP/1.1" 204 - "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: ::ffff:127.0.0.1 - - [23/May/2022:13:53:09 +0000] "GET /publicUsers/ HTTP/1.1" 200 2 "-" "-"
+
+202205-23 15:53:09 [32minfo[39m: Shutting down application
+undefined info: Started application in production mode
+undefined info: listening on 443

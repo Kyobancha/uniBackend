@@ -1,0 +1,1 @@
+sudo NODE_ENV=production node ./httpServer.js
