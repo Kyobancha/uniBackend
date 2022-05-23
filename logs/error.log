@@ -1,7 +1,0 @@
-202205-23 15:19:02 [31merror[39m: TypeError: app.close is not a function
-    at Context.<anonymous> (/Users/huynh/Documents/programming/webII/tests/main.js:20:17)
-    at callFn (/Users/huynh/Documents/programming/webII/node_modules/mocha/lib/runnable.js:366:21)
-    at Hook.Runnable.run (/Users/huynh/Documents/programming/webII/node_modules/mocha/lib/runnable.js:354:5)
-    at next (/Users/huynh/Documents/programming/webII/node_modules/mocha/lib/runner.js:498:10)
-    at Immediate._onImmediate (/Users/huynh/Documents/programming/webII/node_modules/mocha/lib/runner.js:559:5)
-    at processImmediate (node:internal/timers:466:21)
