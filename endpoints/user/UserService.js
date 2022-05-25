@@ -1,12 +1,15 @@
 const { User } = require("./UserModel");
-const axios = require('axios').default;
 
 function authenticate(userId, password){
     return new Promise((resolve, reject) => {
         User.findOne({userID: userId}).exec()
         .then(user => {
             user.comparePassword(password, (error, isMatch) => {
-                resolve(user);
+                if(isMatch){
+                    resolve(user);
+                } else{
+                    reject();
+                }
             });
         })
         .catch(() => {

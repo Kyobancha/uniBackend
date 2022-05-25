@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const UserService = require('./UserService');
-const { isAuthenticated } = require('../authentication/AuthenticationService');
+const { isAuthenticated } = require('../../utils/AuthenticationUtil');
 
 router.get('/', isAuthenticated, (req, res) => {
     if(req.user.isAdministrator){

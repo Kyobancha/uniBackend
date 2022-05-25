@@ -4,7 +4,6 @@ const authenticationRouter = require("./endpoints/authentication/AuthenticationR
 const userRouter = require("./endpoints/user/UserRoute");
 const forumThreadRoute = require("./endpoints/forumThread/ForumThreadRoute");
 const forumMessageRoute = require("./endpoints/forumMessage/ForumMessageRoute");
-const registrationRoute = require("./endpoints/registration/RegistrationRoute");
 const bodyParser = require("body-parser");
 const database = require("./database/database.js");
 const https = require("https");
@@ -14,6 +13,7 @@ const cert = fs.readFileSync("./certificates/cert.pem");
 const winston = require("./config/winston");
 const morgan = require("morgan");
 const logger = require("./config/winston");
+const config = require("config");
 
 let app;
 let server;
@@ -34,7 +34,7 @@ function startApp() {
 
     //needed so we can actually read the request body
     app.use(bodyParser.json());
-    app.use(morgan("combined", { stream: winston.stream }));
+    app.use(morgan(config.get('morgan.format'), { stream: winston.stream }));
     app.get("/", (req, res) => {
         res.send("Hello World!");
     });
@@ -43,7 +43,6 @@ function startApp() {
     app.use("/users", userRouter);
     app.use("/forumThreads", forumThreadRoute);
     app.use("/forumMessages", forumMessageRoute);
-    app.use("/register", registrationRoute);
     app.use((req, res) => {
         res.status(404);
         res.send("Not found");

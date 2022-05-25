@@ -1,0 +1,931 @@
+202205-25 12:19:12 info: Started application in development mode
+202205-25 12:19:12 info: GET /users 2.862 ms - 26
+
+202205-25 12:19:12 info: GET /users/unknown 0.913 ms - 26
+
+202205-25 12:19:12 info: DELETE /users/admin 0.512 ms - 26
+
+202205-25 12:19:12 info: GET /users/admin 0.261 ms - 26
+
+202205-25 12:19:12 info: DELETE /users/admin 0.336 ms - 26
+
+202205-25 12:19:12 info: POST /users 0.263 ms - 26
+
+202205-25 12:19:12 info: GET /users/admin 0.258 ms - 26
+
+202205-25 12:19:12 info: POST /users 0.225 ms - 26
+
+202205-25 12:19:12 info: POST /users 0.315 ms - 26
+
+202205-25 12:19:12 info: GET /users 0.350 ms - 26
+
+202205-25 12:19:12 info: PUT /users/manfred 0.519 ms - 26
+
+202205-25 12:19:12 info: GET /users/manfred 0.277 ms - 26
+
+202205-25 12:19:12 info: POST /users 0.415 ms - 26
+
+202205-25 12:19:12 info: DELETE /users/admin 0.237 ms - 26
+
+202205-25 12:19:12 info: DELETE /users/manfred 0.234 ms - 26
+
+202205-25 12:19:12 info: GET /users/ 0.210 ms - 26
+
+202205-25 12:19:12 info: Shutting down application
+202205-25 12:45:29 info: Started application in development mode
+202205-25 12:45:29 info: [object Object]
+202205-25 12:45:29 info: GET /users 3.176 ms - 26
+
+202205-25 12:45:29 info: GET /users/unknown 0.941 ms - 26
+
+202205-25 12:45:29 info: DELETE /users/admin 0.580 ms - 26
+
+202205-25 12:45:29 info: GET /users/admin 0.398 ms - 26
+
+202205-25 12:45:29 info: DELETE /users/admin 0.460 ms - 26
+
+202205-25 12:45:29 info: POST /users 0.284 ms - 26
+
+202205-25 12:45:29 info: GET /users/admin 0.275 ms - 26
+
+202205-25 12:45:29 info: POST /users 0.233 ms - 26
+
+202205-25 12:45:29 info: POST /users 0.405 ms - 26
+
+202205-25 12:45:29 info: GET /users 0.417 ms - 26
+
+202205-25 12:45:29 info: PUT /users/manfred 0.379 ms - 26
+
+202205-25 12:45:29 info: GET /users/manfred 0.281 ms - 26
+
+202205-25 12:45:29 info: POST /users 0.274 ms - 26
+
+202205-25 12:45:29 info: DELETE /users/admin 0.238 ms - 26
+
+202205-25 12:45:29 info: DELETE /users/manfred 0.239 ms - 26
+
+202205-25 12:45:29 info: GET /users/ 0.205 ms - 26
+
+202205-25 12:45:29 info: Shutting down application
+202205-25 12:46:37 info: Started application in development mode
+202205-25 12:46:37 info: GET /users 2.841 ms - 26
+
+202205-25 12:46:37 info: GET /users/unknown 0.830 ms - 26
+
+202205-25 12:46:37 info: DELETE /users/admin 0.406 ms - 26
+
+202205-25 12:46:37 info: GET /users/admin 0.371 ms - 26
+
+202205-25 12:46:37 info: DELETE /users/admin 0.336 ms - 26
+
+202205-25 12:46:37 info: POST /users 0.253 ms - 26
+
+202205-25 12:46:37 info: GET /users/admin 0.232 ms - 26
+
+202205-25 12:46:37 info: POST /users 0.234 ms - 26
+
+202205-25 12:46:37 info: POST /users 0.357 ms - 26
+
+202205-25 12:46:37 info: GET /users 0.348 ms - 26
+
+202205-25 12:46:37 info: PUT /users/manfred 0.381 ms - 26
+
+202205-25 12:46:37 info: GET /users/manfred 0.278 ms - 26
+
+202205-25 12:46:37 info: POST /users 0.247 ms - 26
+
+202205-25 12:46:37 info: DELETE /users/admin 0.245 ms - 26
+
+202205-25 12:46:37 info: DELETE /users/manfred 0.234 ms - 26
+
+202205-25 12:46:37 info: GET /users/ 0.208 ms - 26
+
+202205-25 12:46:37 info: Shutting down application
+202205-25 12:47:08 info: Started application in development mode
+202205-25 12:47:08 info: GET /users 2.675 ms - 26
+
+202205-25 12:47:08 info: GET /users/unknown 0.978 ms - 26
+
+202205-25 12:47:08 info: DELETE /users/admin 0.562 ms - 26
+
+202205-25 12:47:08 info: GET /users/admin 0.369 ms - 26
+
+202205-25 12:47:08 info: DELETE /users/admin 0.344 ms - 26
+
+202205-25 12:47:08 info: POST /users 0.249 ms - 26
+
+202205-25 12:47:08 info: GET /users/admin 0.252 ms - 26
+
+202205-25 12:47:08 info: POST /users 0.227 ms - 26
+
+202205-25 12:47:08 info: POST /users 0.362 ms - 26
+
+202205-25 12:47:08 info: GET /users 0.400 ms - 26
+
+202205-25 12:47:08 info: PUT /users/manfred 0.366 ms - 26
+
+202205-25 12:47:08 info: GET /users/manfred 0.262 ms - 26
+
+202205-25 12:47:08 info: POST /users 0.230 ms - 26
+
+202205-25 12:47:08 info: DELETE /users/admin 0.241 ms - 26
+
+202205-25 12:47:08 info: DELETE /users/manfred 0.233 ms - 26
+
+202205-25 12:47:08 info: GET /users/ 0.229 ms - 26
+
+202205-25 12:47:08 info: Shutting down application
+202205-25 12:54:17 info: Started application in development mode
+202205-25 12:54:18 info: GET /users 2.696 ms - 26
+
+202205-25 12:54:18 info: GET /users/unknown 0.802 ms - 26
+
+202205-25 12:54:18 info: DELETE /users/admin 0.443 ms - 26
+
+202205-25 12:54:18 info: GET /users/admin 0.345 ms - 26
+
+202205-25 12:54:18 info: DELETE /users/admin 0.417 ms - 26
+
+202205-25 12:54:18 info: POST /users 0.263 ms - 26
+
+202205-25 12:54:18 info: GET /users/admin 0.228 ms - 26
+
+202205-25 12:54:18 info: POST /users 0.254 ms - 26
+
+202205-25 12:54:18 info: POST /users 0.348 ms - 26
+
+202205-25 12:54:18 info: GET /users 0.341 ms - 26
+
+202205-25 12:54:18 info: PUT /users/manfred 0.382 ms - 26
+
+202205-25 12:54:18 info: GET /users/manfred 0.265 ms - 26
+
+202205-25 12:54:18 info: POST /users 0.239 ms - 26
+
+202205-25 12:54:18 info: DELETE /users/admin 0.236 ms - 26
+
+202205-25 12:54:18 info: DELETE /users/manfred 0.231 ms - 26
+
+202205-25 12:54:18 info: GET /users/ 0.215 ms - 26
+
+202205-25 12:54:18 info: Shutting down application
+202205-25 12:56:55 info: Started application in development mode
+202205-25 12:56:55 info: GET /users 2.991 ms - 26
+
+202205-25 12:56:55 info: GET /users/unknown 1.091 ms - 26
+
+202205-25 12:56:55 info: DELETE /users/admin 0.459 ms - 26
+
+202205-25 12:56:55 info: GET /users/admin 0.442 ms - 26
+
+202205-25 12:56:55 info: DELETE /users/admin 0.260 ms - 26
+
+202205-25 12:56:55 info: POST /users 0.263 ms - 26
+
+202205-25 12:56:55 info: GET /users/admin 0.242 ms - 26
+
+202205-25 12:56:55 info: POST /users 0.232 ms - 26
+
+202205-25 12:56:55 info: POST /users 0.339 ms - 26
+
+202205-25 12:56:55 info: GET /users 0.334 ms - 26
+
+202205-25 12:56:55 info: PUT /users/manfred 0.381 ms - 26
+
+202205-25 12:56:55 info: GET /users/manfred 0.245 ms - 26
+
+202205-25 12:56:55 info: POST /users 0.225 ms - 26
+
+202205-25 12:56:55 info: DELETE /users/admin 0.235 ms - 26
+
+202205-25 12:56:55 info: DELETE /users/manfred 0.290 ms - 26
+
+202205-25 12:56:55 info: GET /users/ 0.219 ms - 26
+
+202205-25 12:56:55 info: Shutting down application
+202205-25 12:57:48 info: Started application in development mode
+202205-25 12:57:48 info: GET /users 2.745 ms - 26
+
+202205-25 12:57:48 info: GET /authenticate 104.414 ms - 43
+
+202205-25 12:57:48 info: GET /users/unknown 0.810 ms - 26
+
+202205-25 12:57:48 info: DELETE /users/admin 0.494 ms - 26
+
+202205-25 12:57:48 info: GET /users/admin 0.254 ms - 26
+
+202205-25 12:57:48 info: DELETE /users/admin 0.242 ms - 26
+
+202205-25 12:57:48 info: POST /users 0.455 ms - 26
+
+202205-25 12:57:48 info: GET /users/admin 0.258 ms - 26
+
+202205-25 12:57:49 info: POST /users 0.340 ms - 26
+
+202205-25 12:57:49 info: POST /users 0.401 ms - 26
+
+202205-25 12:57:49 info: GET /users 0.453 ms - 26
+
+202205-25 12:57:49 info: PUT /users/manfred 0.275 ms - 26
+
+202205-25 12:57:49 info: GET /users/manfred 0.233 ms - 26
+
+202205-25 12:57:49 info: POST /users 0.220 ms - 26
+
+202205-25 12:57:49 info: DELETE /users/admin 0.237 ms - 26
+
+202205-25 12:57:49 info: DELETE /users/manfred 0.237 ms - 26
+
+202205-25 12:57:49 info: GET /users/ 0.389 ms - 26
+
+202205-25 12:57:49 info: Shutting down application
+202205-25 13:01:18 info: Started application in development mode
+202205-25 13:01:19 info: GET /users 2.712 ms - 26
+
+202205-25 13:01:19 info: GET /authenticate 3.875 ms - 89
+
+202205-25 13:01:19 info: GET /authenticate 107.281 ms - 43
+
+202205-25 13:01:19 info: GET /users/unknown 1.014 ms - 26
+
+202205-25 13:01:19 info: DELETE /users/admin 0.332 ms - 26
+
+202205-25 13:01:19 info: GET /users/admin 0.228 ms - 26
+
+202205-25 13:01:19 info: DELETE /users/admin 0.267 ms - 26
+
+202205-25 13:01:19 info: POST /users 0.391 ms - 26
+
+202205-25 13:01:19 info: GET /users/admin 0.344 ms - 26
+
+202205-25 13:01:19 info: POST /users 0.314 ms - 26
+
+202205-25 13:01:19 info: POST /users 0.348 ms - 26
+
+202205-25 13:01:19 info: GET /users 0.243 ms - 26
+
+202205-25 13:01:19 info: PUT /users/manfred 0.347 ms - 26
+
+202205-25 13:01:19 info: GET /users/manfred 0.256 ms - 26
+
+202205-25 13:01:19 info: POST /users 0.249 ms - 26
+
+202205-25 13:01:19 info: DELETE /users/admin 0.223 ms - 26
+
+202205-25 13:01:19 info: DELETE /users/manfred 0.394 ms - 26
+
+202205-25 13:01:19 info: GET /users/ 0.340 ms - 26
+
+202205-25 13:01:19 info: Shutting down application
+202205-25 13:02:23 info: Started application in development mode
+202205-25 13:02:23 info: GET /users 2.865 ms - 26
+
+202205-25 13:02:23 info: GET /authenticate 3.523 ms - 89
+
+202205-25 13:02:23 info: GET /authenticate 107.616 ms - 43
+
+202205-25 13:02:23 info: GET /users/unknown 0.672 ms - 26
+
+202205-25 13:02:23 info: DELETE /users/admin 0.353 ms - 26
+
+202205-25 13:02:23 info: GET /users/admin 0.256 ms - 26
+
+202205-25 13:02:23 info: DELETE /users/admin 0.255 ms - 26
+
+202205-25 13:02:23 info: POST /users 0.376 ms - 26
+
+202205-25 13:02:23 info: GET /users/admin 0.344 ms - 26
+
+202205-25 13:02:23 info: POST /users 0.363 ms - 26
+
+202205-25 13:02:23 info: POST /users 0.344 ms - 26
+
+202205-25 13:02:23 info: GET /users 0.239 ms - 26
+
+202205-25 13:02:23 info: PUT /users/manfred 0.375 ms - 26
+
+202205-25 13:02:23 info: GET /users/manfred 0.230 ms - 26
+
+202205-25 13:02:23 info: POST /users 0.216 ms - 26
+
+202205-25 13:02:23 info: DELETE /users/admin 0.238 ms - 26
+
+202205-25 13:02:23 info: DELETE /users/manfred 0.370 ms - 26
+
+202205-25 13:02:23 info: GET /users/ 0.327 ms - 26
+
+202205-25 13:02:23 info: Shutting down application
+202205-25 13:05:48 info: Started application in development mode
+202205-25 13:05:49 info: GET /users 2.790 ms - 26
+
+202205-25 13:05:49 info: GET /authenticate 3.990 ms - 89
+
+202205-25 13:05:49 info: GET /authenticate 2.789 ms - 89
+
+202205-25 13:05:49 info: GET /users/unknown 1.118 ms - 26
+
+202205-25 13:05:49 info: DELETE /users/admin 0.350 ms - 26
+
+202205-25 13:05:49 info: GET /users/admin 0.246 ms - 26
+
+202205-25 13:05:49 info: DELETE /users/admin 0.285 ms - 26
+
+202205-25 13:05:49 info: POST /users 0.258 ms - 26
+
+202205-25 13:05:49 info: GET /users/admin 0.343 ms - 26
+
+202205-25 13:05:49 info: POST /users 0.328 ms - 26
+
+202205-25 13:05:49 info: POST /users 0.346 ms - 26
+
+202205-25 13:05:49 info: GET /users 0.261 ms - 26
+
+202205-25 13:05:49 info: PUT /users/manfred 0.367 ms - 26
+
+202205-25 13:05:49 info: GET /users/manfred 0.224 ms - 26
+
+202205-25 13:05:49 info: POST /users 0.221 ms - 26
+
+202205-25 13:05:49 info: DELETE /users/admin 0.223 ms - 26
+
+202205-25 13:05:49 info: DELETE /users/manfred 0.398 ms - 26
+
+202205-25 13:05:49 info: GET /users/ 0.325 ms - 26
+
+202205-25 13:05:49 info: Shutting down application
+202205-25 13:06:20 info: Started application in development mode
+202205-25 13:06:21 info: GET /users 2.698 ms - 26
+
+202205-25 13:06:21 info: GET /authenticate 3.967 ms - 89
+
+202205-25 13:06:21 info: GET /authenticate 3.105 ms - 89
+
+202205-25 13:06:21 info: GET /users/unknown 1.049 ms - 26
+
+202205-25 13:06:21 info: DELETE /users/admin 0.352 ms - 26
+
+202205-25 13:06:21 info: GET /users/admin 0.229 ms - 26
+
+202205-25 13:06:21 info: DELETE /users/admin 0.270 ms - 26
+
+202205-25 13:06:21 info: POST /users 0.245 ms - 26
+
+202205-25 13:06:21 info: GET /users/admin 0.366 ms - 26
+
+202205-25 13:06:21 info: POST /users 0.345 ms - 26
+
+202205-25 13:06:21 info: POST /users 0.354 ms - 26
+
+202205-25 13:06:21 info: GET /users 0.238 ms - 26
+
+202205-25 13:06:21 info: PUT /users/manfred 0.467 ms - 26
+
+202205-25 13:06:21 info: GET /users/manfred 0.237 ms - 26
+
+202205-25 13:06:21 info: POST /users 0.216 ms - 26
+
+202205-25 13:06:21 info: DELETE /users/admin 0.238 ms - 26
+
+202205-25 13:06:21 info: DELETE /users/manfred 0.364 ms - 26
+
+202205-25 13:06:21 info: GET /users/ 0.309 ms - 26
+
+202205-25 13:06:21 info: Shutting down application
+202205-25 13:06:39 info: Started application in development mode
+202205-25 13:06:39 info: GET /users 2.764 ms - 26
+
+202205-25 13:06:39 info: GET /authenticate 3.614 ms - 89
+
+202205-25 13:06:39 info: GET /authenticate 108.944 ms - 43
+
+202205-25 13:06:39 info: GET /users/unknown 1.245 ms - 26
+
+202205-25 13:06:39 info: DELETE /users/admin 0.371 ms - 26
+
+202205-25 13:06:39 info: GET /users/admin 0.227 ms - 26
+
+202205-25 13:06:39 info: DELETE /users/admin 0.251 ms - 26
+
+202205-25 13:06:39 info: POST /users 0.438 ms - 26
+
+202205-25 13:06:39 info: GET /users/admin 0.379 ms - 26
+
+202205-25 13:06:39 info: POST /users 0.340 ms - 26
+
+202205-25 13:06:39 info: POST /users 0.346 ms - 26
+
+202205-25 13:06:39 info: GET /users 0.280 ms - 26
+
+202205-25 13:06:39 info: PUT /users/manfred 0.328 ms - 26
+
+202205-25 13:06:39 info: GET /users/manfred 0.234 ms - 26
+
+202205-25 13:06:39 info: POST /users 0.247 ms - 26
+
+202205-25 13:06:39 info: DELETE /users/admin 0.251 ms - 26
+
+202205-25 13:06:39 info: DELETE /users/manfred 0.400 ms - 26
+
+202205-25 13:06:39 info: GET /users/ 0.319 ms - 26
+
+202205-25 13:06:39 info: Shutting down application
+202205-25 13:07:20 info: Started application in development mode
+202205-25 13:07:20 info: GET /users 2.565 ms - 26
+
+202205-25 13:07:20 info: GET /authenticate 101.528 ms - 43
+
+202205-25 13:07:20 info: GET /authenticate 78.705 ms - 43
+
+202205-25 13:07:20 info: GET /users/unknown 1.237 ms - 26
+
+202205-25 13:07:20 info: DELETE /users/admin 0.350 ms - 26
+
+202205-25 13:07:20 info: GET /users/admin 0.239 ms - 26
+
+202205-25 13:07:20 info: DELETE /users/admin 0.284 ms - 26
+
+202205-25 13:07:20 info: POST /users 0.249 ms - 26
+
+202205-25 13:07:20 info: GET /users/admin 0.448 ms - 26
+
+202205-25 13:07:21 info: POST /users 0.319 ms - 26
+
+202205-25 13:07:21 info: POST /users 0.328 ms - 26
+
+202205-25 13:07:21 info: GET /users 0.248 ms - 26
+
+202205-25 13:07:21 info: PUT /users/manfred 0.351 ms - 26
+
+202205-25 13:07:21 info: GET /users/manfred 0.232 ms - 26
+
+202205-25 13:07:21 info: POST /users 0.212 ms - 26
+
+202205-25 13:07:21 info: DELETE /users/admin 0.236 ms - 26
+
+202205-25 13:07:21 info: DELETE /users/manfred 0.254 ms - 26
+
+202205-25 13:07:21 info: GET /users/ 0.316 ms - 26
+
+202205-25 13:07:21 info: Shutting down application
+202205-25 13:07:55 info: Started application in development mode
+202205-25 13:07:55 info: GET /users 2.793 ms - 26
+
+202205-25 13:07:55 info: GET /authenticate 105.167 ms - 43
+
+202205-25 13:07:56 info: GET /authenticate 86.259 ms - 43
+
+202205-25 13:07:56 info: GET /users/unknown 0.977 ms - 26
+
+202205-25 13:07:56 info: DELETE /users/admin 0.340 ms - 26
+
+202205-25 13:07:56 info: GET /users/admin 0.226 ms - 26
+
+202205-25 13:07:56 info: DELETE /users/admin 0.248 ms - 26
+
+202205-25 13:07:56 info: POST /users 0.361 ms - 26
+
+202205-25 13:07:56 info: GET /users/admin 0.384 ms - 26
+
+202205-25 13:07:56 info: POST /users 0.341 ms - 26
+
+202205-25 13:07:56 info: POST /users 0.360 ms - 26
+
+202205-25 13:07:56 info: GET /users 0.250 ms - 26
+
+202205-25 13:07:56 info: PUT /users/manfred 0.382 ms - 26
+
+202205-25 13:07:56 info: GET /users/manfred 0.241 ms - 26
+
+202205-25 13:07:56 info: POST /users 0.215 ms - 26
+
+202205-25 13:07:56 info: DELETE /users/admin 0.243 ms - 26
+
+202205-25 13:07:56 info: DELETE /users/manfred 0.228 ms - 26
+
+202205-25 13:07:56 info: GET /users/ 0.372 ms - 26
+
+202205-25 13:07:56 info: Shutting down application
+202205-25 13:08:56 info: Started application in development mode
+202205-25 13:08:56 info: GET /users 2.937 ms - 26
+
+202205-25 13:08:56 info: GET /authenticate 109.911 ms - 25
+
+202205-25 13:08:56 info: GET /authenticate 84.160 ms - 43
+
+202205-25 13:08:56 info: GET /users/unknown 1.081 ms - 26
+
+202205-25 13:08:56 info: DELETE /users/admin 0.345 ms - 26
+
+202205-25 13:08:56 info: GET /users/admin 0.224 ms - 26
+
+202205-25 13:08:56 info: DELETE /users/admin 0.259 ms - 26
+
+202205-25 13:08:56 info: POST /users 0.291 ms - 26
+
+202205-25 13:08:56 info: GET /users/admin 0.387 ms - 26
+
+202205-25 13:08:56 info: POST /users 0.388 ms - 26
+
+202205-25 13:08:56 info: POST /users 0.429 ms - 26
+
+202205-25 13:08:56 info: GET /users 0.245 ms - 26
+
+202205-25 13:08:56 info: PUT /users/manfred 0.347 ms - 26
+
+202205-25 13:08:56 info: GET /users/manfred 0.403 ms - 26
+
+202205-25 13:08:56 info: POST /users 0.206 ms - 26
+
+202205-25 13:08:56 info: DELETE /users/admin 0.232 ms - 26
+
+202205-25 13:08:56 info: DELETE /users/manfred 0.398 ms - 26
+
+202205-25 13:08:56 info: GET /users/ 0.368 ms - 26
+
+202205-25 13:08:56 info: Shutting down application
+202205-25 13:13:24 info: Started application in development mode
+202205-25 13:13:24 info: GET /users 2.844 ms - 26
+
+202205-25 13:13:24 info: GET /authenticate 105.413 ms - 25
+
+202205-25 13:13:24 info: GET /authenticate 85.495 ms - 43
+
+202205-25 13:13:24 info: GET /users/unknown 1.089 ms - 26
+
+202205-25 13:13:24 info: DELETE /users/admin 0.434 ms - 26
+
+202205-25 13:13:24 info: GET /users/admin 0.230 ms - 26
+
+202205-25 13:13:24 info: DELETE /users/admin 0.282 ms - 26
+
+202205-25 13:13:24 info: POST /users 0.262 ms - 26
+
+202205-25 13:13:24 info: GET /users/admin 0.353 ms - 26
+
+202205-25 13:13:24 info: POST /users 0.349 ms - 26
+
+202205-25 13:13:24 info: POST /users 0.357 ms - 26
+
+202205-25 13:13:24 info: GET /users 0.232 ms - 26
+
+202205-25 13:13:24 info: PUT /users/manfred 0.411 ms - 26
+
+202205-25 13:13:24 info: GET /users/manfred 0.232 ms - 26
+
+202205-25 13:13:24 info: POST /users 0.217 ms - 26
+
+202205-25 13:13:24 info: DELETE /users/admin 0.220 ms - 26
+
+202205-25 13:13:24 info: DELETE /users/manfred 0.357 ms - 26
+
+202205-25 13:13:24 info: GET /users/ 0.335 ms - 26
+
+202205-25 13:13:24 info: Shutting down application
+202205-25 13:14:32 info: Started application in development mode
+202205-25 13:14:32 info: GET /users 2.888 ms - 26
+
+202205-25 13:14:32 info: GET /authenticate 107.943 ms - 25
+
+202205-25 13:14:32 info: GET /authenticate 89.853 ms - 43
+
+202205-25 13:14:32 info: GET /users/unknown 1.020 ms - 26
+
+202205-25 13:14:32 info: DELETE /users/admin 0.331 ms - 26
+
+202205-25 13:14:32 info: GET /users/admin 0.241 ms - 26
+
+202205-25 13:14:32 info: DELETE /users/admin 0.259 ms - 26
+
+202205-25 13:14:32 info: POST /users 0.243 ms - 26
+
+202205-25 13:14:32 info: GET /users/admin 0.354 ms - 26
+
+202205-25 13:14:32 info: POST /users 0.344 ms - 26
+
+202205-25 13:14:32 info: POST /users 0.345 ms - 26
+
+202205-25 13:14:32 info: GET /users 0.266 ms - 26
+
+202205-25 13:14:32 info: PUT /users/manfred 0.360 ms - 26
+
+202205-25 13:14:32 info: GET /users/manfred 0.234 ms - 26
+
+202205-25 13:14:32 info: POST /users 0.232 ms - 26
+
+202205-25 13:14:32 info: DELETE /users/admin 0.219 ms - 26
+
+202205-25 13:14:32 info: DELETE /users/manfred 0.230 ms - 26
+
+202205-25 13:14:32 info: GET /users/ 0.377 ms - 26
+
+202205-25 13:14:32 info: Shutting down application
+202205-25 13:15:46 info: Started application in development mode
+202205-25 13:15:46 info: GET /users 2.913 ms - 26
+
+202205-25 13:15:46 info: GET /authenticate 101.307 ms - 25
+
+202205-25 13:15:46 info: GET /authenticate 85.398 ms - 43
+
+202205-25 13:15:46 info: GET /users/unknown 1.082 ms - 26
+
+202205-25 13:15:46 info: DELETE /users/admin 0.329 ms - 26
+
+202205-25 13:15:46 info: GET /users/admin 0.234 ms - 26
+
+202205-25 13:15:46 info: DELETE /users/admin 0.270 ms - 26
+
+202205-25 13:15:46 info: POST /users 0.255 ms - 26
+
+202205-25 13:15:46 info: GET /users/admin 0.336 ms - 26
+
+202205-25 13:15:46 info: POST /users 0.329 ms - 26
+
+202205-25 13:15:46 info: POST /users 0.356 ms - 26
+
+202205-25 13:15:46 info: GET /users 0.244 ms - 26
+
+202205-25 13:15:46 info: PUT /users/manfred 0.337 ms - 26
+
+202205-25 13:15:46 info: GET /users/manfred 0.271 ms - 26
+
+202205-25 13:15:46 info: POST /users 0.207 ms - 26
+
+202205-25 13:15:46 info: DELETE /users/admin 0.223 ms - 26
+
+202205-25 13:15:46 info: DELETE /users/manfred 0.249 ms - 26
+
+202205-25 13:15:46 info: GET /users/ 0.346 ms - 26
+
+202205-25 13:15:46 info: Shutting down application
+202205-25 13:20:13 info: Started application in development mode
+202205-25 13:20:13 info: GET /users 2.794 ms - 26
+
+202205-25 13:20:14 info: GET /authenticate 100.213 ms - 25
+
+202205-25 13:20:14 info: GET /authenticate 85.828 ms - 43
+
+202205-25 13:20:14 info: GET /users/unknown 1.241 ms - 26
+
+202205-25 13:20:14 info: DELETE /users/admin 0.412 ms - 26
+
+202205-25 13:20:14 info: GET /users/admin 0.231 ms - 26
+
+202205-25 13:20:14 info: DELETE /users/admin 0.247 ms - 26
+
+202205-25 13:20:14 info: POST /users 0.272 ms - 26
+
+202205-25 13:20:14 info: GET /users/admin 0.359 ms - 26
+
+202205-25 13:20:14 info: POST /users 0.368 ms - 26
+
+202205-25 13:20:14 info: POST /users 0.517 ms - 26
+
+202205-25 13:20:14 info: GET /users 0.259 ms - 26
+
+202205-25 13:20:14 info: PUT /users/manfred 0.322 ms - 26
+
+202205-25 13:20:14 info: GET /users/manfred 0.325 ms - 26
+
+202205-25 13:20:14 info: POST /users 0.220 ms - 26
+
+202205-25 13:20:14 info: DELETE /users/admin 0.226 ms - 26
+
+202205-25 13:20:14 info: DELETE /users/manfred 0.226 ms - 26
+
+202205-25 13:20:14 info: GET /users/ 0.335 ms - 26
+
+202205-25 13:20:14 info: Shutting down application
+202205-25 13:20:59 info: Started application in development mode
+202205-25 13:20:59 info: GET /users 3.058 ms - 26
+
+202205-25 13:20:59 info: GET /authenticate 100.801 ms - 25
+
+202205-25 13:20:59 info: GET /authenticate 83.907 ms - 43
+
+202205-25 13:20:59 info: GET /users/unknown 1.398 ms - 26
+
+202205-25 13:20:59 info: Shutting down application
+202205-25 13:21:20 info: Started application in development mode
+202205-25 13:21:20 info: GET /users 2.671 ms - 26
+
+202205-25 13:21:20 info: GET /authenticate 105.945 ms - 25
+
+202205-25 13:21:20 info: GET /authenticate 89.005 ms - 43
+
+202205-25 13:21:20 info: GET /users/unknown 1.060 ms - 26
+
+202205-25 13:21:20 info: Shutting down application
+202205-25 13:22:35 info: Started application in development mode
+202205-25 13:22:35 info: GET /users 2.841 ms - 26
+
+202205-25 13:22:35 info: GET /authenticate 100.727 ms - 89
+
+202205-25 13:22:35 info: GET /authenticate 83.253 ms - 43
+
+202205-25 13:22:35 info: GET /users/unknown 1.000 ms - 26
+
+202205-25 13:22:35 info: Shutting down application
+202205-25 13:23:00 info: Started application in development mode
+202205-25 13:23:01 info: GET /users 2.802 ms - 26
+
+202205-25 13:23:01 info: GET /authenticate 104.112 ms - 89
+
+202205-25 13:23:01 info: GET /authenticate 89.996 ms - 43
+
+202205-25 13:23:01 info: GET /users/unknown 1.055 ms - 26
+
+202205-25 13:23:01 info: Shutting down application
+202205-25 20:16:27 info: Started application in development mode
+202205-25 20:16:27 info: GET /users 2.754 ms - 26
+
+202205-25 20:16:27 info: GET /authenticate 108.006 ms - 89
+
+202205-25 20:16:27 info: GET /authenticate 82.493 ms - 43
+
+202205-25 20:16:27 info: GET /users/unknown 0.950 ms - 26
+
+202205-25 20:16:27 info: Shutting down application
+202205-25 20:19:40 info: Started application in development mode
+202205-25 20:19:40 info: GET /users 2.798 ms - 26
+
+202205-25 20:19:40 info: GET /authenticate 109.165 ms - 89
+
+202205-25 20:19:40 info: GET /authenticate 91.009 ms - 43
+
+202205-25 20:19:40 info: GET /users/unknown 1.039 ms - 26
+
+202205-25 20:19:40 info: Shutting down application
+202205-25 20:30:11 info: Started application in development mode
+202205-25 20:30:11 info: GET /users 2.839 ms - 26
+
+202205-25 20:30:11 info: GET /authenticate 102.404 ms - 89
+
+202205-25 20:30:11 info: GET /authenticate 88.553 ms - 43
+
+202205-25 20:30:11 info: GET /users/unknown 0.995 ms - 26
+
+202205-25 20:30:11 info: Shutting down application
+202205-25 20:32:44 info: Started application in development mode
+202205-25 20:32:44 info: GET /users 2.936 ms - 26
+
+202205-25 20:32:44 info: GET /authenticate 107.712 ms - 89
+
+202205-25 20:32:44 info: GET /authenticate 84.704 ms - 43
+
+202205-25 20:32:44 info: GET /users/unknown 0.974 ms - 26
+
+202205-25 20:32:44 info: Shutting down application
+202205-25 20:33:07 info: Started application in development mode
+202205-25 20:33:07 info: GET /users 2.855 ms - 26
+
+202205-25 20:33:07 info: GET /authenticate 100.849 ms - 89
+
+202205-25 20:33:07 info: GET /authenticate 82.650 ms - 43
+
+202205-25 20:33:07 info: GET /users/unknown 1.032 ms - 26
+
+202205-25 20:33:07 info: Shutting down application
+202205-25 20:33:21 info: Started application in development mode
+202205-25 20:33:21 info: GET /users 2.718 ms - 26
+
+202205-25 20:33:21 info: GET /authenticate 103.367 ms - 89
+
+202205-25 20:33:21 info: GET /authenticate 83.422 ms - 43
+
+202205-25 20:33:21 info: GET /users/unknown 0.998 ms - 26
+
+202205-25 20:33:21 info: Shutting down application
+202205-25 20:36:15 info: Started application in development mode
+202205-25 20:36:15 info: GET /users 2.798 ms - 26
+
+202205-25 20:36:16 info: GET /authenticate 101.514 ms - 89
+
+202205-25 20:36:16 info: GET /authenticate 89.061 ms - 43
+
+202205-25 20:36:16 info: GET /users/unknown 1.026 ms - 26
+
+202205-25 20:36:16 info: Shutting down application
+202205-25 20:39:29 info: Started application in development mode
+202205-25 20:39:29 info: GET /users 2.815 ms - 26
+
+202205-25 20:39:29 info: GET /authenticate 109.508 ms - 89
+
+202205-25 20:39:29 info: GET /authenticate 87.076 ms - 43
+
+202205-25 20:39:29 info: GET /users/unknown 1.038 ms - 26
+
+202205-25 20:39:29 info: Shutting down application
+202205-25 20:39:52 info: Started application in development mode
+202205-25 20:39:52 info: GET /users 2.776 ms - 26
+
+202205-25 20:39:52 info: GET /authenticate 101.125 ms - 89
+
+202205-25 20:39:52 info: GET /authenticate 82.820 ms - 43
+
+202205-25 20:39:52 info: GET /users/unknown 0.975 ms - 26
+
+202205-25 20:39:52 info: Shutting down application
+202205-25 20:40:36 info: Started application in development mode
+202205-25 20:40:36 info: GET /users 2.736 ms - 26
+
+202205-25 20:40:36 info: GET /authenticate 103.099 ms - 89
+
+202205-25 20:40:36 info: GET /authenticate 83.372 ms - 43
+
+202205-25 20:40:36 info: GET /users/unknown 1.109 ms - 26
+
+202205-25 20:40:36 info: Shutting down application
+202205-25 20:42:05 info: Started application in development mode
+202205-25 20:42:05 info: GET /users 2.932 ms - 26
+
+202205-25 20:42:05 info: GET /authenticate 102.245 ms - 89
+
+202205-25 20:42:05 info: GET /authenticate 83.224 ms - 43
+
+202205-25 20:42:05 info: GET /users/unknown 1.046 ms - 26
+
+202205-25 20:42:05 info: Shutting down application
+202205-25 20:42:20 info: Started application in development mode
+202205-25 20:42:20 info: GET /users 2.792 ms - 26
+
+202205-25 20:42:21 info: GET /authenticate 111.959 ms - 89
+
+202205-25 20:42:21 info: GET /authenticate 96.253 ms - 43
+
+202205-25 20:42:21 info: GET /users/unknown 1.062 ms - 26
+
+202205-25 20:42:21 info: Shutting down application
+202205-25 20:42:38 info: Started application in development mode
+202205-25 20:42:39 info: GET /users 3.534 ms - 26
+
+202205-25 20:42:39 info: GET /authenticate 103.557 ms - 89
+
+202205-25 20:42:39 info: GET /authenticate 82.705 ms - 43
+
+202205-25 20:42:39 info: GET /users/unknown 1.247 ms - 26
+
+202205-25 20:42:39 info: Shutting down application
+202205-25 20:42:59 info: Started application in development mode
+202205-25 20:42:59 info: GET /users 5.670 ms - 26
+
+202205-25 20:42:59 info: GET /authenticate 109.270 ms - 89
+
+202205-25 20:42:59 info: GET /authenticate 88.643 ms - 43
+
+202205-25 20:42:59 info: GET /users/unknown 1.988 ms - 26
+
+202205-25 20:42:59 info: Shutting down application
+202205-25 20:44:24 info: Started application in development mode
+202205-25 20:44:25 info: GET /users/unknown 6.179 ms - 26
+
+202205-25 20:44:25 info: Shutting down application
+202205-25 20:45:08 info: Started application in development mode
+202205-25 20:45:09 info: GET /users/unknown 6.328 ms - 26
+
+202205-25 20:45:09 info: Shutting down application
+202205-25 20:45:25 info: Started application in development mode
+202205-25 20:45:25 info: GET /authenticate 113.861 ms - 43
+
+202205-25 20:45:25 info: GET /users/unknown 8.181 ms - 23
+
+202205-25 20:45:25 info: Shutting down application
+202205-25 20:46:15 info: Started application in development mode
+202205-25 20:46:15 info: GET /users/unknown 6.280 ms - 26
+
+202205-25 20:46:15 info: Shutting down application
+202205-25 20:47:05 info: Started application in development mode
+202205-25 20:47:05 info: GET /authenticate 116.695 ms - 43
+
+202205-25 20:47:05 info: GET /users/unknown 9.843 ms - 23
+
+202205-25 20:47:05 info: Shutting down application
+202205-25 20:47:16 info: Started application in development mode
+202205-25 20:47:16 info: GET /users 5.892 ms - 26
+
+202205-25 20:47:16 info: GET /authenticate 102.238 ms - 89
+
+202205-25 20:47:16 info: GET /authenticate 89.499 ms - 43
+
+202205-25 20:47:16 info: GET /users/unknown 5.973 ms - 23
+
+202205-25 20:47:16 info: Shutting down application
+202205-25 20:47:33 info: Started application in development mode
+202205-25 20:47:33 info: GET /users 6.561 ms - 26
+
+202205-25 20:47:33 info: GET /authenticate 112.361 ms - 89
+
+202205-25 20:47:34 info: GET /authenticate 88.995 ms - 43
+
+202205-25 20:47:34 info: GET /users/unknown 5.296 ms - 23
+
+202205-25 20:47:34 info: Shutting down application
+202205-25 20:48:07 info: Started application in development mode
+202205-25 20:48:07 info: GET /users 3.129 ms - 26
+
+202205-25 20:48:08 info: GET /authenticate 104.654 ms - 89
+
+202205-25 20:48:08 info: GET /authenticate 88.511 ms - 43
+
+202205-25 20:48:08 info: GET /users/unknown 6.103 ms - 23
+
+202205-25 20:48:08 info: Shutting down application

@@ -28,10 +28,10 @@ describe("All tests", () => {
     describe.skip("Login Tests", function () {
         require("./mochaTests/loginTests");
     });
-    describe("Public User Service Tests", function () {
+    describe.skip("Public User Service Tests", function () {
         require("./mochaTests/publicUserTests");
     });
-    describe.skip("User Service Tests", function () {
+    describe("User Service Tests", function () {
         require("./mochaTests/userTests");
     });
     describe.skip("Forum Thread Tests", function () {

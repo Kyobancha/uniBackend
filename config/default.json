@@ -10,5 +10,8 @@
         "algorithm": "HS256",
         "tokenKey": "iLoveCoffee",
         "timeToLive": 50000
+    },
+    "morgan": {
+        "format": ":method :url :response-time ms - :res[content-length]"
     }
 }

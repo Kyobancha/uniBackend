@@ -8,11 +8,7 @@ const userSchema = new mongoose.Schema({
     },
     userName: String,
     password: String,
-    isAdministrator: Boolean,
-    email: {
-        type: String,
-    },
-    wantsNewsletter: Boolean,
+    isAdministrator: Boolean
 })
 
 userSchema.pre('save', function (next) {

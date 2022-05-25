@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { isAuthenticated } = require('../authentication/AuthenticationService');
+const { isAuthenticated } = require('../../utils/AuthenticationUtil');
 const ForumMessageService = require('./ForumMessageService');
 
 router.get('/', (req, res) => {

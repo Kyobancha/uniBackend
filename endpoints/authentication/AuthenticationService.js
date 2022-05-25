@@ -11,14 +11,10 @@ async function authenticate(req){
         const [userId, password] = credentials.split(':');
         return UserService.authenticate(userId, password)
         .then(user => {
-            if (!user) {
-                return 401;
-            } else{
-                return user;
-            }
+            return user;
         })
         .catch(() => {
-            throw new Error("This is our fault, sorry!");
+            return 401;
         })
     }
 }
@@ -34,25 +30,4 @@ function createToken(user){
     })
 }
 
-function isAuthenticated(req, res, next) {
-    if (typeof req.headers.authorization !== "undefined") {
-        let token = req.headers.authorization.split(" ")[1];
-        let privateKey = config.get('session.tokenKey');
-        let algorithm = config.get('session.algorithm');
-        jwt.verify(token, privateKey, { algorithm: algorithm }, (err, user) => {
-            if (err) {
-                res.status(401).json({ error: "Not Authorized" });
-                return;
-            } else{
-                req.user = user;
-                return next();
-            }
-        });
-    } else {
-        res.status(401).json({ error: "Not Authorized" });
-        return;
-    }
-}
-
-
-module.exports = { authenticate, createToken, isAuthenticated }
+module.exports = { authenticate, createToken }
