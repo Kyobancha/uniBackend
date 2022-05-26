@@ -20,7 +20,7 @@ Authorization: Basic admin:1234
 GET https://localhost/users
 
 ### Auflisten aller Nutzer mit Token(Admin)
-GET https://localhost/users
+GET https://localhost/publicusers
 Authorization: {{adminToken}}
 
 ### Abrufen eines konkreten Users per User-ID
@@ -35,6 +35,16 @@ Content-Type: application/json
 
 {
     "userID": "manfred",
+    "userName": "Manfred Mustermann",
+    "password": "asdf"
+}
+
+###
+PUT https://localhost/users/manfred
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
     "userName": "Manfred Mustermann",
     "password": "asdf"
 }

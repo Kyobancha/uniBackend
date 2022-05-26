@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const logger = require('../../config/winston');
 
 const userSchema = new mongoose.Schema({
     userID: {
@@ -29,6 +30,7 @@ userSchema.methods.comparePassword = function(candidatePassword, next){
         if(err){
             return next(err);
         }
+        logger.info(isMatch)
         next(null,isMatch)
     })
 }

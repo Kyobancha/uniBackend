@@ -3,9 +3,7 @@ const request = require("supertest");
 const httpServer = require("../../httpServer.js");
 const server = httpServer.getApp();
 const { admin, manfred } = require("../testUtils/testUsers.js")
-const winston = require("../../config/winston.js")
-const testUtils = require("../testUtils/testUsers.js")
-const user = require("../../endpoints/user/UserModel.js")
+const { User } = require("../../endpoints/user/UserModel.js")
 
 describe("testing GET function on /publicUsers", () => {
     it("should return an array with the admin as default user.", () => {
@@ -98,18 +96,56 @@ describe("testing GET function on /publicUsers", () => {
         return request(server)
             .put("/publicUsers/manfred")
             .send({
-                userName: "tobias",
-                password: "12345"
+                userName: "tobias"
             })
             .then((res) => {
                 assert.typeOf(res.body, "object");
                 assert.equal(res.statusCode, 204);
             });
     });
-    it("should return tobias", () => {
+    it("should return tobias and the password should be unaffacted", () => {
         return request(server)
             .get("/publicUsers/manfred")
-            .then((res) => {
+            .then(async (res) => {
+                let user = await User.findOne({userID: manfred.userID}).exec()
+                let oldPasswordIsTheSame = await new Promise(resolve => {
+                    user.comparePassword(manfred.password, (error, isMatch) => {
+                        resolve(isMatch);
+                    })
+                })
+                assert.equal(oldPasswordIsTheSame, true)
+                assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
+                assert.equal(res.body.userID, "manfred")
+                assert.equal(res.body.userName, "tobias")
+                assert.equal(res.body.isAdministrator, false)
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 200);
+            });
+    });
+    //The user service works correctly. This test seems to be problematic in it's async logic somewhere
+    it("should update manfred again", () => {
+        return request(server)
+            .put("/publicUsers/manfred")
+            .send({
+                userName: "tobias",
+                password: "12345"
+            })
+            .then(res => {
+                assert.typeOf(res.body, "object");
+                assert.equal(res.statusCode, 204);
+            })
+    });
+    it("should return tobias and the password should be changed this time", () => {
+        return request(server)
+            .get("/publicUsers/manfred")
+            .then(async (res) => {
+                let user = await User.findOne({userID: manfred.userID}).exec()
+                let oldPasswordIsTheSame = await new Promise(resolve => {
+                    user.comparePassword(manfred.password, (error, isMatch) => {
+                        resolve(isMatch);
+                    })
+                })
+                assert.equal(oldPasswordIsTheSame, false)
                 assert.hasAnyKeys(res.body, "userID", "userName", "password", "isAdministrator");
                 assert.equal(res.body.userID, "manfred")
                 assert.equal(res.body.userName, "tobias")

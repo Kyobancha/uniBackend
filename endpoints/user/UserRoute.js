@@ -7,7 +7,14 @@ router.get('/', isAuthenticated, (req, res) => {
     if(req.user.isAdministrator){
         UserService.getAll(req)
         .then(users => {
-            res.send(users)
+            let filteredUsers = users.map((user) => {
+                return {
+                    userID: user.userID,
+                    userName: user.userName,
+                    isAdministrator: user.isAdministrator
+                }
+            })
+            res.send(filteredUsers)
         })
         .catch(error => {
             res.status(500)
@@ -22,7 +29,12 @@ router.get('/', isAuthenticated, (req, res) => {
         UserService.get(req, res)
         .then(user => {
             if(user){
-                res.send(user);
+                let filteredUsers = {
+                    userID: user.userID,
+                    userName: user.userName,
+                    isAdministrator: user.isAdministrator
+                };
+                res.send(filteredUsers);
             } else{
                 res.status(404)
                 res.send("This user doesn't exist");

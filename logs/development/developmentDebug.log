@@ -1,0 +1,174 @@
+202205-26 11:23:24 info: Started application in development mode
+202205-26 11:23:25 info: GET /publicUsers 12.736 ms - 2
+
+202205-26 11:23:25 info: GET /publicUsers/unknown 4.995 ms - 23
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 3.420 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/admin 2.231 ms - 23
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 1.965 ms - 23
+
+202205-26 11:23:25 info: POST /publicUsers 84.040 ms - 173
+
+202205-26 11:23:25 info: GET /publicUsers/admin 4.208 ms - 173
+
+202205-26 11:23:25 info: POST /publicUsers 99.826 ms - 191
+
+202205-26 11:23:25 info: POST /publicUsers 2.751 ms - 57
+
+202205-26 11:23:25 info: GET /publicUsers 3.319 ms - 367
+
+202205-26 11:23:25 debug: no password given, no worries
+202205-26 11:23:25 info: PUT /publicUsers/manfred 4.334 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/manfred 2.899 ms - 179
+
+202205-26 11:23:25 info: true
+202205-26 11:23:25 info: PUT /publicUsers/manfred 85.141 ms - -
+
+202205-26 11:23:25 info: false
+202205-26 11:23:25 debug: this is the password: 12345
+202205-26 11:23:25 debug: this is a new password
+202205-26 11:23:25 info: true
+202205-26 11:23:25 info: POST /publicUsers 3.466 ms - 21
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 2.200 ms - -
+
+202205-26 11:23:25 info: DELETE /publicUsers/manfred 1.856 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/ 1.443 ms - 2
+
+202205-26 11:23:25 info: Shutting down application
+202205-26 12:33:07 info: Started application in development mode
+202205-26 12:33:08 info: GET /publicUsers 20.963 ms - 2
+
+202205-26 12:33:08 info: GET /publicUsers/unknown 3.154 ms - 23
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 2.963 ms - -
+
+202205-26 12:33:08 info: GET /publicUsers/admin 2.448 ms - 23
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 2.171 ms - 23
+
+202205-26 12:33:08 info: POST /publicUsers 84.064 ms - 173
+
+202205-26 12:33:08 info: GET /publicUsers/admin 3.973 ms - 173
+
+202205-26 12:33:08 info: POST /publicUsers 86.943 ms - 191
+
+202205-26 12:33:08 info: POST /publicUsers 2.591 ms - 57
+
+202205-26 12:33:08 info: GET /publicUsers 2.940 ms - 367
+
+202205-26 12:33:08 debug: no password given, no worries
+202205-26 12:33:08 info: PUT /publicUsers/manfred 3.841 ms - -
+
+202205-26 12:33:08 info: GET /publicUsers/manfred 2.501 ms - 179
+
+202205-26 12:33:08 info: true
+202205-26 12:33:08 info: PUT /publicUsers/manfred 86.548 ms - -
+
+202205-26 12:33:08 info: false
+202205-26 12:33:08 debug: this is the password: 12345
+202205-26 12:33:08 debug: this is a new password
+202205-26 12:33:08 info: GET /publicUsers/manfred 1.987 ms - 179
+
+202205-26 12:33:08 info: false
+202205-26 12:33:08 info: POST /publicUsers 3.248 ms - 21
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 1.736 ms - -
+
+202205-26 12:33:08 info: DELETE /publicUsers/manfred 1.866 ms - -
+
+202205-26 12:33:09 info: GET /publicUsers/ 1.997 ms - 2
+
+202205-26 12:33:09 info: Shutting down application
+202205-26 12:33:36 info: Started application in development mode
+202205-26 12:33:36 info: GET /publicUsers 12.922 ms - 2
+
+202205-26 12:33:36 info: GET /publicUsers/unknown 2.946 ms - 23
+
+202205-26 12:33:36 info: DELETE /publicUsers/admin 2.838 ms - -
+
+202205-26 12:33:36 info: GET /publicUsers/admin 2.177 ms - 23
+
+202205-26 12:33:36 info: DELETE /publicUsers/admin 1.857 ms - 23
+
+202205-26 12:33:36 info: POST /publicUsers 83.271 ms - 173
+
+202205-26 12:33:36 info: GET /publicUsers/admin 4.095 ms - 173
+
+202205-26 12:33:36 info: POST /publicUsers 84.831 ms - 191
+
+202205-26 12:33:36 info: POST /publicUsers 2.545 ms - 57
+
+202205-26 12:33:36 info: GET /publicUsers 2.918 ms - 367
+
+202205-26 12:33:36 debug: no password given, no worries
+202205-26 12:33:36 info: PUT /publicUsers/manfred 3.790 ms - -
+
+202205-26 12:33:36 info: GET /publicUsers/manfred 2.562 ms - 179
+
+202205-26 12:33:37 info: true
+202205-26 12:33:37 info: PUT /publicUsers/manfred 83.934 ms - -
+
+202205-26 12:33:37 info: false
+202205-26 12:33:37 debug: this is the password: 12345
+202205-26 12:33:37 debug: this is a new password
+202205-26 12:33:37 info: GET /publicUsers/manfred 1.952 ms - 179
+
+202205-26 12:33:37 info: false
+202205-26 12:33:37 info: POST /publicUsers 3.144 ms - 21
+
+202205-26 12:33:37 info: DELETE /publicUsers/admin 1.640 ms - -
+
+202205-26 12:33:37 info: DELETE /publicUsers/manfred 1.576 ms - -
+
+202205-26 12:33:37 info: GET /publicUsers/ 1.983 ms - 2
+
+202205-26 12:33:37 info: Shutting down application
+202205-26 12:34:12 info: Started application in development mode
+202205-26 12:34:12 info: GET /publicUsers 11.804 ms - 2
+
+202205-26 12:34:12 info: GET /publicUsers/unknown 3.192 ms - 23
+
+202205-26 12:34:12 info: DELETE /publicUsers/admin 3.151 ms - -
+
+202205-26 12:34:12 info: GET /publicUsers/admin 2.545 ms - 23
+
+202205-26 12:34:12 info: DELETE /publicUsers/admin 1.952 ms - 23
+
+202205-26 12:34:12 info: POST /publicUsers 85.151 ms - 173
+
+202205-26 12:34:12 info: GET /publicUsers/admin 3.881 ms - 173
+
+202205-26 12:34:12 info: POST /publicUsers 81.317 ms - 191
+
+202205-26 12:34:12 info: POST /publicUsers 2.703 ms - 57
+
+202205-26 12:34:12 info: GET /publicUsers 3.404 ms - 367
+
+202205-26 12:34:12 debug: no password given, no worries
+202205-26 12:34:12 info: PUT /publicUsers/manfred 3.646 ms - -
+
+202205-26 12:34:12 info: GET /publicUsers/manfred 2.804 ms - 179
+
+202205-26 12:34:12 info: true
+202205-26 12:34:13 info: PUT /publicUsers/manfred 83.211 ms - -
+
+202205-26 12:34:13 info: false
+202205-26 12:34:13 debug: this is the password: 12345
+202205-26 12:34:13 debug: this is a new password
+202205-26 12:34:13 info: GET /publicUsers/manfred 2.404 ms - 179
+
+202205-26 12:34:13 info: false
+202205-26 12:34:13 info: POST /publicUsers 3.109 ms - 21
+
+202205-26 12:34:13 info: DELETE /publicUsers/admin 1.707 ms - -
+
+202205-26 12:34:13 info: DELETE /publicUsers/manfred 1.785 ms - -
+
+202205-26 12:34:13 info: GET /publicUsers/ 1.900 ms - 2
+
+202205-26 12:34:13 info: Shutting down application

@@ -28,12 +28,12 @@ describe("All tests", () => {
     describe.skip("Login Tests", function () {
         require("./mochaTests/loginTests");
     });
-    describe.skip("Public User Service Tests", function () {
+    describe("Public User Service Tests", function () {
         require("./mochaTests/publicUserTests");
     });
-    describe("User Service Tests", function () {
-        require("./mochaTests/userTests");
-    });
+    // describe("User Service Tests", function () {
+    //     require("./mochaTests/userTests");
+    // });
     describe.skip("Forum Thread Tests", function () {
         require("./mochaTests/forumThreadTests");
     });

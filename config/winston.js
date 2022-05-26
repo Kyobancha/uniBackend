@@ -62,6 +62,7 @@ if (process.env.NODE_ENV === "development") {
     ),
     logger.add(new transports.File(configureTransportFile("./logs/development/developmentError.log", "error")));
     logger.add(new transports.File(configureTransportFile("./logs/development/developmentCombined.log", "info")));
+    logger.add(new transports.File(configureTransportFile("./logs/development/developmentDebug.log", "debug")));
 
     //needed for morgan to write messages
     logger.stream = {

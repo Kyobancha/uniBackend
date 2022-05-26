@@ -879,3 +879,1859 @@
         "user-agent": "vscode-restclient"
     }
 }
+{
+    "time": "2022-05-25T19:37:14.248Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T19:37:14.300Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:04:07.683Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:04:07.725Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:04:08.280Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:04:08 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:04:56.585Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "manfred",
+        "date": "[25/May/2022:20:04:56 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:05.586Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:05 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:13.285Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:13 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:16.897Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:16 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:09:17.461Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:09:17.502Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:18:22.089Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:18:22.131Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:18:23.543Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:23 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:28.906Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[25/May/2022:20:18:28 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:29.769Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:29 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:33.241Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:33 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:22:57.159Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:22:57.200Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:22:59.013Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:22:59 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:23:01.706Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:23:01 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:23:57.419Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:23:57 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:00.288Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:00 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:12.701Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:24:12.744Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:24:17.999Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:17 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:20.164Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:20 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:33.122Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:33 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:38.015Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:25:38.056Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:25:42.323Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:42 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:48.484Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:48 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:50.795Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:50 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:52.349Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:52 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:08:17.040Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:08:17.085Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:08:19.128Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:08:19 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "500",
+        "content-length": "52",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:00.528Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:10:00.572Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:10:02.183Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:02 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:17.853Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:17 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:36.969Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:10:37.011Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:10:39.615Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:39 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:04.859Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:04.902Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:07.562Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:07 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:36.272Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:36.315Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:38.200Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:38 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:53.006Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:53.048Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:55.770Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:14:22.199Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:14:22.240Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:14:24.376Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:14:24 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:14:44.256Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:14:44.299Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:14:49.212Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:14:49 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:15:12.953Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:15:12.993Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:15:14.856Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:15:14 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:15:48.568Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:15:48.609Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:15:51.022Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:15:51 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:41.106Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:20:41.148Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:20:43.476Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:43 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:48.252Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[25/May/2022:21:20:48 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:50.378Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:50 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:56.401Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:56 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:28:50.181Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:28:50.222Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:28:53.847Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:28:53 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:28:55.773Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:28:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:29:00.109Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:29:00 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:31:31.306Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:31:31.414Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:31:33.155Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:31:33 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:31:40.594Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:31:40.597Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:08:31:40 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:31:47.102Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:31:47 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "405",
+        "content-length": "57",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:32:57.818Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:32:57 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:33:50.543Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:33:50 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:33:50.543Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:33:57.285Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:33:57 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:03.770Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:03 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:06.913Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:06 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:27.462Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:27 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:38.206Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:38 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:54.530Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:54 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:54.530Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:34:56.441Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:56 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:59.398Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:59 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:09.371Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:09 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:09.373Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:35:11.641Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:11 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:34.389Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:34 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:34.389Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:35:37.443Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:37 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:37:55.740Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:37:55.848Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:38:02.305Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:02 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:02.305Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:38:04.874Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:04 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:04.875Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:38:11.357Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:11 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:11.358Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:13.768Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:13 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:13.769Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:17.419Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:17 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:17.419Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:58.100Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:58 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:58.100Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:39:01.314Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:39:01 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:39:01.315Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:39:46.905Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:39:47.016Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:39:49.260Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:39:49 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:40:58.558Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:40:58.680Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:41:00.645Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:00 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:00.646Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:41:03.719Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:03 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:03.720Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:04.916Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:04 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:04.917Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:11.094Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:11 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:11.095Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:41:12.105Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:12 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:12.105Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:43.769Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:41:43.877Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T09:07:18.087Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T09:07:18.195Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T09:07:22.160Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:22.168Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:09:07:22 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:38.922Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:38 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:43.096Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:43 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:43.096Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:46.212Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:46 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:46.213Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T09:07:51.642Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:51 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:51.642Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:55.861Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:57.787Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:57 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:03.252Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:08:03 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:03.254Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T09:08:05.854Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:08:05 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:56.963Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T09:08:57.078Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T10:28:26.042Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T10:28:26.602Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T10:28:27.783Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:28:27 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:28:42.506Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:28:42 +0000]",
+        "method": "GET",
+        "url": "/forumMessages/62824f7ef7fe5effd82b77de",
+        "http-version": "HTTP/1.1",
+        "status": "404",
+        "content-length": "32",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:20.040Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:20 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:25.871Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T10:29:25.874Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:10:29:25 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:33.270Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:33 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:44.905Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:44 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:48.326Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:48 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:02.046Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:02 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "405",
+        "content-length": "57",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:04.986Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T10:30:04.987Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "manfred",
+        "date": "[26/May/2022:10:30:04 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:08.011Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:08 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "138",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:15.577Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:15 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:17.435Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:17 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "198",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:51.587Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:51 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628f56b04dae0a49328bb7ae",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:55.665Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:55 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628f56b04dae0a49328bb7ae/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:33:02.710Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T10:33:03.206Z",
+    "level": "info",
+    "message": "listening on 443"
+}

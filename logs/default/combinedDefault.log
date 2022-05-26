@@ -4195,3 +4195,5158 @@ undefined info: listening on 443
         "user-agent": "vscode-restclient"
     }
 }
+{
+    "time": "2022-05-25T19:37:14.248Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T19:37:14.300Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+202205-25 21:37:19 info: Started application in development mode
+202205-25 21:37:19 info: GET /users 2.951 ms - 26
+
+202205-25 21:37:19 info: GET /authenticate 101.924 ms - 89
+
+202205-25 21:37:19 info: GET /authenticate 87.682 ms - 43
+
+202205-25 21:37:19 info: GET /users/ 5.681 ms - 177
+
+202205-25 21:37:19 info: GET /users/unknown 2.862 ms - 23
+
+202205-25 21:37:19 info: GET /users/admin 2.926 ms - 175
+
+202205-25 21:37:19 info: Shutting down application
+202205-25 21:37:42 info: Started application in development mode
+202205-25 21:37:42 info: GET /users 2.830 ms - 26
+
+202205-25 21:37:42 info: GET /authenticate 107.607 ms - 89
+
+202205-25 21:37:42 info: GET /authenticate 83.574 ms - 43
+
+202205-25 21:37:42 info: GET /users/ 6.848 ms - 177
+
+202205-25 21:37:42 info: GET /users/unknown 3.048 ms - 23
+
+202205-25 21:37:42 info: GET /users/admin 3.200 ms - 175
+
+202205-25 21:37:42 info: Shutting down application
+202205-25 21:39:21 info: Started application in development mode
+202205-25 21:39:21 info: GET /users 2.786 ms - 26
+
+202205-25 21:39:21 info: GET /authenticate 108.664 ms - 89
+
+202205-25 21:39:21 info: GET /authenticate 82.760 ms - 43
+
+202205-25 21:39:21 info: GET /users/ 5.641 ms - 177
+
+202205-25 21:39:21 info: GET /users/unknown 3.279 ms - 23
+
+202205-25 21:39:21 info: GET /users/admin 2.816 ms - 175
+
+202205-25 21:39:21 info: DELETE /users/admin 3.416 ms - -
+
+202205-25 21:39:21 info: GET /users/admin 2.497 ms - 23
+
+202205-25 21:39:21 info: DELETE /users/admin 2.752 ms - 23
+
+202205-25 21:39:21 info: POST /users 92.051 ms - 173
+
+202205-25 21:39:21 info: GET /users/admin 3.119 ms - 173
+
+202205-25 21:39:21 info: POST /users 83.572 ms - 191
+
+202205-25 21:39:21 info: POST /users 2.768 ms - 57
+
+202205-25 21:39:21 info: GET /users 2.919 ms - 367
+
+202205-25 21:39:22 info: PUT /users/manfred 81.611 ms - -
+
+202205-25 21:39:22 info: GET /users/manfred 2.469 ms - 179
+
+202205-25 21:39:22 info: POST /users 3.603 ms - 21
+
+202205-25 21:39:22 info: DELETE /users/admin 2.046 ms - -
+
+202205-25 21:39:22 info: DELETE /users/manfred 1.886 ms - -
+
+202205-25 21:39:22 info: GET /users/ 1.581 ms - 2
+
+202205-25 21:39:22 info: Shutting down application
+202205-25 21:55:28 info: Started application in development mode
+202205-25 21:55:28 info: GET /users 2.815 ms - 26
+
+202205-25 21:55:28 info: GET /authenticate 87.766 ms - 89
+
+202205-25 21:55:28 info: GET /authenticate 81.970 ms - 43
+
+202205-25 21:55:28 info: GET /users/ 5.762 ms - 177
+
+202205-25 21:55:28 info: GET /users/unknown 3.287 ms - 23
+
+202205-25 21:55:28 info: GET /users/admin 2.827 ms - 175
+
+202205-25 21:55:28 info: DELETE /users/admin 3.268 ms - -
+
+202205-25 21:55:28 info: GET /users/admin 2.810 ms - 23
+
+202205-25 21:55:28 info: DELETE /users/admin 3.013 ms - 23
+
+202205-25 21:55:28 info: POST /users 93.705 ms - 173
+
+202205-25 21:55:28 info: GET /users/admin 2.719 ms - 173
+
+202205-25 21:55:28 info: POST /users 89.722 ms - 191
+
+202205-25 21:55:28 info: POST /users 0.402 ms - 26
+
+202205-25 21:55:28 info: POST /users 0.325 ms - 26
+
+202205-25 21:55:28 info: GET /users 0.381 ms - 26
+
+202205-25 21:55:28 info: PUT /users/manfred 0.303 ms - 26
+
+202205-25 21:55:29 info: PUT /users/manfred 86.641 ms - -
+
+202205-25 21:55:29 info: GET /users/manfred 2.748 ms - 179
+
+202205-25 21:55:29 info: POST /users 3.680 ms - 21
+
+202205-25 21:55:29 info: DELETE /users/admin 1.828 ms - -
+
+202205-25 21:55:29 info: DELETE /users/manfred 1.736 ms - -
+
+202205-25 21:55:29 info: GET /users/ 2.555 ms - 2
+
+202205-25 21:55:29 info: Shutting down application
+202205-25 21:56:31 info: Started application in development mode
+202205-25 21:56:31 info: GET /users 2.810 ms - 26
+
+202205-25 21:56:32 info: GET /authenticate 91.422 ms - 89
+
+202205-25 21:56:32 info: GET /authenticate 87.564 ms - 43
+
+202205-25 21:56:32 info: GET /users/ 5.004 ms - 177
+
+202205-25 21:56:32 info: GET /users/unknown 3.482 ms - 23
+
+202205-25 21:56:32 info: GET /users/admin 2.682 ms - 175
+
+202205-25 21:56:32 info: DELETE /users/admin 3.913 ms - -
+
+202205-25 21:56:32 info: GET /users/admin 3.275 ms - 23
+
+202205-25 21:56:32 info: DELETE /users/admin 2.540 ms - 23
+
+202205-25 21:56:32 info: POST /users 89.062 ms - 173
+
+202205-25 21:56:32 info: GET /users/admin 3.254 ms - 173
+
+202205-25 21:56:32 info: POST /users 87.081 ms - 191
+
+202205-25 21:56:32 info: POST /users 0.455 ms - 26
+
+202205-25 21:56:32 info: POST /authenticate 0.394 ms - 9
+
+202205-25 21:56:32 info: GET /users 0.378 ms - 26
+
+202205-25 21:56:32 info: PUT /users/manfred 0.306 ms - 26
+
+202205-25 21:56:32 info: PUT /users/manfred 96.729 ms - -
+
+202205-25 21:56:32 info: GET /users/manfred 3.013 ms - 179
+
+202205-25 21:56:32 info: POST /users 3.693 ms - 21
+
+202205-25 21:56:32 info: DELETE /users/admin 2.106 ms - -
+
+202205-25 21:56:32 info: DELETE /users/manfred 1.666 ms - -
+
+202205-25 21:56:32 info: GET /users/ 2.287 ms - 2
+
+202205-25 21:56:32 info: Shutting down application
+202205-25 21:57:15 info: Started application in development mode
+202205-25 21:57:15 info: GET /users 2.771 ms - 26
+
+202205-25 21:57:15 info: GET /authenticate 82.876 ms - 89
+
+202205-25 21:57:15 info: GET /authenticate 83.105 ms - 43
+
+202205-25 21:57:15 info: GET /users/ 5.299 ms - 177
+
+202205-25 21:57:15 info: GET /users/unknown 3.213 ms - 23
+
+202205-25 21:57:15 info: GET /users/admin 2.973 ms - 175
+
+202205-25 21:57:15 info: DELETE /users/admin 3.507 ms - -
+
+202205-25 21:57:15 info: GET /users/admin 3.149 ms - 23
+
+202205-25 21:57:15 info: DELETE /users/admin 2.478 ms - 23
+
+202205-25 21:57:16 info: POST /users 83.495 ms - 173
+
+202205-25 21:57:16 info: GET /users/admin 3.051 ms - 173
+
+202205-25 21:57:16 info: POST /users 82.422 ms - 191
+
+202205-25 21:57:16 info: POST /users 0.465 ms - 26
+
+202205-25 21:57:16 info: GET /authenticate 82.006 ms - 43
+
+202205-25 21:57:16 info: GET /users 0.380 ms - 36
+
+202205-25 21:57:16 info: PUT /users/manfred 0.621 ms - 36
+
+202205-25 21:57:16 info: PUT /users/manfred 85.132 ms - -
+
+202205-25 21:57:16 info: GET /users/manfred 2.645 ms - 179
+
+202205-25 21:57:16 info: POST /users 2.798 ms - 21
+
+202205-25 21:57:16 info: DELETE /users/admin 1.938 ms - -
+
+202205-25 21:57:16 info: DELETE /users/manfred 1.745 ms - -
+
+202205-25 21:57:16 info: GET /users/ 2.221 ms - 2
+
+202205-25 21:57:16 info: Shutting down application
+202205-25 21:58:17 info: Started application in development mode
+202205-25 21:58:18 info: GET /users 2.861 ms - 26
+
+202205-25 21:58:18 info: GET /authenticate 88.948 ms - 89
+
+202205-25 21:58:18 info: GET /authenticate 81.714 ms - 43
+
+202205-25 21:58:18 info: GET /users/ 4.438 ms - 177
+
+202205-25 21:58:18 info: GET /users/unknown 3.185 ms - 23
+
+202205-25 21:58:18 info: GET /users/admin 3.296 ms - 175
+
+202205-25 21:58:18 info: DELETE /users/admin 3.233 ms - -
+
+202205-25 21:58:18 info: GET /users/admin 2.765 ms - 23
+
+202205-25 21:58:18 info: DELETE /users/admin 2.595 ms - 23
+
+202205-25 21:58:18 info: POST /users 88.365 ms - 173
+
+202205-25 21:58:18 info: GET /users/admin 3.692 ms - 173
+
+202205-25 21:58:18 info: POST /users 87.723 ms - 191
+
+202205-25 21:58:18 info: POST /users 0.414 ms - 26
+
+202205-25 21:58:18 info: GET /authenticate 87.242 ms - 43
+
+202205-25 21:58:18 info: GET /users 0.381 ms - 36
+
+202205-25 21:58:18 info: PUT /users/manfred 0.611 ms - 36
+
+202205-25 21:58:18 info: PUT /users/manfred 81.691 ms - -
+
+202205-25 21:58:18 info: GET /users/manfred 2.892 ms - 179
+
+202205-25 21:58:18 info: POST /users 3.160 ms - 21
+
+202205-25 21:58:18 info: DELETE /users/admin 1.904 ms - -
+
+202205-25 21:58:18 info: DELETE /users/manfred 1.732 ms - -
+
+202205-25 21:58:18 info: GET /users/ 2.076 ms - 2
+
+202205-25 21:58:18 info: Shutting down application
+202205-25 21:58:56 info: Started application in development mode
+202205-25 21:58:56 info: GET /users 2.900 ms - 26
+
+202205-25 21:58:57 info: GET /authenticate 83.978 ms - 89
+
+202205-25 21:58:57 info: GET /authenticate 82.362 ms - 43
+
+202205-25 21:58:57 info: GET /users/ 5.050 ms - 177
+
+202205-25 21:58:57 info: GET /users/unknown 3.006 ms - 23
+
+202205-25 21:58:57 info: GET /users/admin 3.270 ms - 175
+
+202205-25 21:58:57 info: DELETE /users/admin 3.381 ms - -
+
+202205-25 21:58:57 info: GET /users/admin 2.800 ms - 23
+
+202205-25 21:58:57 info: DELETE /users/admin 2.729 ms - 23
+
+202205-25 21:58:57 info: POST /users 88.531 ms - 173
+
+202205-25 21:58:57 info: GET /users/admin 2.462 ms - 173
+
+202205-25 21:58:57 info: POST /users 93.261 ms - 191
+
+202205-25 21:58:57 info: POST /users 0.401 ms - 26
+
+202205-25 21:58:57 info: GET /authenticate 89.793 ms - 43
+
+202205-25 21:58:57 info: GET /users 0.389 ms - 36
+
+202205-25 21:58:57 info: PUT /users/manfred 0.604 ms - 36
+
+202205-25 21:58:57 info: PUT /users/manfred 82.343 ms - -
+
+202205-25 21:58:57 info: GET /users/manfred 2.887 ms - 179
+
+202205-25 21:58:57 info: POST /users 3.394 ms - 21
+
+202205-25 21:58:57 info: DELETE /users/admin 2.087 ms - -
+
+202205-25 21:58:57 info: DELETE /users/manfred 1.871 ms - -
+
+202205-25 21:58:57 info: GET /users/ 2.268 ms - 2
+
+202205-25 21:58:57 info: Shutting down application
+202205-25 21:59:33 info: Started application in development mode
+202205-25 21:59:33 info: GET /users 2.775 ms - 26
+
+202205-25 21:59:34 info: GET /authenticate 82.681 ms - 89
+
+202205-25 21:59:34 info: GET /authenticate 83.143 ms - 43
+
+202205-25 21:59:34 info: GET /users/ 5.010 ms - 177
+
+202205-25 21:59:34 info: GET /users/unknown 3.403 ms - 23
+
+202205-25 21:59:34 info: GET /users/admin 3.101 ms - 175
+
+202205-25 21:59:34 info: DELETE /users/admin 3.356 ms - -
+
+202205-25 21:59:34 info: GET /users/admin 2.793 ms - 23
+
+202205-25 21:59:34 info: DELETE /users/admin 2.638 ms - 23
+
+202205-25 21:59:34 info: POST /users 82.856 ms - 173
+
+202205-25 21:59:34 info: GET /users/admin 2.629 ms - 173
+
+202205-25 21:59:34 info: POST /users 81.669 ms - 191
+
+202205-25 21:59:34 info: POST /users 0.488 ms - 26
+
+202205-25 21:59:34 info: GET /authenticate 82.902 ms - 43
+
+202205-25 21:59:34 info: GET /users 0.402 ms - 36
+
+202205-25 21:59:34 info: PUT /users/manfred 0.583 ms - 36
+
+202205-25 21:59:34 info: PUT /users/manfred 80.167 ms - -
+
+202205-25 21:59:34 info: GET /users/manfred 2.698 ms - 179
+
+202205-25 21:59:34 info: POST /users 3.248 ms - 21
+
+202205-25 21:59:34 info: DELETE /users/admin 1.705 ms - -
+
+202205-25 21:59:34 info: DELETE /users/manfred 1.866 ms - -
+
+202205-25 21:59:34 info: GET /users/ 2.272 ms - 2
+
+202205-25 21:59:34 info: Shutting down application
+202205-25 22:00:16 info: Started application in development mode
+202205-25 22:00:16 info: GET /users 3.137 ms - 26
+
+202205-25 22:00:17 info: GET /authenticate 81.950 ms - 89
+
+202205-25 22:00:17 info: GET /authenticate 82.519 ms - 43
+
+202205-25 22:00:17 info: GET /users/ 4.851 ms - 177
+
+202205-25 22:00:17 info: GET /users/unknown 3.285 ms - 23
+
+202205-25 22:00:17 info: GET /users/admin 3.012 ms - 175
+
+202205-25 22:00:17 info: DELETE /users/admin 3.379 ms - -
+
+202205-25 22:00:17 info: GET /users/admin 3.292 ms - 23
+
+202205-25 22:00:17 info: DELETE /users/admin 2.773 ms - 23
+
+202205-25 22:00:17 info: POST /users 82.940 ms - 173
+
+202205-25 22:00:17 info: GET /users/admin 2.766 ms - 173
+
+202205-25 22:00:17 info: POST /users 86.452 ms - 191
+
+202205-25 22:00:17 info: POST /users 0.398 ms - 26
+
+202205-25 22:00:17 info: GET /authenticate 98.540 ms - 43
+
+202205-25 22:00:17 info: GET /users 0.373 ms - 36
+
+202205-25 22:00:17 info: PUT /users/manfred 0.556 ms - 36
+
+202205-25 22:00:17 info: PUT /users/manfred 95.819 ms - -
+
+202205-25 22:00:17 info: GET /users/manfred 2.819 ms - 179
+
+202205-25 22:00:17 info: POST /users 3.072 ms - 21
+
+202205-25 22:00:17 info: DELETE /users/admin 2.442 ms - -
+
+202205-25 22:00:17 info: DELETE /users/manfred 1.963 ms - -
+
+202205-25 22:00:17 info: GET /users/ 1.966 ms - 2
+
+202205-25 22:00:17 info: Shutting down application
+202205-25 22:01:59 info: Started application in development mode
+202205-25 22:01:59 info: GET /users 2.970 ms - 26
+
+202205-25 22:02:00 info: GET /authenticate 111.105 ms - 89
+
+202205-25 22:02:00 info: GET /authenticate 91.129 ms - 43
+
+202205-25 22:02:00 info: GET /users/ 5.517 ms - 177
+
+202205-25 22:02:00 info: GET /users/unknown 3.347 ms - 23
+
+202205-25 22:02:00 info: GET /users/admin 3.225 ms - 175
+
+202205-25 22:02:00 info: DELETE /users/admin 3.802 ms - -
+
+202205-25 22:02:00 info: GET /users/admin 2.699 ms - 23
+
+202205-25 22:02:00 info: DELETE /users/admin 2.800 ms - 23
+
+202205-25 22:02:00 info: POST /users 89.093 ms - 173
+
+202205-25 22:02:00 info: GET /users/admin 2.939 ms - 173
+
+202205-25 22:02:00 info: POST /users 90.621 ms - 191
+
+202205-25 22:02:00 info: POST /users 0.438 ms - 26
+
+202205-25 22:02:00 info: GET /authenticate 85.309 ms - 43
+
+202205-25 22:02:00 info: GET /users 3.030 ms - 367
+
+202205-25 22:02:00 info: PUT /users/manfred 0.489 ms - 36
+
+202205-25 22:02:00 info: PUT /users/manfred 86.974 ms - -
+
+202205-25 22:02:00 info: GET /users/manfred 3.089 ms - 179
+
+202205-25 22:02:00 info: POST /users 4.224 ms - 21
+
+202205-25 22:02:00 info: DELETE /users/admin 2.044 ms - -
+
+202205-25 22:02:00 info: DELETE /users/manfred 1.778 ms - -
+
+202205-25 22:02:00 info: GET /users/ 2.050 ms - 2
+
+202205-25 22:02:00 info: Shutting down application
+202205-25 22:02:13 info: Started application in development mode
+202205-25 22:02:13 info: GET /users 2.836 ms - 26
+
+202205-25 22:02:13 info: GET /authenticate 87.745 ms - 89
+
+202205-25 22:02:13 info: GET /authenticate 88.168 ms - 43
+
+202205-25 22:02:13 info: GET /users/ 4.861 ms - 177
+
+202205-25 22:02:13 info: GET /users/unknown 3.401 ms - 23
+
+202205-25 22:02:13 info: GET /users/admin 2.810 ms - 175
+
+202205-25 22:02:13 info: DELETE /users/admin 3.346 ms - -
+
+202205-25 22:02:13 info: GET /users/admin 2.807 ms - 23
+
+202205-25 22:02:13 info: DELETE /users/admin 2.748 ms - 23
+
+202205-25 22:02:13 info: POST /users 89.177 ms - 173
+
+202205-25 22:02:13 info: GET /users/admin 3.115 ms - 173
+
+202205-25 22:02:13 info: POST /users 88.229 ms - 191
+
+202205-25 22:02:13 info: POST /users 0.611 ms - 26
+
+202205-25 22:02:14 info: GET /authenticate 83.961 ms - 43
+
+202205-25 22:02:14 info: GET /users 0.411 ms - 36
+
+202205-25 22:02:14 info: PUT /users/manfred 0.757 ms - 36
+
+202205-25 22:02:14 info: PUT /users/manfred 84.805 ms - -
+
+202205-25 22:02:14 info: GET /users/manfred 2.794 ms - 179
+
+202205-25 22:02:14 info: POST /users 3.405 ms - 21
+
+202205-25 22:02:14 info: DELETE /users/admin 1.786 ms - -
+
+202205-25 22:02:14 info: DELETE /users/manfred 1.984 ms - -
+
+202205-25 22:02:14 info: GET /users/ 2.092 ms - 2
+
+202205-25 22:02:14 info: Shutting down application
+202205-25 22:02:29 info: Started application in development mode
+202205-25 22:02:29 info: GET /users 2.838 ms - 26
+
+202205-25 22:02:30 info: GET /authenticate 90.795 ms - 89
+
+202205-25 22:02:30 info: GET /authenticate 87.305 ms - 43
+
+202205-25 22:02:30 info: GET /users/ 5.038 ms - 177
+
+202205-25 22:02:30 info: GET /users/unknown 3.345 ms - 23
+
+202205-25 22:02:30 info: GET /users/admin 2.893 ms - 175
+
+202205-25 22:02:30 info: DELETE /users/admin 3.276 ms - -
+
+202205-25 22:02:30 info: GET /users/admin 2.777 ms - 23
+
+202205-25 22:02:30 info: DELETE /users/admin 2.450 ms - 23
+
+202205-25 22:02:30 info: POST /users 84.607 ms - 173
+
+202205-25 22:02:30 info: GET /users/admin 2.643 ms - 173
+
+202205-25 22:02:30 info: POST /users 87.963 ms - 191
+
+202205-25 22:02:30 info: POST /users 0.418 ms - 26
+
+202205-25 22:02:30 info: GET /authenticate 89.248 ms - 43
+
+202205-25 22:02:30 info: GET /users 3.061 ms - 367
+
+202205-25 22:02:30 info: PUT /users/manfred 0.433 ms - 36
+
+202205-25 22:02:30 info: PUT /users/manfred 80.260 ms - -
+
+202205-25 22:02:30 info: GET /users/manfred 2.485 ms - 179
+
+202205-25 22:02:30 info: POST /users 3.056 ms - 21
+
+202205-25 22:02:30 info: DELETE /users/admin 2.030 ms - -
+
+202205-25 22:02:30 info: DELETE /users/manfred 1.964 ms - -
+
+202205-25 22:02:30 info: GET /users/ 2.223 ms - 2
+
+202205-25 22:02:30 info: Shutting down application
+202205-25 22:03:15 info: Started application in development mode
+202205-25 22:03:16 info: GET /users 2.742 ms - 26
+
+202205-25 22:03:16 info: GET /authenticate 88.242 ms - 89
+
+202205-25 22:03:16 info: GET /authenticate 87.422 ms - 43
+
+202205-25 22:03:16 info: GET /users/ 5.114 ms - 177
+
+202205-25 22:03:16 info: GET /users/unknown 3.486 ms - 23
+
+202205-25 22:03:16 info: GET /users/admin 2.825 ms - 175
+
+202205-25 22:03:16 info: DELETE /users/admin 3.981 ms - -
+
+202205-25 22:03:16 info: GET /users/admin 3.094 ms - 23
+
+202205-25 22:03:16 info: DELETE /users/admin 2.402 ms - 23
+
+202205-25 22:03:16 info: POST /users 90.449 ms - 173
+
+202205-25 22:03:16 info: GET /users/admin 2.619 ms - 173
+
+202205-25 22:03:16 info: POST /users 87.469 ms - 191
+
+202205-25 22:03:16 info: POST /users 0.409 ms - 26
+
+202205-25 22:03:16 info: GET /authenticate 83.677 ms - 43
+
+202205-25 22:03:16 info: GET /users 0.686 ms - 36
+
+202205-25 22:03:16 info: PUT /users/manfred 1.038 ms - 36
+
+202205-25 22:03:16 info: PUT /users/manfred 86.972 ms - -
+
+202205-25 22:03:16 info: GET /users/manfred 2.707 ms - 179
+
+202205-25 22:03:16 info: POST /users 3.475 ms - 21
+
+202205-25 22:03:16 info: DELETE /users/admin 2.051 ms - -
+
+202205-25 22:03:17 info: DELETE /users/manfred 2.451 ms - -
+
+202205-25 22:03:17 info: GET /users/ 2.298 ms - 2
+
+202205-25 22:03:17 info: Shutting down application
+202205-25 22:04:03 info: Started application in development mode
+202205-25 22:04:03 info: GET /users 2.765 ms - 26
+
+202205-25 22:04:03 info: GET /authenticate 90.009 ms - 89
+
+202205-25 22:04:03 info: GET /authenticate 88.236 ms - 43
+
+202205-25 22:04:03 info: GET /users/ 4.933 ms - 177
+
+202205-25 22:04:04 info: GET /users/unknown 3.012 ms - 23
+
+202205-25 22:04:04 info: GET /users/admin 3.168 ms - 175
+
+202205-25 22:04:04 info: DELETE /users/admin 3.494 ms - -
+
+202205-25 22:04:04 info: GET /users/admin 3.106 ms - 23
+
+202205-25 22:04:04 info: DELETE /users/admin 2.830 ms - 23
+
+202205-25 22:04:04 info: POST /users 90.557 ms - 173
+
+202205-25 22:04:04 info: GET /users/admin 2.646 ms - 173
+
+202205-25 22:04:04 info: POST /users 90.287 ms - 191
+
+202205-25 22:04:04 info: POST /users 0.451 ms - 26
+
+202205-25 22:04:04 info: GET /authenticate 82.247 ms - 43
+
+202205-25 22:04:04 info: GET /users 0.386 ms - 36
+
+202205-25 22:04:04 info: PUT /users/manfred 0.609 ms - 36
+
+202205-25 22:04:04 info: PUT /users/manfred 86.411 ms - -
+
+202205-25 22:04:04 info: GET /users/manfred 3.852 ms - 179
+
+202205-25 22:04:04 info: POST /users 3.080 ms - 21
+
+202205-25 22:04:04 info: DELETE /users/admin 2.022 ms - -
+
+202205-25 22:04:04 info: DELETE /users/manfred 2.116 ms - -
+
+202205-25 22:04:04 info: GET /users/ 2.161 ms - 2
+
+202205-25 22:04:04 info: Shutting down application
+{
+    "time": "2022-05-25T20:04:07.683Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:04:07.725Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:04:08.280Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:04:08 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:04:56.585Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "manfred",
+        "date": "[25/May/2022:20:04:56 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:05.586Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:05 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:13.285Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:13 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:05:16.897Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:05:16 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "403",
+        "content-length": "36",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:09:17.461Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:09:17.502Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+202205-25 22:09:23 info: Started application in development mode
+202205-25 22:09:24 info: GET /users 3.322 ms - 26
+
+202205-25 22:09:24 info: GET /authenticate 90.392 ms - 89
+
+202205-25 22:09:24 info: GET /authenticate 81.627 ms - 43
+
+202205-25 22:09:24 info: GET /users/ 4.630 ms - 177
+
+202205-25 22:09:24 info: GET /users/unknown 3.393 ms - 23
+
+202205-25 22:09:24 info: GET /users/admin 2.734 ms - 175
+
+202205-25 22:09:24 info: DELETE /users/admin 3.379 ms - -
+
+202205-25 22:09:24 info: GET /users/admin 2.847 ms - 23
+
+202205-25 22:09:24 info: DELETE /users/admin 2.638 ms - 23
+
+202205-25 22:09:24 info: POST /users 83.646 ms - 173
+
+202205-25 22:09:24 info: GET /users/admin 2.515 ms - 173
+
+202205-25 22:09:24 info: POST /users 82.966 ms - 191
+
+202205-25 22:09:24 info: POST /users 0.533 ms - 26
+
+202205-25 22:09:24 info: GET /authenticate 88.381 ms - 43
+
+202205-25 22:09:24 info: GET /users 0.395 ms - 36
+
+202205-25 22:09:24 info: PUT /users/manfred 0.647 ms - 36
+
+202205-25 22:09:24 info: PUT /users/manfred 86.332 ms - -
+
+202205-25 22:09:24 info: GET /users/manfred 2.821 ms - 179
+
+202205-25 22:09:24 info: POST /users 3.175 ms - 21
+
+202205-25 22:09:25 info: DELETE /users/admin 1.984 ms - -
+
+202205-25 22:09:25 info: DELETE /users/manfred 2.317 ms - -
+
+202205-25 22:09:25 info: GET /users/ 1.991 ms - 2
+
+202205-25 22:09:25 info: Shutting down application
+202205-25 22:09:59 info: Started application in development mode
+202205-25 22:09:59 info: GET /users 2.947 ms - 26
+
+202205-25 22:09:59 info: GET /authenticate 87.542 ms - 89
+
+202205-25 22:09:59 info: GET /authenticate 83.210 ms - 43
+
+202205-25 22:09:59 info: GET /users/ 5.326 ms - 177
+
+202205-25 22:09:59 info: GET /users/unknown 3.004 ms - 23
+
+202205-25 22:09:59 info: GET /users/admin 2.818 ms - 175
+
+202205-25 22:09:59 info: DELETE /users/admin 4.067 ms - -
+
+202205-25 22:09:59 info: GET /users/admin 3.262 ms - 23
+
+202205-25 22:09:59 info: DELETE /users/admin 2.693 ms - 23
+
+202205-25 22:09:59 info: POST /users 82.701 ms - 173
+
+202205-25 22:09:59 info: GET /users/admin 3.149 ms - 173
+
+202205-25 22:09:59 info: POST /users 87.340 ms - 191
+
+202205-25 22:09:59 info: POST /users 0.468 ms - 26
+
+202205-25 22:10:00 info: GET /authenticate 82.423 ms - 43
+
+202205-25 22:10:00 info: GET /users 0.366 ms - 36
+
+202205-25 22:10:00 info: PUT /users/manfred 0.709 ms - 36
+
+202205-25 22:10:00 info: PUT /users/manfred 86.340 ms - -
+
+202205-25 22:10:00 info: GET /users/manfred 2.575 ms - 179
+
+202205-25 22:10:00 info: POST /users 2.948 ms - 21
+
+202205-25 22:10:00 info: DELETE /users/admin 1.883 ms - -
+
+202205-25 22:10:00 info: DELETE /users/manfred 1.734 ms - -
+
+202205-25 22:10:00 info: GET /users/ 1.710 ms - 2
+
+202205-25 22:10:00 info: Shutting down application
+202205-25 22:10:18 info: Started application in development mode
+202205-25 22:10:19 info: GET /users 2.774 ms - 26
+
+202205-25 22:10:19 info: GET /authenticate 87.651 ms - 89
+
+202205-25 22:10:19 info: GET /authenticate 91.035 ms - 43
+
+202205-25 22:10:19 info: GET /users/ 6.179 ms - 177
+
+202205-25 22:10:19 info: GET /users/unknown 4.094 ms - 23
+
+202205-25 22:10:19 info: GET /users/admin 2.778 ms - 175
+
+202205-25 22:10:19 info: DELETE /users/admin 3.373 ms - -
+
+202205-25 22:10:19 info: GET /users/admin 2.782 ms - 23
+
+202205-25 22:10:19 info: DELETE /users/admin 2.511 ms - 23
+
+202205-25 22:10:19 info: POST /users 89.493 ms - 173
+
+202205-25 22:10:19 info: GET /users/admin 3.001 ms - 173
+
+202205-25 22:10:19 info: POST /users 87.002 ms - 191
+
+202205-25 22:10:19 info: POST /users 0.482 ms - 26
+
+202205-25 22:10:19 info: GET /authenticate 82.434 ms - 43
+
+202205-25 22:10:19 info: GET /users 0.372 ms - 36
+
+202205-25 22:10:19 info: PUT /users/manfred 3.410 ms - -
+
+202205-25 22:10:20 info: PUT /users/manfred 80.158 ms - -
+
+202205-25 22:10:20 info: GET /users/manfred 2.345 ms - 179
+
+202205-25 22:10:20 info: POST /users 3.175 ms - 21
+
+202205-25 22:10:20 info: DELETE /users/admin 1.876 ms - -
+
+202205-25 22:10:20 info: DELETE /users/manfred 1.670 ms - -
+
+202205-25 22:10:20 info: GET /users/ 1.829 ms - 2
+
+202205-25 22:10:20 info: Shutting down application
+202205-25 22:11:33 info: Started application in development mode
+202205-25 22:11:33 info: GET /users 2.787 ms - 26
+
+202205-25 22:11:33 info: GET /authenticate 89.264 ms - 89
+
+202205-25 22:11:33 info: GET /authenticate 91.205 ms - 43
+
+202205-25 22:11:33 info: GET /users/ 5.159 ms - 177
+
+202205-25 22:11:33 info: GET /users/unknown 2.993 ms - 23
+
+202205-25 22:11:33 info: GET /users/admin 3.582 ms - 175
+
+202205-25 22:11:33 info: DELETE /users/admin 3.687 ms - -
+
+202205-25 22:11:33 info: GET /users/admin 3.120 ms - 23
+
+202205-25 22:11:33 info: DELETE /users/admin 2.606 ms - 23
+
+202205-25 22:11:34 info: POST /users 89.981 ms - 173
+
+202205-25 22:11:34 info: GET /users/admin 2.986 ms - 173
+
+202205-25 22:11:34 info: POST /users 88.794 ms - 191
+
+202205-25 22:11:34 info: POST /users 0.470 ms - 26
+
+202205-25 22:11:34 info: GET /authenticate 89.017 ms - 43
+
+202205-25 22:11:34 info: GET /users 0.390 ms - 36
+
+202205-25 22:11:34 info: PUT /users/manfred 4.388 ms - -
+
+202205-25 22:11:34 info: PUT /users/manfred 80.382 ms - -
+
+202205-25 22:11:34 info: GET /users/manfred 2.597 ms - 179
+
+202205-25 22:11:34 info: POST /users 3.639 ms - 21
+
+202205-25 22:11:34 info: DELETE /users/admin 1.862 ms - -
+
+202205-25 22:11:34 info: DELETE /users/manfred 1.765 ms - -
+
+202205-25 22:11:34 info: GET /users/ 2.600 ms - 2
+
+202205-25 22:11:34 info: Shutting down application
+202205-25 22:16:34 info: Started application in development mode
+202205-25 22:16:35 info: GET /users 2.906 ms - 26
+
+202205-25 22:16:35 info: GET /authenticate 104.626 ms - 89
+
+202205-25 22:16:35 info: GET /authenticate 86.312 ms - 43
+
+202205-25 22:16:35 info: GET /users/ 5.451 ms - 177
+
+202205-25 22:16:35 info: GET /users/unknown 3.724 ms - 23
+
+202205-25 22:16:35 info: GET /users/admin 2.770 ms - 175
+
+202205-25 22:16:35 info: DELETE /users/admin 3.409 ms - -
+
+202205-25 22:16:35 info: GET /users/admin 3.146 ms - 23
+
+202205-25 22:16:35 info: DELETE /users/admin 2.503 ms - 23
+
+202205-25 22:16:35 info: POST /users 85.843 ms - 173
+
+202205-25 22:16:35 info: GET /users/admin 3.393 ms - 173
+
+202205-25 22:16:35 info: POST /users 83.163 ms - 191
+
+202205-25 22:16:35 info: POST /users 0.387 ms - 26
+
+202205-25 22:16:35 info: GET /authenticate 81.240 ms - 43
+
+202205-25 22:16:35 info: GET /users 0.381 ms - 36
+
+202205-25 22:16:35 info: GET /users 2.634 ms - 367
+
+202205-25 22:16:35 info: PUT /users/manfred 3.377 ms - -
+
+202205-25 22:16:35 info: GET /users 2.534 ms - 355
+
+202205-25 22:16:35 info: PUT /users/manfred 84.647 ms - -
+
+202205-25 22:16:35 info: GET /users/manfred 2.482 ms - 179
+
+202205-25 22:16:35 info: POST /users 5.740 ms - 21
+
+202205-25 22:16:35 info: DELETE /users/admin 2.151 ms - -
+
+202205-25 22:16:35 info: DELETE /users/manfred 1.704 ms - -
+
+202205-25 22:16:35 info: GET /users/ 1.843 ms - 2
+
+202205-25 22:16:35 info: Shutting down application
+202205-25 22:16:59 info: Started application in development mode
+202205-25 22:17:00 info: GET /users 2.953 ms - 26
+
+202205-25 22:17:00 info: GET /authenticate 88.458 ms - 89
+
+202205-25 22:17:00 info: GET /authenticate 85.637 ms - 43
+
+202205-25 22:17:00 info: GET /users/ 4.590 ms - 177
+
+202205-25 22:17:00 info: GET /users/unknown 3.369 ms - 23
+
+202205-25 22:17:00 info: GET /users/admin 2.724 ms - 175
+
+202205-25 22:17:00 info: DELETE /users/admin 3.362 ms - -
+
+202205-25 22:17:00 info: GET /users/admin 2.829 ms - 23
+
+202205-25 22:17:00 info: DELETE /users/admin 2.635 ms - 23
+
+202205-25 22:17:00 info: POST /users 83.363 ms - 173
+
+202205-25 22:17:00 info: GET /users/admin 2.588 ms - 173
+
+202205-25 22:17:00 info: POST /users 85.175 ms - 191
+
+202205-25 22:17:00 info: POST /users 0.455 ms - 26
+
+202205-25 22:17:00 info: GET /authenticate 81.500 ms - 43
+
+202205-25 22:17:00 info: GET /users 0.394 ms - 36
+
+202205-25 22:17:00 info: GET /users/manfred 2.875 ms - 191
+
+202205-25 22:17:00 info: PUT /users/manfred 3.423 ms - -
+
+202205-25 22:17:00 info: GET /users 2.582 ms - 355
+
+202205-25 22:17:00 info: PUT /users/manfred 79.672 ms - -
+
+202205-25 22:17:00 info: GET /users/manfred 2.500 ms - 179
+
+202205-25 22:17:00 info: POST /users 3.147 ms - 21
+
+202205-25 22:17:01 info: DELETE /users/admin 2.240 ms - -
+
+202205-25 22:17:01 info: DELETE /users/manfred 1.796 ms - -
+
+202205-25 22:17:01 info: GET /users/ 1.889 ms - 2
+
+202205-25 22:17:01 info: Shutting down application
+202205-25 22:17:34 info: Started application in development mode
+202205-25 22:17:34 info: GET /users 2.733 ms - 26
+
+202205-25 22:17:35 info: GET /authenticate 91.689 ms - 89
+
+202205-25 22:17:35 info: GET /authenticate 88.504 ms - 43
+
+202205-25 22:17:35 info: GET /users/ 4.653 ms - 177
+
+202205-25 22:17:35 info: GET /users/unknown 3.387 ms - 23
+
+202205-25 22:17:35 info: GET /users/admin 2.995 ms - 175
+
+202205-25 22:17:35 info: DELETE /users/admin 3.379 ms - -
+
+202205-25 22:17:35 info: GET /users/admin 2.878 ms - 23
+
+202205-25 22:17:35 info: DELETE /users/admin 2.836 ms - 23
+
+202205-25 22:17:35 info: POST /users 85.821 ms - 173
+
+202205-25 22:17:35 info: GET /users/admin 2.851 ms - 173
+
+202205-25 22:17:35 info: POST /users 82.559 ms - 191
+
+202205-25 22:17:35 info: POST /users 0.489 ms - 26
+
+202205-25 22:17:35 info: GET /authenticate 86.239 ms - 43
+
+202205-25 22:17:35 info: GET /users 0.403 ms - 36
+
+202205-25 22:17:35 info: GET /users/manfred 3.031 ms - 191
+
+202205-25 22:17:35 info: PUT /users/manfred 3.396 ms - -
+
+202205-25 22:17:35 info: GET /users 2.810 ms - 355
+
+202205-25 22:17:35 info: PUT /users/manfred 79.907 ms - -
+
+202205-25 22:17:35 info: GET /users/manfred 2.324 ms - 179
+
+202205-25 22:17:35 info: POST /users 3.649 ms - 21
+
+202205-25 22:17:35 info: DELETE /users/admin 1.845 ms - -
+
+202205-25 22:17:35 info: DELETE /users/manfred 1.992 ms - -
+
+202205-25 22:17:35 info: GET /users/ 1.710 ms - 2
+
+202205-25 22:17:35 info: Shutting down application
+{
+    "time": "2022-05-25T20:18:22.089Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:18:22.131Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:18:23.543Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:23 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:28.906Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[25/May/2022:20:18:28 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:29.769Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:29 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:18:33.241Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:18:33 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:22:57.159Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:22:57.200Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:22:59.013Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:22:59 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:23:01.706Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:23:01 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:23:57.419Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:23:57 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:00.288Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:00 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:12.701Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:24:12.744Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:24:17.999Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:17 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:20.164Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:20 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:24:33.122Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:24:33 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:38.015Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T20:25:38.056Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T20:25:42.323Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:42 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:48.484Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:48 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:50.795Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:50 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T20:25:52.349Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:20:25:52 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:08:17.040Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:08:17.085Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:08:19.128Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:08:19 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "500",
+        "content-length": "52",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:00.528Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:10:00.572Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:10:02.183Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:02 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:17.853Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:17 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:10:36.969Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:10:37.011Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:10:39.615Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:10:39 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:04.859Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:04.902Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:07.562Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:07 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:36.272Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:36.315Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:38.200Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:38 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:11:53.006Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:11:53.048Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:11:55.770Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:11:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:14:22.199Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:14:22.240Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:14:24.376Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:14:24 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:14:44.256Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:14:44.299Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:14:49.212Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:14:49 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:15:12.953Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:15:12.993Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:15:14.856Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:15:14 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:15:48.568Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:15:48.609Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:15:51.022Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:15:51 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "175",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:41.106Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:20:41.148Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:20:43.476Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:43 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:48.252Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[25/May/2022:21:20:48 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:50.378Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:50 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:20:56.401Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:20:56 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:28:50.181Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-25T21:28:50.222Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-25T21:28:53.847Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:28:53 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:28:55.773Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:28:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-25T21:29:00.109Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[25/May/2022:21:29:00 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+202205-25 23:29:08 info: Started application in development mode
+202205-25 23:29:08 info: GET /users 2.985 ms - 26
+
+202205-25 23:29:09 info: GET /authenticate 83.650 ms - 89
+
+202205-25 23:29:09 info: GET /authenticate 87.136 ms - 43
+
+202205-25 23:29:09 info: GET /users/ 4.540 ms - 62
+
+202205-25 23:29:09 info: GET /users/unknown 3.578 ms - 23
+
+202205-25 23:29:09 info: GET /users/admin 3.064 ms - 60
+
+202205-25 23:29:09 info: DELETE /users/admin 3.603 ms - -
+
+202205-25 23:29:09 info: GET /users/admin 2.902 ms - 23
+
+202205-25 23:29:09 info: DELETE /users/admin 3.310 ms - 23
+
+202205-25 23:29:09 info: POST /users 84.064 ms - 173
+
+202205-25 23:29:09 info: GET /users/admin 2.597 ms - 58
+
+202205-25 23:29:09 info: POST /users 88.403 ms - 191
+
+202205-25 23:29:09 info: POST /users 0.409 ms - 26
+
+202205-25 23:29:09 info: GET /authenticate 86.476 ms - 43
+
+202205-25 23:29:09 info: GET /users 0.390 ms - 36
+
+202205-25 23:29:09 info: GET /users/manfred 2.939 ms - 76
+
+202205-25 23:29:09 info: PUT /users/manfred 3.199 ms - -
+
+202205-25 23:29:09 info: GET /users 2.540 ms - 125
+
+202205-25 23:29:09 info: PUT /users/manfred 81.707 ms - -
+
+202205-25 23:29:09 info: GET /users/manfred 2.226 ms - 64
+
+202205-25 23:29:09 info: POST /users 3.426 ms - 21
+
+202205-25 23:29:09 info: DELETE /users/admin 1.859 ms - -
+
+202205-25 23:29:09 info: DELETE /users/manfred 1.993 ms - -
+
+202205-25 23:29:09 info: GET /users/ 2.119 ms - 2
+
+202205-25 23:29:09 info: Shutting down application
+202205-25 23:29:45 info: Started application in development mode
+202205-25 23:29:46 info: GET /users 2.712 ms - 26
+
+202205-25 23:29:46 info: GET /authenticate 82.016 ms - 89
+
+202205-25 23:29:46 info: GET /authenticate 81.531 ms - 43
+
+202205-25 23:29:46 info: GET /users/ 4.483 ms - 62
+
+202205-25 23:29:46 info: GET /users/unknown 3.093 ms - 23
+
+202205-25 23:29:46 info: GET /users/admin 2.908 ms - 60
+
+202205-25 23:29:46 info: DELETE /users/admin 3.316 ms - -
+
+202205-25 23:29:46 info: GET /users/admin 2.830 ms - 23
+
+202205-25 23:29:46 info: DELETE /users/admin 2.686 ms - 23
+
+202205-25 23:29:46 info: POST /users 82.711 ms - 173
+
+202205-25 23:29:46 info: GET /users/admin 2.777 ms - 58
+
+202205-25 23:29:46 info: POST /users 82.036 ms - 191
+
+202205-25 23:29:46 info: POST /users 0.386 ms - 26
+
+202205-25 23:29:46 info: GET /authenticate 86.441 ms - 43
+
+202205-25 23:29:46 info: GET /users 0.382 ms - 36
+
+202205-25 23:29:46 info: GET /users/manfred 3.101 ms - 76
+
+202205-25 23:29:46 info: PUT /users/manfred 3.223 ms - -
+
+202205-25 23:29:46 info: GET /users 2.659 ms - 125
+
+202205-25 23:29:46 info: PUT /users/manfred 79.462 ms - -
+
+202205-25 23:29:46 info: GET /users/manfred 2.237 ms - 64
+
+202205-25 23:29:46 info: POST /users 3.356 ms - 21
+
+202205-25 23:29:46 info: DELETE /users/admin 1.863 ms - -
+
+202205-25 23:29:46 info: DELETE /users/manfred 1.556 ms - -
+
+202205-25 23:29:46 info: GET /users/ 2.075 ms - 2
+
+202205-25 23:29:46 info: Shutting down application
+202205-25 23:31:02 info: Started application in development mode
+202205-25 23:31:02 info: GET /users 2.793 ms - 26
+
+202205-25 23:31:02 info: GET /authenticate 88.606 ms - 89
+
+202205-25 23:31:03 info: GET /authenticate 89.921 ms - 43
+
+202205-25 23:31:03 info: GET /users/ 4.840 ms - 62
+
+202205-25 23:31:03 info: GET /users/unknown 3.461 ms - 23
+
+202205-25 23:31:03 info: GET /users/admin 2.804 ms - 60
+
+202205-25 23:31:03 info: DELETE /users/admin 3.333 ms - -
+
+202205-25 23:31:03 info: GET /users/admin 2.952 ms - 23
+
+202205-25 23:31:03 info: DELETE /users/admin 2.462 ms - 23
+
+202205-25 23:31:03 info: POST /users 89.616 ms - 173
+
+202205-25 23:31:03 info: GET /users/admin 2.785 ms - 58
+
+202205-25 23:31:03 info: POST /users 87.944 ms - 191
+
+202205-25 23:31:03 info: POST /users 0.397 ms - 26
+
+202205-25 23:31:03 info: GET /authenticate 87.565 ms - 43
+
+202205-25 23:31:03 info: GET /users 0.385 ms - 36
+
+202205-25 23:31:03 info: GET /users/manfred 3.211 ms - 76
+
+202205-25 23:31:03 info: PUT /users/manfred 3.406 ms - -
+
+202205-25 23:31:03 info: GET /users 2.767 ms - 125
+
+202205-25 23:31:03 info: PUT /users/manfred 85.269 ms - -
+
+202205-25 23:31:03 info: GET /users/manfred 2.578 ms - 64
+
+202205-25 23:31:03 info: POST /users 3.256 ms - 21
+
+202205-25 23:31:03 info: DELETE /users/admin 1.981 ms - -
+
+202205-25 23:31:03 info: DELETE /users/manfred 1.658 ms - -
+
+202205-25 23:31:03 info: GET /users/ 1.847 ms - 2
+
+202205-25 23:31:03 info: Shutting down application
+202205-25 23:32:11 info: Started application in development mode
+202205-25 23:32:11 info: GET /users 2.834 ms - 26
+
+202205-25 23:32:12 info: GET /authenticate 82.673 ms - 89
+
+202205-25 23:32:12 info: GET /authenticate 87.144 ms - 43
+
+202205-25 23:32:12 info: GET /users/ 4.483 ms - 62
+
+202205-25 23:32:12 info: GET /users/unknown 2.868 ms - 23
+
+202205-25 23:32:12 info: GET /users/admin 2.965 ms - 60
+
+202205-25 23:32:12 info: DELETE /users/admin 3.284 ms - -
+
+202205-25 23:32:12 info: GET /users/admin 3.062 ms - 23
+
+202205-25 23:32:12 info: DELETE /users/admin 2.609 ms - 23
+
+202205-25 23:32:12 info: POST /users 88.494 ms - 173
+
+202205-25 23:32:12 info: GET /users/admin 3.061 ms - 58
+
+202205-25 23:32:12 info: POST /users 85.623 ms - 191
+
+202205-25 23:32:12 info: POST /users 0.476 ms - 26
+
+202205-25 23:32:12 info: GET /authenticate 89.639 ms - 43
+
+202205-25 23:32:12 info: GET /users 0.398 ms - 36
+
+202205-25 23:32:12 info: GET /users/manfred 3.685 ms - 76
+
+202205-25 23:32:12 info: PUT /users/manfred 3.623 ms - -
+
+202205-25 23:32:12 info: GET /users 3.017 ms - 125
+
+202205-25 23:32:12 info: PUT /users/manfred 85.125 ms - -
+
+202205-25 23:32:12 info: GET /users/manfred 2.277 ms - 64
+
+202205-25 23:32:12 info: POST /users 3.137 ms - 21
+
+202205-25 23:32:12 info: DELETE /users/admin 2.127 ms - -
+
+202205-25 23:32:12 info: DELETE /users/manfred 1.778 ms - -
+
+202205-25 23:32:12 info: GET /users/ 1.737 ms - 2
+
+202205-25 23:32:12 info: Shutting down application
+202205-25 23:32:47 info: Started application in development mode
+202205-25 23:32:47 info: GET /users 2.785 ms - 26
+
+202205-25 23:32:48 info: GET /authenticate 85.490 ms - 89
+
+202205-25 23:32:48 info: GET /authenticate 82.032 ms - 43
+
+202205-25 23:32:48 info: GET /users/ 5.003 ms - 62
+
+202205-25 23:32:48 info: GET /users/unknown 3.154 ms - 23
+
+202205-25 23:32:48 info: GET /users/admin 2.981 ms - 60
+
+202205-25 23:32:48 info: DELETE /users/admin 3.527 ms - -
+
+202205-25 23:32:48 info: GET /users/admin 2.849 ms - 23
+
+202205-25 23:32:48 info: DELETE /users/admin 2.447 ms - 23
+
+202205-25 23:32:48 info: POST /users 83.312 ms - 173
+
+202205-25 23:32:48 info: GET /users/admin 2.697 ms - 58
+
+202205-25 23:32:48 info: POST /users 82.912 ms - 191
+
+202205-25 23:32:48 info: POST /users 0.397 ms - 26
+
+202205-25 23:32:48 info: GET /authenticate 81.451 ms - 43
+
+202205-25 23:32:48 info: GET /users 0.372 ms - 36
+
+202205-25 23:32:48 info: GET /users/manfred 2.732 ms - 76
+
+202205-25 23:32:48 info: PUT /users/manfred 2.967 ms - -
+
+202205-25 23:32:48 info: GET /users 2.769 ms - 125
+
+202205-25 23:32:48 info: PUT /users/manfred 81.937 ms - -
+
+202205-25 23:32:48 info: GET /users/manfred 3.049 ms - 64
+
+202205-25 23:32:48 info: POST /users 3.399 ms - 21
+
+202205-25 23:32:48 info: DELETE /users/admin 1.958 ms - -
+
+202205-25 23:32:48 info: DELETE /users/manfred 1.714 ms - -
+
+202205-25 23:32:48 info: GET /users/ 1.795 ms - 2
+
+202205-25 23:32:48 info: Shutting down application
+202205-25 23:33:36 info: Started application in development mode
+202205-25 23:33:36 info: GET /users 2.920 ms - 26
+
+202205-25 23:33:36 info: GET /authenticate 83.449 ms - 89
+
+202205-25 23:33:37 info: GET /authenticate 88.263 ms - 43
+
+202205-25 23:33:37 info: GET /users/ 4.601 ms - 62
+
+202205-25 23:33:37 info: GET /users/unknown 3.079 ms - 23
+
+202205-25 23:33:37 info: GET /users/admin 3.138 ms - 60
+
+202205-25 23:33:37 info: DELETE /users/admin 3.671 ms - -
+
+202205-25 23:33:37 info: GET /users/admin 3.222 ms - 23
+
+202205-25 23:33:37 info: DELETE /users/admin 2.670 ms - 23
+
+202205-25 23:33:37 info: POST /users 88.806 ms - 173
+
+202205-25 23:33:37 info: GET /users/admin 2.671 ms - 58
+
+202205-25 23:33:37 info: POST /users 87.499 ms - 191
+
+202205-25 23:33:37 info: POST /users 0.564 ms - 26
+
+202205-25 23:33:37 info: GET /authenticate 87.012 ms - 43
+
+202205-25 23:33:37 info: GET /users 0.399 ms - 36
+
+202205-25 23:33:37 info: GET /users/manfred 2.695 ms - 76
+
+202205-25 23:33:37 info: PUT /users/manfred 3.400 ms - -
+
+202205-25 23:33:37 info: GET /users/manfred 2.394 ms - 64
+
+202205-25 23:33:37 info: PUT /users/manfred 85.735 ms - -
+
+202205-25 23:33:37 info: GET /users/manfred 2.077 ms - 64
+
+202205-25 23:33:37 info: POST /users 3.316 ms - 21
+
+202205-25 23:33:37 info: DELETE /users/admin 2.046 ms - -
+
+202205-25 23:33:37 info: DELETE /users/manfred 1.639 ms - -
+
+202205-25 23:33:37 info: GET /users/ 1.767 ms - 2
+
+202205-25 23:33:37 info: Shutting down application
+202205-25 23:33:54 info: Started application in development mode
+202205-25 23:33:54 info: GET /users 2.925 ms - 26
+
+202205-25 23:33:55 info: GET /authenticate 88.423 ms - 89
+
+202205-25 23:33:55 info: GET /authenticate 81.799 ms - 43
+
+202205-25 23:33:55 info: GET /users/ 4.719 ms - 62
+
+202205-25 23:33:55 info: GET /users/unknown 3.407 ms - 23
+
+202205-25 23:33:55 info: GET /users/admin 3.016 ms - 60
+
+202205-25 23:33:55 info: DELETE /users/admin 3.437 ms - -
+
+202205-25 23:33:55 info: GET /users/admin 3.495 ms - 23
+
+202205-25 23:33:55 info: DELETE /users/admin 2.557 ms - 23
+
+202205-25 23:33:55 info: POST /users 88.320 ms - 173
+
+202205-25 23:33:55 info: GET /users/admin 2.683 ms - 58
+
+202205-25 23:33:55 info: POST /users 87.086 ms - 191
+
+202205-25 23:33:55 info: POST /users 0.408 ms - 26
+
+202205-25 23:33:55 info: GET /authenticate 81.635 ms - 43
+
+202205-25 23:33:55 info: GET /users 0.374 ms - 36
+
+202205-25 23:33:55 info: GET /users/manfred 2.874 ms - 76
+
+202205-25 23:33:55 info: PUT /users/manfred 3.201 ms - -
+
+202205-25 23:33:55 info: GET /users/manfred 2.833 ms - 64
+
+202205-25 23:33:55 info: PUT /users/manfred 85.143 ms - -
+
+202205-25 23:33:55 info: GET /users/manfred 2.133 ms - 64
+
+202205-25 23:33:55 info: POST /users 4.042 ms - 21
+
+202205-25 23:33:55 info: DELETE /users/admin 1.756 ms - -
+
+202205-25 23:33:55 info: DELETE /users/manfred 1.771 ms - -
+
+202205-25 23:33:55 info: GET /users/ 1.845 ms - 2
+
+202205-25 23:33:55 info: Shutting down application
+202205-25 23:44:38 info: Started application in development mode
+202205-25 23:44:39 info: GET /publicUsers 12.105 ms - 2
+
+202205-25 23:44:39 info: GET /publicUsers/unknown 3.244 ms - 23
+
+202205-25 23:44:39 info: DELETE /publicUsers/admin 3.200 ms - -
+
+202205-25 23:44:39 info: GET /publicUsers/admin 2.208 ms - 23
+
+202205-25 23:44:39 info: DELETE /publicUsers/admin 2.112 ms - 23
+
+202205-25 23:44:39 info: POST /publicUsers 88.715 ms - 173
+
+202205-25 23:44:39 info: GET /publicUsers/admin 4.809 ms - 173
+
+202205-25 23:44:39 info: POST /publicUsers 85.425 ms - 191
+
+202205-25 23:44:39 info: POST /publicUsers 2.438 ms - 57
+
+202205-25 23:44:39 info: GET /publicUsers 3.300 ms - 367
+
+202205-25 23:44:39 info: PUT /publicUsers/manfred 4.047 ms - -
+
+202205-25 23:44:39 info: GET /publicUsers/manfred 2.791 ms - 179
+
+202205-25 23:44:39 info: PUT /publicUsers/manfred 87.027 ms - -
+
+202205-25 23:44:39 info: POST /publicUsers 3.557 ms - 21
+
+202205-25 23:44:39 info: DELETE /publicUsers/admin 1.748 ms - -
+
+202205-25 23:44:39 info: DELETE /publicUsers/manfred 1.696 ms - -
+
+202205-25 23:44:39 info: GET /publicUsers/ 1.960 ms - 2
+
+202205-25 23:44:39 info: Shutting down application
+202205-25 23:45:24 info: Started application in development mode
+202205-25 23:45:24 info: GET /publicUsers 13.252 ms - 2
+
+202205-25 23:45:24 info: GET /publicUsers/unknown 3.650 ms - 23
+
+202205-25 23:45:24 info: DELETE /publicUsers/admin 3.498 ms - -
+
+202205-25 23:45:24 info: GET /publicUsers/admin 2.503 ms - 23
+
+202205-25 23:45:24 info: DELETE /publicUsers/admin 1.977 ms - 23
+
+202205-25 23:45:24 info: POST /publicUsers 84.607 ms - 173
+
+202205-25 23:45:24 info: GET /publicUsers/admin 4.089 ms - 173
+
+202205-25 23:45:24 info: POST /publicUsers 87.586 ms - 191
+
+202205-25 23:45:24 info: POST /publicUsers 2.442 ms - 57
+
+202205-25 23:45:24 info: GET /publicUsers 3.106 ms - 367
+
+202205-25 23:45:24 info: PUT /publicUsers/manfred 3.529 ms - -
+
+202205-25 23:45:24 info: GET /publicUsers/manfred 2.841 ms - 179
+
+202205-25 23:45:25 info: PUT /publicUsers/manfred 85.192 ms - -
+
+202205-25 23:45:25 info: POST /publicUsers 3.489 ms - 21
+
+202205-25 23:45:25 info: DELETE /publicUsers/admin 2.023 ms - -
+
+202205-25 23:45:25 info: DELETE /publicUsers/manfred 1.818 ms - -
+
+202205-25 23:45:25 info: GET /publicUsers/ 1.692 ms - 2
+
+202205-25 23:45:25 info: Shutting down application
+202205-25 23:51:48 info: Started application in development mode
+202205-25 23:51:48 info: GET /publicUsers 11.932 ms - 2
+
+202205-25 23:51:48 info: GET /publicUsers/unknown 4.932 ms - 23
+
+202205-25 23:51:48 info: DELETE /publicUsers/admin 3.318 ms - -
+
+202205-25 23:51:48 info: GET /publicUsers/admin 2.516 ms - 23
+
+202205-25 23:51:48 info: DELETE /publicUsers/admin 1.881 ms - 23
+
+202205-25 23:51:48 info: POST /publicUsers 83.266 ms - 173
+
+202205-25 23:51:48 info: GET /publicUsers/admin 4.023 ms - 173
+
+202205-25 23:51:48 info: POST /publicUsers 87.435 ms - 191
+
+202205-25 23:51:48 info: POST /publicUsers 2.559 ms - 57
+
+202205-25 23:51:48 info: GET /publicUsers 2.889 ms - 367
+
+202205-25 23:51:48 info: PUT /publicUsers/manfred 3.446 ms - -
+
+202205-25 23:51:48 info: GET /publicUsers/manfred 2.521 ms - 179
+
+202205-25 23:51:49 info: PUT /publicUsers/manfred 85.873 ms - -
+
+202205-25 23:51:49 info: POST /publicUsers 3.565 ms - 21
+
+202205-25 23:51:49 info: DELETE /publicUsers/admin 1.724 ms - -
+
+202205-25 23:51:49 info: DELETE /publicUsers/manfred 1.734 ms - -
+
+202205-25 23:51:49 info: GET /publicUsers/ 1.844 ms - 2
+
+202205-25 23:51:49 info: Shutting down application
+202205-25 23:53:27 info: Started application in development mode
+202205-25 23:53:27 info: GET /publicUsers 12.324 ms - 2
+
+202205-25 23:53:28 info: GET /publicUsers/unknown 3.373 ms - 23
+
+202205-25 23:53:28 info: DELETE /publicUsers/admin 2.929 ms - -
+
+202205-25 23:53:28 info: GET /publicUsers/admin 2.241 ms - 23
+
+202205-25 23:53:28 info: DELETE /publicUsers/admin 2.078 ms - 23
+
+202205-25 23:53:28 info: POST /publicUsers 88.285 ms - 173
+
+202205-25 23:53:28 info: GET /publicUsers/admin 4.087 ms - 173
+
+202205-25 23:53:28 info: POST /publicUsers 87.234 ms - 191
+
+202205-25 23:53:28 info: POST /publicUsers 2.310 ms - 57
+
+202205-25 23:53:28 info: GET /publicUsers 3.338 ms - 367
+
+202205-25 23:53:28 info: PUT /publicUsers/manfred 3.264 ms - -
+
+202205-25 23:53:28 info: GET /publicUsers/manfred 2.967 ms - 179
+
+202205-25 23:53:28 info: PUT /publicUsers/manfred 88.947 ms - -
+
+202205-25 23:53:28 info: POST /publicUsers 3.504 ms - 21
+
+202205-25 23:53:28 info: DELETE /publicUsers/admin 1.776 ms - -
+
+202205-25 23:53:28 info: DELETE /publicUsers/manfred 1.775 ms - -
+
+202205-25 23:53:28 info: GET /publicUsers/ 1.495 ms - 2
+
+202205-25 23:53:28 info: Shutting down application
+202205-25 23:54:05 info: Started application in development mode
+202205-25 23:54:05 info: GET /publicUsers 12.841 ms - 2
+
+202205-25 23:54:05 info: GET /publicUsers/unknown 3.147 ms - 23
+
+202205-25 23:54:05 info: DELETE /publicUsers/admin 5.447 ms - -
+
+202205-25 23:54:05 info: GET /publicUsers/admin 2.215 ms - 23
+
+202205-25 23:54:05 info: DELETE /publicUsers/admin 2.326 ms - 23
+
+202205-25 23:54:05 info: POST /publicUsers 86.955 ms - 173
+
+202205-25 23:54:05 info: GET /publicUsers/admin 4.025 ms - 173
+
+202205-25 23:54:05 info: POST /publicUsers 82.496 ms - 191
+
+202205-25 23:54:05 info: POST /publicUsers 2.448 ms - 57
+
+202205-25 23:54:05 info: GET /publicUsers 3.132 ms - 367
+
+202205-25 23:54:05 info: PUT /publicUsers/manfred 3.321 ms - -
+
+202205-25 23:54:05 info: GET /publicUsers/manfred 2.861 ms - 179
+
+202205-25 23:54:05 info: PUT /publicUsers/manfred 80.200 ms - -
+
+202205-25 23:54:05 info: POST /publicUsers 3.540 ms - 21
+
+202205-25 23:54:05 info: DELETE /publicUsers/admin 1.866 ms - -
+
+202205-25 23:54:05 info: DELETE /publicUsers/manfred 1.941 ms - -
+
+202205-25 23:54:05 info: GET /publicUsers/ 1.418 ms - 2
+
+202205-25 23:54:05 info: Shutting down application
+202205-25 23:55:32 info: Started application in development mode
+202205-25 23:55:32 info: GET /publicUsers 12.992 ms - 2
+
+202205-25 23:55:32 info: GET /publicUsers/unknown 3.063 ms - 23
+
+202205-25 23:55:32 info: DELETE /publicUsers/admin 2.878 ms - -
+
+202205-25 23:55:32 info: GET /publicUsers/admin 2.323 ms - 23
+
+202205-25 23:55:32 info: DELETE /publicUsers/admin 2.049 ms - 23
+
+202205-25 23:55:32 info: POST /publicUsers 83.716 ms - 173
+
+202205-25 23:55:32 info: GET /publicUsers/admin 3.911 ms - 173
+
+202205-25 23:55:32 info: POST /publicUsers 82.299 ms - 191
+
+202205-25 23:55:32 info: POST /publicUsers 2.449 ms - 57
+
+202205-25 23:55:32 info: GET /publicUsers 3.206 ms - 367
+
+202205-25 23:55:32 info: PUT /publicUsers/manfred 3.668 ms - -
+
+202205-25 23:55:32 info: GET /publicUsers/manfred 2.705 ms - 179
+
+202205-25 23:55:32 info: PUT /publicUsers/manfred 82.943 ms - -
+
+202205-25 23:55:32 info: POST /publicUsers 3.266 ms - 21
+
+202205-25 23:55:32 info: DELETE /publicUsers/admin 1.667 ms - -
+
+202205-25 23:55:32 info: DELETE /publicUsers/manfred 1.623 ms - -
+
+202205-25 23:55:32 info: GET /publicUsers/ 1.550 ms - 2
+
+202205-25 23:55:32 info: Shutting down application
+202205-25 23:56:41 info: Started application in development mode
+202205-25 23:56:42 info: GET /publicUsers 11.897 ms - 2
+
+202205-25 23:56:42 info: GET /publicUsers/unknown 3.425 ms - 23
+
+202205-25 23:56:42 info: DELETE /publicUsers/admin 3.177 ms - -
+
+202205-25 23:56:42 info: GET /publicUsers/admin 2.267 ms - 23
+
+202205-25 23:56:42 info: DELETE /publicUsers/admin 2.111 ms - 23
+
+202205-25 23:56:42 info: POST /publicUsers 88.686 ms - 173
+
+202205-25 23:56:42 info: GET /publicUsers/admin 3.854 ms - 173
+
+202205-25 23:56:42 info: POST /publicUsers 87.871 ms - 191
+
+202205-25 23:56:42 info: POST /publicUsers 2.506 ms - 57
+
+202205-25 23:56:42 info: GET /publicUsers 3.280 ms - 367
+
+202205-25 23:56:42 info: PUT /publicUsers/manfred 3.636 ms - -
+
+202205-25 23:56:42 info: GET /publicUsers/manfred 2.828 ms - 179
+
+202205-25 23:56:42 info: PUT /publicUsers/manfred 87.922 ms - -
+
+202205-25 23:56:42 info: POST /publicUsers 3.308 ms - 21
+
+202205-25 23:56:42 info: DELETE /publicUsers/admin 1.726 ms - -
+
+202205-25 23:56:42 info: DELETE /publicUsers/manfred 1.883 ms - -
+
+202205-25 23:56:42 info: GET /publicUsers/ 1.613 ms - 2
+
+202205-25 23:56:42 info: Shutting down application
+202205-26 00:01:33 info: Started application in development mode
+202205-26 00:01:33 info: GET /publicUsers 23.270 ms - 2
+
+202205-26 00:01:33 info: GET /publicUsers/unknown 3.215 ms - 23
+
+202205-26 00:01:33 info: DELETE /publicUsers/admin 3.085 ms - -
+
+202205-26 00:01:33 info: GET /publicUsers/admin 2.531 ms - 23
+
+202205-26 00:01:33 info: DELETE /publicUsers/admin 2.047 ms - 23
+
+202205-26 00:01:34 info: POST /publicUsers 85.042 ms - 173
+
+202205-26 00:01:34 info: GET /publicUsers/admin 3.809 ms - 173
+
+202205-26 00:01:34 info: POST /publicUsers 83.389 ms - 191
+
+202205-26 00:01:34 info: POST /publicUsers 2.317 ms - 57
+
+202205-26 00:01:34 info: GET /publicUsers 2.947 ms - 367
+
+202205-26 00:01:34 info: PUT /publicUsers/manfred 3.504 ms - -
+
+202205-26 00:01:34 info: GET /publicUsers/manfred 2.682 ms - 179
+
+202205-26 00:01:34 info: PUT /publicUsers/manfred 81.377 ms - -
+
+202205-26 00:01:34 info: POST /publicUsers 3.321 ms - 21
+
+202205-26 00:01:34 info: DELETE /publicUsers/admin 1.935 ms - -
+
+202205-26 00:01:34 info: DELETE /publicUsers/manfred 1.561 ms - -
+
+202205-26 00:01:34 info: GET /publicUsers/ 1.478 ms - 2
+
+202205-26 00:01:34 info: Shutting down application
+202205-26 10:14:25 info: Started application in development mode
+202205-26 10:14:26 info: GET /publicUsers 20.839 ms - 2
+
+202205-26 10:14:26 info: GET /publicUsers/unknown 3.364 ms - 23
+
+202205-26 10:14:26 info: DELETE /publicUsers/admin 3.119 ms - -
+
+202205-26 10:14:26 info: GET /publicUsers/admin 2.403 ms - 23
+
+202205-26 10:14:26 info: DELETE /publicUsers/admin 2.222 ms - 23
+
+202205-26 10:14:26 info: POST /publicUsers 83.444 ms - 173
+
+202205-26 10:14:26 info: GET /publicUsers/admin 4.004 ms - 173
+
+202205-26 10:14:26 info: POST /publicUsers 87.690 ms - 191
+
+202205-26 10:14:26 info: POST /publicUsers 2.616 ms - 57
+
+202205-26 10:14:26 info: GET /publicUsers 2.949 ms - 367
+
+202205-26 10:14:26 info: PUT /publicUsers/manfred 3.718 ms - -
+
+202205-26 10:14:26 info: GET /publicUsers/manfred 2.441 ms - 179
+
+202205-26 10:14:26 info: false
+202205-26 10:14:26 info: PUT /publicUsers/manfred 86.779 ms - -
+
+202205-26 10:14:26 info: false
+202205-26 10:14:26 info: POST /publicUsers 2.992 ms - 21
+
+202205-26 10:14:26 info: DELETE /publicUsers/admin 1.693 ms - -
+
+202205-26 10:14:26 info: DELETE /publicUsers/manfred 1.592 ms - -
+
+202205-26 10:14:26 info: GET /publicUsers/ 1.420 ms - 2
+
+202205-26 10:14:26 info: Shutting down application
+202205-26 10:16:40 info: Started application in development mode
+202205-26 10:16:40 info: GET /publicUsers 21.180 ms - 2
+
+202205-26 10:16:40 info: GET /publicUsers/unknown 3.404 ms - 23
+
+202205-26 10:16:40 info: DELETE /publicUsers/admin 2.832 ms - -
+
+202205-26 10:16:40 info: GET /publicUsers/admin 2.343 ms - 23
+
+202205-26 10:16:40 info: DELETE /publicUsers/admin 1.976 ms - 23
+
+202205-26 10:16:41 info: POST /publicUsers 84.906 ms - 173
+
+202205-26 10:16:41 info: GET /publicUsers/admin 4.120 ms - 173
+
+202205-26 10:16:41 info: POST /publicUsers 81.639 ms - 191
+
+202205-26 10:16:41 info: POST /publicUsers 2.682 ms - 57
+
+202205-26 10:16:41 info: GET /publicUsers 3.039 ms - 367
+
+202205-26 10:16:41 info: PUT /publicUsers/manfred 3.613 ms - -
+
+202205-26 10:16:41 info: GET /publicUsers/manfred 2.621 ms - 179
+
+202205-26 10:16:41 info: PUT /publicUsers/manfred 88.022 ms - -
+
+202205-26 10:16:41 info: false
+202205-26 10:16:41 info: POST /publicUsers 3.488 ms - 21
+
+202205-26 10:16:41 info: DELETE /publicUsers/admin 1.581 ms - -
+
+202205-26 10:16:41 info: DELETE /publicUsers/manfred 1.566 ms - -
+
+202205-26 10:16:41 info: GET /publicUsers/ 1.824 ms - 2
+
+202205-26 10:16:41 info: Shutting down application
+202205-26 10:17:06 info: Started application in development mode
+202205-26 10:17:06 info: GET /publicUsers 21.495 ms - 2
+
+202205-26 10:17:07 info: GET /publicUsers/unknown 3.423 ms - 23
+
+202205-26 10:17:07 info: DELETE /publicUsers/admin 3.198 ms - -
+
+202205-26 10:17:07 info: GET /publicUsers/admin 4.787 ms - 23
+
+202205-26 10:17:07 info: DELETE /publicUsers/admin 2.011 ms - 23
+
+202205-26 10:17:07 info: POST /publicUsers 83.187 ms - 173
+
+202205-26 10:17:07 info: GET /publicUsers/admin 4.191 ms - 173
+
+202205-26 10:17:07 info: POST /publicUsers 82.172 ms - 191
+
+202205-26 10:17:07 info: POST /publicUsers 2.601 ms - 57
+
+202205-26 10:17:07 info: GET /publicUsers 3.281 ms - 367
+
+202205-26 10:17:07 info: PUT /publicUsers/manfred 3.630 ms - -
+
+202205-26 10:17:07 info: GET /publicUsers/manfred 2.862 ms - 179
+
+202205-26 10:17:07 info: false
+202205-26 10:17:07 info: PUT /publicUsers/manfred 78.556 ms - -
+
+202205-26 10:17:07 info: false
+202205-26 10:17:07 info: POST /publicUsers 3.670 ms - 21
+
+202205-26 10:17:07 info: DELETE /publicUsers/admin 1.809 ms - -
+
+202205-26 10:17:07 info: DELETE /publicUsers/manfred 1.525 ms - -
+
+202205-26 10:17:07 info: GET /publicUsers/ 1.683 ms - 2
+
+202205-26 10:17:07 info: Shutting down application
+202205-26 10:19:12 info: Started application in development mode
+202205-26 10:19:12 info: GET /publicUsers 12.303 ms - 2
+
+202205-26 10:19:12 info: GET /publicUsers/unknown 3.668 ms - 23
+
+202205-26 10:19:12 info: DELETE /publicUsers/admin 2.859 ms - -
+
+202205-26 10:19:12 info: GET /publicUsers/admin 3.054 ms - 23
+
+202205-26 10:19:12 info: DELETE /publicUsers/admin 1.968 ms - 23
+
+202205-26 10:19:12 info: POST /publicUsers 84.639 ms - 173
+
+202205-26 10:19:12 info: GET /publicUsers/admin 3.935 ms - 173
+
+202205-26 10:19:13 info: POST /publicUsers 81.738 ms - 191
+
+202205-26 10:19:13 info: POST /publicUsers 2.506 ms - 57
+
+202205-26 10:19:13 info: GET /publicUsers 2.919 ms - 367
+
+202205-26 10:19:13 info: PUT /publicUsers/manfred 3.539 ms - -
+
+202205-26 10:19:13 info: GET /publicUsers/manfred 2.967 ms - 179
+
+202205-26 10:19:13 info: PUT /publicUsers/manfred 79.067 ms - -
+
+202205-26 10:19:13 info: false
+202205-26 10:19:13 info: POST /publicUsers 2.949 ms - 21
+
+202205-26 10:19:13 info: DELETE /publicUsers/admin 1.657 ms - -
+
+202205-26 10:19:13 info: DELETE /publicUsers/manfred 1.640 ms - -
+
+202205-26 10:19:13 info: GET /publicUsers/ 1.450 ms - 2
+
+202205-26 10:19:13 info: Shutting down application
+202205-26 10:19:24 info: Started application in development mode
+202205-26 10:19:25 info: GET /publicUsers 12.430 ms - 2
+
+202205-26 10:19:25 info: GET /publicUsers/unknown 3.804 ms - 23
+
+202205-26 10:19:25 info: DELETE /publicUsers/admin 4.286 ms - -
+
+202205-26 10:19:25 info: GET /publicUsers/admin 2.733 ms - 23
+
+202205-26 10:19:25 info: DELETE /publicUsers/admin 2.164 ms - 23
+
+202205-26 10:19:25 info: POST /publicUsers 83.514 ms - 173
+
+202205-26 10:19:25 info: GET /publicUsers/admin 4.133 ms - 173
+
+202205-26 10:19:25 info: POST /publicUsers 81.840 ms - 191
+
+202205-26 10:19:25 info: POST /publicUsers 2.719 ms - 57
+
+202205-26 10:19:25 info: GET /publicUsers 3.066 ms - 367
+
+202205-26 10:19:25 info: PUT /publicUsers/manfred 3.514 ms - -
+
+202205-26 10:19:25 info: GET /publicUsers/manfred 2.684 ms - 179
+
+202205-26 10:19:25 info: true
+202205-26 10:19:25 info: PUT /publicUsers/manfred 79.767 ms - -
+
+202205-26 10:19:25 info: false
+202205-26 10:19:25 info: POST /publicUsers 3.148 ms - 21
+
+202205-26 10:19:25 info: DELETE /publicUsers/admin 1.656 ms - -
+
+202205-26 10:19:25 info: DELETE /publicUsers/manfred 1.550 ms - -
+
+202205-26 10:19:25 info: GET /publicUsers/ 1.656 ms - 2
+
+202205-26 10:19:25 info: Shutting down application
+202205-26 10:21:12 info: Started application in development mode
+202205-26 10:21:13 info: GET /publicUsers 12.260 ms - 2
+
+202205-26 10:21:13 info: GET /publicUsers/unknown 3.726 ms - 23
+
+202205-26 10:21:13 info: DELETE /publicUsers/admin 3.317 ms - -
+
+202205-26 10:21:13 info: GET /publicUsers/admin 2.725 ms - 23
+
+202205-26 10:21:13 info: DELETE /publicUsers/admin 1.922 ms - 23
+
+202205-26 10:21:13 info: POST /publicUsers 83.933 ms - 173
+
+202205-26 10:21:13 info: GET /publicUsers/admin 4.299 ms - 173
+
+202205-26 10:21:13 info: POST /publicUsers 83.013 ms - 191
+
+202205-26 10:21:13 info: POST /publicUsers 2.212 ms - 57
+
+202205-26 10:21:13 info: GET /publicUsers 2.903 ms - 367
+
+202205-26 10:21:13 info: PUT /publicUsers/manfred 3.396 ms - -
+
+202205-26 10:21:13 info: GET /publicUsers/manfred 2.668 ms - 179
+
+202205-26 10:21:13 info: true
+202205-26 10:21:13 info: PUT /publicUsers/manfred 79.271 ms - -
+
+202205-26 10:21:13 info: false
+202205-26 10:21:13 info: POST /publicUsers 3.385 ms - 21
+
+202205-26 10:21:13 info: DELETE /publicUsers/admin 1.641 ms - -
+
+202205-26 10:21:13 info: DELETE /publicUsers/manfred 1.978 ms - -
+
+202205-26 10:21:13 info: GET /publicUsers/ 1.758 ms - 2
+
+202205-26 10:21:13 info: Shutting down application
+202205-26 10:23:22 info: Started application in development mode
+202205-26 10:23:23 info: GET /publicUsers 22.261 ms - 2
+
+202205-26 10:23:23 info: GET /publicUsers/unknown 3.555 ms - 23
+
+202205-26 10:23:23 info: DELETE /publicUsers/admin 3.112 ms - -
+
+202205-26 10:23:23 info: GET /publicUsers/admin 2.288 ms - 23
+
+202205-26 10:23:23 info: DELETE /publicUsers/admin 1.996 ms - 23
+
+202205-26 10:23:23 info: POST /publicUsers 84.468 ms - 173
+
+202205-26 10:23:23 info: GET /publicUsers/admin 4.260 ms - 173
+
+202205-26 10:23:23 info: POST /publicUsers 82.524 ms - 191
+
+202205-26 10:23:23 info: POST /publicUsers 2.630 ms - 57
+
+202205-26 10:23:23 info: GET /publicUsers 3.166 ms - 367
+
+202205-26 10:23:23 info: PUT /publicUsers/manfred 3.503 ms - -
+
+202205-26 10:23:23 info: GET /publicUsers/manfred 2.736 ms - 179
+
+202205-26 10:23:23 info: true
+202205-26 10:23:23 info: PUT /publicUsers/manfred 79.411 ms - -
+
+202205-26 10:23:23 info: false
+202205-26 10:23:23 info: POST /publicUsers 3.222 ms - 21
+
+202205-26 10:23:23 info: DELETE /publicUsers/admin 1.662 ms - -
+
+202205-26 10:23:23 info: DELETE /publicUsers/manfred 1.578 ms - -
+
+202205-26 10:23:23 info: GET /publicUsers/ 1.512 ms - 2
+
+202205-26 10:23:23 info: Shutting down application
+202205-26 10:26:30 info: Started application in development mode
+202205-26 10:26:30 info: GET /publicUsers 20.453 ms - 2
+
+202205-26 10:26:30 info: GET /publicUsers/unknown 3.334 ms - 23
+
+202205-26 10:26:30 info: DELETE /publicUsers/admin 5.299 ms - -
+
+202205-26 10:26:30 info: GET /publicUsers/admin 2.292 ms - 23
+
+202205-26 10:26:30 info: DELETE /publicUsers/admin 2.118 ms - 23
+
+202205-26 10:26:30 info: POST /publicUsers 83.039 ms - 173
+
+202205-26 10:26:30 info: GET /publicUsers/admin 4.043 ms - 173
+
+202205-26 10:26:30 info: POST /publicUsers 82.668 ms - 191
+
+202205-26 10:26:30 info: POST /publicUsers 2.517 ms - 57
+
+202205-26 10:26:30 info: GET /publicUsers 3.292 ms - 367
+
+202205-26 10:26:30 info: PUT /publicUsers/manfred 3.434 ms - -
+
+202205-26 10:26:30 info: GET /publicUsers/manfred 2.536 ms - 179
+
+202205-26 10:26:31 info: true
+202205-26 10:26:31 info: PUT /publicUsers/manfred 81.167 ms - -
+
+202205-26 10:26:31 info: false
+202205-26 10:26:31 info: true
+202205-26 10:26:31 info: POST /publicUsers 3.474 ms - 21
+
+202205-26 10:26:31 info: DELETE /publicUsers/admin 2.288 ms - -
+
+202205-26 10:26:31 info: DELETE /publicUsers/manfred 1.890 ms - -
+
+202205-26 10:26:31 info: GET /publicUsers/ 1.651 ms - 2
+
+202205-26 10:26:31 info: Shutting down application
+202205-26 10:27:23 info: Started application in development mode
+202205-26 10:27:24 info: GET /publicUsers 11.957 ms - 2
+
+202205-26 10:27:24 info: GET /publicUsers/unknown 3.705 ms - 23
+
+202205-26 10:27:24 info: DELETE /publicUsers/admin 3.152 ms - -
+
+202205-26 10:27:24 info: GET /publicUsers/admin 2.364 ms - 23
+
+202205-26 10:27:24 info: DELETE /publicUsers/admin 2.135 ms - 23
+
+202205-26 10:27:24 info: POST /publicUsers 83.460 ms - 173
+
+202205-26 10:27:24 info: GET /publicUsers/admin 4.518 ms - 173
+
+202205-26 10:27:24 info: POST /publicUsers 82.418 ms - 191
+
+202205-26 10:27:24 info: POST /publicUsers 2.364 ms - 57
+
+202205-26 10:27:24 info: GET /publicUsers 2.955 ms - 367
+
+202205-26 10:27:24 info: PUT /publicUsers/manfred 3.531 ms - -
+
+202205-26 10:27:24 info: GET /publicUsers/manfred 3.227 ms - 179
+
+202205-26 10:27:24 info: true
+202205-26 10:27:24 info: PUT /publicUsers/manfred 88.380 ms - -
+
+202205-26 10:27:24 info: false
+202205-26 10:27:24 info: true
+202205-26 10:27:24 info: POST /publicUsers 2.970 ms - 21
+
+202205-26 10:27:24 info: DELETE /publicUsers/admin 2.372 ms - -
+
+202205-26 10:27:24 info: DELETE /publicUsers/manfred 1.703 ms - -
+
+202205-26 10:27:24 info: GET /publicUsers/ 1.562 ms - 2
+
+202205-26 10:27:24 info: Shutting down application
+202205-26 10:27:50 info: Started application in development mode
+202205-26 10:27:50 info: GET /publicUsers 11.460 ms - 2
+
+202205-26 10:27:50 info: GET /publicUsers/unknown 3.714 ms - 23
+
+202205-26 10:27:50 info: DELETE /publicUsers/admin 3.772 ms - -
+
+202205-26 10:27:50 info: GET /publicUsers/admin 2.706 ms - 23
+
+202205-26 10:27:50 info: DELETE /publicUsers/admin 1.851 ms - 23
+
+202205-26 10:27:50 info: POST /publicUsers 83.128 ms - 173
+
+202205-26 10:27:50 info: GET /publicUsers/admin 3.947 ms - 173
+
+202205-26 10:27:50 info: POST /publicUsers 82.095 ms - 191
+
+202205-26 10:27:50 info: POST /publicUsers 2.385 ms - 57
+
+202205-26 10:27:50 info: GET /publicUsers 3.399 ms - 367
+
+202205-26 10:27:50 info: PUT /publicUsers/manfred 3.387 ms - -
+
+202205-26 10:27:50 info: GET /publicUsers/manfred 2.724 ms - 179
+
+202205-26 10:27:50 info: true
+202205-26 10:27:51 info: PUT /publicUsers/manfred 79.298 ms - -
+
+202205-26 10:27:51 info: false
+202205-26 10:27:51 info: true
+202205-26 10:27:51 info: POST /publicUsers 3.529 ms - 21
+
+202205-26 10:27:51 info: DELETE /publicUsers/admin 2.171 ms - -
+
+202205-26 10:27:51 info: DELETE /publicUsers/manfred 1.817 ms - -
+
+202205-26 10:27:51 info: GET /publicUsers/ 1.829 ms - 2
+
+202205-26 10:27:51 info: Shutting down application
+202205-26 10:28:11 info: Started application in development mode
+202205-26 10:28:11 info: GET /publicUsers 11.438 ms - 2
+
+202205-26 10:28:11 info: GET /publicUsers/unknown 3.075 ms - 23
+
+202205-26 10:28:11 info: DELETE /publicUsers/admin 3.340 ms - -
+
+202205-26 10:28:12 info: GET /publicUsers/admin 2.375 ms - 23
+
+202205-26 10:28:12 info: DELETE /publicUsers/admin 2.059 ms - 23
+
+202205-26 10:28:12 info: POST /publicUsers 83.695 ms - 173
+
+202205-26 10:28:12 info: GET /publicUsers/admin 3.823 ms - 173
+
+202205-26 10:28:12 info: POST /publicUsers 91.581 ms - 191
+
+202205-26 10:28:12 info: POST /publicUsers 3.022 ms - 57
+
+202205-26 10:28:12 info: GET /publicUsers 3.495 ms - 367
+
+202205-26 10:28:12 info: PUT /publicUsers/manfred 3.635 ms - -
+
+202205-26 10:28:12 info: GET /publicUsers/manfred 2.493 ms - 179
+
+202205-26 10:28:12 info: true
+202205-26 10:28:12 info: PUT /publicUsers/manfred 78.652 ms - -
+
+202205-26 10:28:12 info: false
+202205-26 10:28:12 info: false
+202205-26 10:28:12 info: POST /publicUsers 3.325 ms - 21
+
+202205-26 10:28:12 info: DELETE /publicUsers/admin 1.860 ms - -
+
+202205-26 10:28:12 info: DELETE /publicUsers/manfred 1.649 ms - -
+
+202205-26 10:28:12 info: GET /publicUsers/ 1.951 ms - 2
+
+202205-26 10:28:12 info: Shutting down application
+202205-26 10:30:41 info: Started application in development mode
+202205-26 10:30:42 info: GET /publicUsers 12.220 ms - 2
+
+202205-26 10:30:42 info: GET /publicUsers/unknown 3.786 ms - 23
+
+202205-26 10:30:42 info: DELETE /publicUsers/admin 3.157 ms - -
+
+202205-26 10:30:42 info: GET /publicUsers/admin 2.321 ms - 23
+
+202205-26 10:30:42 info: DELETE /publicUsers/admin 2.131 ms - 23
+
+202205-26 10:30:42 info: POST /publicUsers 87.251 ms - 173
+
+202205-26 10:30:42 info: GET /publicUsers/admin 3.858 ms - 173
+
+202205-26 10:30:42 info: POST /publicUsers 84.609 ms - 191
+
+202205-26 10:30:42 info: POST /publicUsers 2.282 ms - 57
+
+202205-26 10:30:42 info: GET /publicUsers 3.133 ms - 367
+
+202205-26 10:30:42 info: PUT /publicUsers/manfred 3.424 ms - -
+
+202205-26 10:30:42 info: GET /publicUsers/manfred 3.282 ms - 179
+
+202205-26 10:30:42 info: true
+202205-26 10:30:42 info: PUT /publicUsers/manfred 79.059 ms - -
+
+202205-26 10:30:42 info: false
+202205-26 10:30:43 info: true
+202205-26 10:30:43 info: POST /publicUsers 3.103 ms - 21
+
+202205-26 10:30:43 info: DELETE /publicUsers/admin 1.998 ms - -
+
+202205-26 10:30:43 info: DELETE /publicUsers/manfred 2.153 ms - -
+
+202205-26 10:30:43 info: GET /publicUsers/ 1.667 ms - 2
+
+202205-26 10:30:43 info: Shutting down application
+{
+    "time": "2022-05-26T08:31:31.306Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:31:31.414Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:31:33.155Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:31:33 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:31:40.594Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:31:40.597Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:08:31:40 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:31:47.102Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:31:47 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "405",
+        "content-length": "57",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:32:57.818Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:32:57 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:33:50.543Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:33:50 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:33:50.543Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:33:57.285Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:33:57 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:03.770Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:03 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:06.913Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:06 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "136",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:27.462Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:27 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "366",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:38.206Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:38 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:54.530Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:54 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:54.530Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:34:56.441Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:56 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:34:59.398Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:34:59 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:09.371Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:09 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:09.373Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:35:11.641Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:11 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:34.389Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:34 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:35:34.389Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:35:37.443Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:35:37 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:37:55.740Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:37:55.848Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:38:02.305Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:02 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:02.305Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:38:04.874Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:04 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:04.875Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:38:11.357Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:11 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:11.358Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:13.768Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:13 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:13.769Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:17.419Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:17 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:17.419Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:38:58.100Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:38:58 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:38:58.100Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:39:01.314Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:39:01 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:39:01.315Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:39:46.905Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:39:47.016Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:39:49.260Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:39:49 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:40:58.558Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:40:58.680Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T08:41:00.645Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:00 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:00.646Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:41:03.719Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:03 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:03.720Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:04.916Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:04 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:04.917Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:11.094Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:11 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:11.095Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T08:41:12.105Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:08:41:12 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T08:41:12.105Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T08:41:43.769Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T08:41:43.877Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+202205-26 10:41:48 info: Started application in development mode
+202205-26 10:41:48 info: GET /publicUsers 23.438 ms - 2
+
+202205-26 10:41:48 info: GET /publicUsers/unknown 3.934 ms - 23
+
+202205-26 10:41:48 info: DELETE /publicUsers/admin 3.139 ms - -
+
+202205-26 10:41:48 info: GET /publicUsers/admin 4.902 ms - 23
+
+202205-26 10:41:48 info: DELETE /publicUsers/admin 2.161 ms - 23
+
+202205-26 10:41:49 info: POST /publicUsers 90.626 ms - 173
+
+202205-26 10:41:49 info: GET /publicUsers/admin 4.300 ms - 173
+
+202205-26 10:41:49 info: POST /publicUsers 96.175 ms - 191
+
+202205-26 10:41:49 info: POST /publicUsers 2.824 ms - 57
+
+202205-26 10:41:49 info: GET /publicUsers 3.481 ms - 367
+
+202205-26 10:41:49 info: PUT /publicUsers/manfred 4.604 ms - -
+
+202205-26 10:41:49 info: GET /publicUsers/manfred 2.547 ms - 179
+
+202205-26 10:41:49 info: true
+202205-26 10:41:49 info: PUT /publicUsers/manfred 105.357 ms - -
+
+202205-26 10:41:49 info: false
+202205-26 10:41:49 info: true
+202205-26 10:41:49 info: POST /publicUsers 3.344 ms - 21
+
+202205-26 10:41:49 info: DELETE /publicUsers/admin 1.656 ms - -
+
+202205-26 10:41:49 info: DELETE /publicUsers/manfred 1.905 ms - -
+
+202205-26 10:41:49 info: GET /publicUsers/ 1.480 ms - 2
+
+202205-26 10:41:49 info: Shutting down application
+202205-26 10:47:05 info: Started application in development mode
+202205-26 10:47:06 info: GET /publicUsers 20.452 ms - 2
+
+202205-26 10:47:06 info: GET /publicUsers/unknown 3.564 ms - 23
+
+202205-26 10:47:06 info: DELETE /publicUsers/admin 2.989 ms - -
+
+202205-26 10:47:06 info: GET /publicUsers/admin 2.295 ms - 23
+
+202205-26 10:47:06 info: DELETE /publicUsers/admin 2.774 ms - 23
+
+202205-26 10:47:06 info: POST /publicUsers 89.418 ms - 173
+
+202205-26 10:47:06 info: GET /publicUsers/admin 4.132 ms - 173
+
+202205-26 10:47:06 info: POST /publicUsers 87.625 ms - 191
+
+202205-26 10:47:06 info: POST /publicUsers 2.662 ms - 57
+
+202205-26 10:47:06 info: GET /publicUsers 3.310 ms - 367
+
+202205-26 10:47:06 info: PUT /publicUsers/manfred 3.892 ms - -
+
+202205-26 10:47:06 info: GET /publicUsers/manfred 2.492 ms - 179
+
+202205-26 10:47:06 info: true
+202205-26 10:47:06 info: PUT /publicUsers/manfred 90.189 ms - -
+
+202205-26 10:47:06 info: false
+202205-26 10:47:07 info: POST /publicUsers 3.101 ms - 21
+
+202205-26 10:47:07 info: DELETE /publicUsers/admin 1.807 ms - -
+
+202205-26 10:47:07 info: DELETE /publicUsers/manfred 1.653 ms - -
+
+202205-26 10:47:07 info: GET /publicUsers/ 1.528 ms - 2
+
+202205-26 10:47:07 info: Shutting down application
+202205-26 10:48:34 info: Started application in development mode
+202205-26 10:48:35 info: GET /publicUsers 20.980 ms - 2
+
+202205-26 10:48:35 info: GET /publicUsers/unknown 3.825 ms - 23
+
+202205-26 10:48:35 info: DELETE /publicUsers/admin 4.194 ms - -
+
+202205-26 10:48:35 info: GET /publicUsers/admin 2.384 ms - 23
+
+202205-26 10:48:35 info: DELETE /publicUsers/admin 2.219 ms - 23
+
+202205-26 10:48:35 info: POST /publicUsers 87.663 ms - 173
+
+202205-26 10:48:35 info: GET /publicUsers/admin 4.129 ms - 173
+
+202205-26 10:48:35 info: POST /publicUsers 86.761 ms - 191
+
+202205-26 10:48:35 info: POST /publicUsers 2.413 ms - 57
+
+202205-26 10:48:35 info: GET /publicUsers 2.887 ms - 367
+
+202205-26 10:48:35 info: PUT /publicUsers/manfred 3.522 ms - -
+
+202205-26 10:48:35 info: GET /publicUsers/manfred 2.637 ms - 179
+
+202205-26 10:48:35 info: true
+202205-26 10:48:35 info: PUT /publicUsers/manfred 84.911 ms - -
+
+202205-26 10:48:35 info: false
+202205-26 10:48:35 info: POST /publicUsers 3.324 ms - 21
+
+202205-26 10:48:35 info: DELETE /publicUsers/admin 1.766 ms - -
+
+202205-26 10:48:35 info: DELETE /publicUsers/manfred 1.665 ms - -
+
+202205-26 10:48:35 info: GET /publicUsers/ 1.698 ms - 2
+
+202205-26 10:48:35 info: Shutting down application
+202205-26 10:49:00 info: Started application in development mode
+202205-26 10:49:00 info: GET /publicUsers 19.518 ms - 2
+
+202205-26 10:49:01 info: GET /publicUsers/unknown 3.541 ms - 23
+
+202205-26 10:49:01 info: DELETE /publicUsers/admin 3.365 ms - -
+
+202205-26 10:49:01 info: GET /publicUsers/admin 2.534 ms - 23
+
+202205-26 10:49:01 info: DELETE /publicUsers/admin 1.867 ms - 23
+
+202205-26 10:49:01 info: POST /publicUsers 83.357 ms - 173
+
+202205-26 10:49:01 info: GET /publicUsers/admin 4.842 ms - 173
+
+202205-26 10:49:01 info: POST /publicUsers 82.562 ms - 191
+
+202205-26 10:49:01 info: POST /publicUsers 2.367 ms - 57
+
+202205-26 10:49:01 info: GET /publicUsers 3.048 ms - 367
+
+202205-26 10:49:01 info: PUT /publicUsers/manfred 3.423 ms - -
+
+202205-26 10:49:01 info: GET /publicUsers/manfred 2.499 ms - 179
+
+202205-26 10:49:01 info: true
+202205-26 10:49:01 info: PUT /publicUsers/manfred 81.912 ms - -
+
+202205-26 10:49:01 info: false
+202205-26 10:49:01 info: POST /publicUsers 3.092 ms - 21
+
+202205-26 10:49:01 info: DELETE /publicUsers/admin 1.630 ms - -
+
+202205-26 10:49:01 info: DELETE /publicUsers/manfred 1.808 ms - -
+
+202205-26 10:49:01 info: GET /publicUsers/ 1.503 ms - 2
+
+202205-26 10:49:01 info: Shutting down application
+202205-26 10:49:59 info: Started application in development mode
+202205-26 10:50:00 info: GET /publicUsers 12.961 ms - 2
+
+202205-26 10:50:00 info: GET /publicUsers/unknown 3.614 ms - 23
+
+202205-26 10:50:00 info: DELETE /publicUsers/admin 3.407 ms - -
+
+202205-26 10:50:00 info: GET /publicUsers/admin 2.218 ms - 23
+
+202205-26 10:50:00 info: DELETE /publicUsers/admin 1.969 ms - 23
+
+202205-26 10:50:00 info: POST /publicUsers 89.097 ms - 173
+
+202205-26 10:50:00 info: GET /publicUsers/admin 4.418 ms - 173
+
+202205-26 10:50:00 info: POST /publicUsers 86.488 ms - 191
+
+202205-26 10:50:00 info: POST /publicUsers 2.759 ms - 57
+
+202205-26 10:50:00 info: GET /publicUsers 3.960 ms - 367
+
+202205-26 10:50:00 info: PUT /publicUsers/manfred 3.535 ms - -
+
+202205-26 10:50:00 info: GET /publicUsers/manfred 2.877 ms - 179
+
+202205-26 10:50:00 info: true
+202205-26 10:50:00 info: PUT /publicUsers/manfred 87.584 ms - -
+
+202205-26 10:50:00 info: false
+202205-26 10:50:00 info: POST /publicUsers 2.986 ms - 21
+
+202205-26 10:50:00 info: DELETE /publicUsers/admin 1.951 ms - -
+
+202205-26 10:50:00 info: DELETE /publicUsers/manfred 1.858 ms - -
+
+202205-26 10:50:00 info: GET /publicUsers/ 1.957 ms - 2
+
+202205-26 10:50:00 info: Shutting down application
+202205-26 10:50:32 info: Started application in development mode
+202205-26 10:50:32 info: GET /publicUsers 12.454 ms - 2
+
+202205-26 10:50:32 info: GET /publicUsers/unknown 3.230 ms - 23
+
+202205-26 10:50:33 info: DELETE /publicUsers/admin 3.498 ms - -
+
+202205-26 10:50:33 info: GET /publicUsers/admin 2.726 ms - 23
+
+202205-26 10:50:33 info: DELETE /publicUsers/admin 1.959 ms - 23
+
+202205-26 10:50:33 info: POST /publicUsers 88.550 ms - 173
+
+202205-26 10:50:33 info: GET /publicUsers/admin 4.586 ms - 173
+
+202205-26 10:50:33 info: POST /publicUsers 89.881 ms - 191
+
+202205-26 10:50:33 info: POST /publicUsers 2.725 ms - 57
+
+202205-26 10:50:33 info: GET /publicUsers 3.331 ms - 367
+
+202205-26 10:50:33 info: PUT /publicUsers/manfred 3.337 ms - -
+
+202205-26 10:50:33 info: GET /publicUsers/manfred 3.038 ms - 179
+
+202205-26 10:50:33 info: true
+202205-26 10:50:33 info: PUT /publicUsers/manfred 84.145 ms - -
+
+202205-26 10:50:33 info: false
+202205-26 10:50:33 info: POST /publicUsers 3.039 ms - 21
+
+202205-26 10:50:33 info: DELETE /publicUsers/admin 2.091 ms - -
+
+202205-26 10:50:33 info: DELETE /publicUsers/manfred 1.644 ms - -
+
+202205-26 10:50:33 info: GET /publicUsers/ 1.693 ms - 2
+
+202205-26 10:50:33 info: Shutting down application
+202205-26 10:51:25 info: Started application in development mode
+202205-26 10:51:25 info: GET /publicUsers 13.204 ms - 2
+
+202205-26 10:51:25 info: GET /publicUsers/unknown 6.095 ms - 23
+
+202205-26 10:51:25 info: DELETE /publicUsers/admin 3.122 ms - -
+
+202205-26 10:51:25 info: GET /publicUsers/admin 2.296 ms - 23
+
+202205-26 10:51:25 info: DELETE /publicUsers/admin 1.995 ms - 23
+
+202205-26 10:51:25 info: POST /publicUsers 84.883 ms - 173
+
+202205-26 10:51:25 info: GET /publicUsers/admin 4.164 ms - 173
+
+202205-26 10:51:25 info: POST /publicUsers 82.719 ms - 191
+
+202205-26 10:51:25 info: POST /publicUsers 2.303 ms - 57
+
+202205-26 10:51:25 info: GET /publicUsers 3.199 ms - 367
+
+202205-26 10:51:25 info: PUT /publicUsers/manfred 3.593 ms - -
+
+202205-26 10:51:26 info: GET /publicUsers/manfred 2.938 ms - 179
+
+202205-26 10:51:26 info: true
+202205-26 10:51:26 info: PUT /publicUsers/manfred 79.025 ms - -
+
+202205-26 10:51:26 info: false
+202205-26 10:51:26 info: true
+202205-26 10:51:26 info: POST /publicUsers 2.887 ms - 21
+
+202205-26 10:51:26 info: DELETE /publicUsers/admin 1.735 ms - -
+
+202205-26 10:51:26 info: DELETE /publicUsers/manfred 1.836 ms - -
+
+202205-26 10:51:26 info: GET /publicUsers/ 2.157 ms - 2
+
+202205-26 10:51:26 info: Shutting down application
+202205-26 10:53:26 info: Started application in development mode
+202205-26 10:53:26 info: GET /publicUsers 12.370 ms - 2
+
+202205-26 10:53:26 info: GET /publicUsers/unknown 3.209 ms - 23
+
+202205-26 10:53:26 info: DELETE /publicUsers/admin 3.512 ms - -
+
+202205-26 10:53:26 info: GET /publicUsers/admin 2.492 ms - 23
+
+202205-26 10:53:26 info: DELETE /publicUsers/admin 1.995 ms - 23
+
+202205-26 10:53:26 info: POST /publicUsers 89.001 ms - 173
+
+202205-26 10:53:26 info: GET /publicUsers/admin 4.188 ms - 173
+
+202205-26 10:53:26 info: POST /publicUsers 86.729 ms - 191
+
+202205-26 10:53:26 info: POST /publicUsers 2.615 ms - 57
+
+202205-26 10:53:26 info: GET /publicUsers 2.954 ms - 367
+
+202205-26 10:53:26 info: PUT /publicUsers/manfred 4.610 ms - -
+
+202205-26 10:53:26 info: GET /publicUsers/manfred 2.921 ms - 179
+
+202205-26 10:53:27 info: true
+202205-26 10:53:27 info: PUT /publicUsers/manfred 89.255 ms - -
+
+202205-26 10:53:27 info: false
+202205-26 10:53:27 info: true
+202205-26 10:53:27 info: POST /publicUsers 2.927 ms - 21
+
+202205-26 10:53:27 info: DELETE /publicUsers/admin 1.711 ms - -
+
+202205-26 10:53:27 info: DELETE /publicUsers/manfred 1.687 ms - -
+
+202205-26 10:53:27 info: GET /publicUsers/ 1.674 ms - 2
+
+202205-26 10:53:27 info: Shutting down application
+202205-26 10:54:02 info: Started application in development mode
+202205-26 10:54:02 info: GET /publicUsers 11.333 ms - 2
+
+202205-26 10:54:02 info: GET /publicUsers/unknown 3.371 ms - 23
+
+202205-26 10:54:02 info: DELETE /publicUsers/admin 3.027 ms - -
+
+202205-26 10:54:02 info: GET /publicUsers/admin 2.580 ms - 23
+
+202205-26 10:54:02 info: DELETE /publicUsers/admin 2.264 ms - 23
+
+202205-26 10:54:02 info: POST /publicUsers 83.955 ms - 173
+
+202205-26 10:54:02 info: GET /publicUsers/admin 3.913 ms - 173
+
+202205-26 10:54:03 info: POST /publicUsers 84.018 ms - 191
+
+202205-26 10:54:03 info: POST /publicUsers 2.303 ms - 57
+
+202205-26 10:54:03 info: GET /publicUsers 3.050 ms - 367
+
+202205-26 10:54:03 info: PUT /publicUsers/manfred 3.710 ms - -
+
+202205-26 10:54:03 info: GET /publicUsers/manfred 2.935 ms - 179
+
+202205-26 10:54:03 info: true
+202205-26 10:54:03 info: PUT /publicUsers/manfred 79.592 ms - -
+
+202205-26 10:54:03 info: false
+202205-26 10:54:03 info: true
+202205-26 10:54:03 info: POST /publicUsers 3.203 ms - 21
+
+202205-26 10:54:03 info: DELETE /publicUsers/admin 1.776 ms - -
+
+202205-26 10:54:03 info: DELETE /publicUsers/manfred 1.738 ms - -
+
+202205-26 10:54:03 info: GET /publicUsers/ 1.437 ms - 2
+
+202205-26 10:54:03 info: Shutting down application
+202205-26 10:59:49 info: Started application in development mode
+202205-26 10:59:50 info: GET /publicUsers 11.790 ms - 2
+
+202205-26 10:59:50 info: GET /publicUsers/unknown 3.927 ms - 23
+
+202205-26 10:59:50 info: DELETE /publicUsers/admin 3.069 ms - -
+
+202205-26 10:59:50 info: GET /publicUsers/admin 2.438 ms - 23
+
+202205-26 10:59:50 info: DELETE /publicUsers/admin 2.357 ms - 23
+
+202205-26 10:59:50 info: POST /publicUsers 83.780 ms - 173
+
+202205-26 10:59:50 info: GET /publicUsers/admin 4.067 ms - 173
+
+202205-26 10:59:50 info: POST /publicUsers 81.253 ms - 191
+
+202205-26 10:59:50 info: POST /publicUsers 2.532 ms - 57
+
+202205-26 10:59:50 info: GET /publicUsers 2.914 ms - 367
+
+202205-26 10:59:50 info: PUT /publicUsers/manfred 3.467 ms - -
+
+202205-26 10:59:50 info: GET /publicUsers/manfred 2.770 ms - 179
+
+202205-26 10:59:50 info: true
+202205-26 10:59:50 info: PUT /publicUsers/manfred 80.356 ms - -
+
+202205-26 10:59:50 info: false
+202205-26 10:59:50 info: POST /publicUsers 3.237 ms - 21
+
+202205-26 10:59:50 info: DELETE /publicUsers/admin 1.684 ms - -
+
+202205-26 10:59:50 info: DELETE /publicUsers/manfred 1.945 ms - -
+
+202205-26 10:59:50 info: GET /publicUsers/ 1.644 ms - 2
+
+202205-26 10:59:50 info: Shutting down application
+202205-26 11:00:12 info: Started application in development mode
+202205-26 11:00:13 info: GET /publicUsers 12.055 ms - 2
+
+202205-26 11:00:13 info: GET /publicUsers/unknown 3.735 ms - 23
+
+202205-26 11:00:13 info: DELETE /publicUsers/admin 2.971 ms - -
+
+202205-26 11:00:13 info: GET /publicUsers/admin 2.727 ms - 23
+
+202205-26 11:00:13 info: DELETE /publicUsers/admin 2.155 ms - 23
+
+202205-26 11:00:13 info: POST /publicUsers 83.663 ms - 173
+
+202205-26 11:00:13 info: GET /publicUsers/admin 3.832 ms - 173
+
+202205-26 11:00:13 info: POST /publicUsers 82.875 ms - 191
+
+202205-26 11:00:13 info: POST /publicUsers 2.560 ms - 57
+
+202205-26 11:00:13 info: GET /publicUsers 3.432 ms - 367
+
+202205-26 11:00:13 info: PUT /publicUsers/manfred 3.336 ms - -
+
+202205-26 11:00:13 info: GET /publicUsers/manfred 2.857 ms - 179
+
+202205-26 11:00:13 info: true
+202205-26 11:00:13 info: PUT /publicUsers/manfred 79.201 ms - -
+
+202205-26 11:00:13 info: false
+202205-26 11:00:13 info: POST /publicUsers 3.117 ms - 21
+
+202205-26 11:00:13 info: DELETE /publicUsers/admin 2.121 ms - -
+
+202205-26 11:00:13 info: DELETE /publicUsers/manfred 1.476 ms - -
+
+202205-26 11:00:13 info: GET /publicUsers/ 1.904 ms - 2
+
+202205-26 11:00:13 info: Shutting down application
+202205-26 11:03:10 info: Started application in development mode
+202205-26 11:03:11 info: GET /publicUsers 12.010 ms - 2
+
+202205-26 11:03:11 info: GET /publicUsers/unknown 3.118 ms - 23
+
+202205-26 11:03:11 info: DELETE /publicUsers/admin 3.049 ms - -
+
+202205-26 11:03:11 info: GET /publicUsers/admin 2.580 ms - 23
+
+202205-26 11:03:11 info: DELETE /publicUsers/admin 1.959 ms - 23
+
+202205-26 11:03:11 info: POST /publicUsers 84.570 ms - 173
+
+202205-26 11:03:11 info: GET /publicUsers/admin 4.421 ms - 173
+
+202205-26 11:03:11 info: POST /publicUsers 87.214 ms - 191
+
+202205-26 11:03:11 info: POST /publicUsers 2.780 ms - 57
+
+202205-26 11:03:11 info: GET /publicUsers 3.608 ms - 367
+
+202205-26 11:03:11 info: PUT /publicUsers/manfred 3.857 ms - -
+
+202205-26 11:03:11 info: GET /publicUsers/manfred 2.569 ms - 179
+
+202205-26 11:03:11 info: true
+202205-26 11:03:11 info: PUT /publicUsers/manfred 86.862 ms - -
+
+202205-26 11:03:11 info: false
+202205-26 11:03:12 info: true
+202205-26 11:03:12 info: POST /publicUsers 3.406 ms - 21
+
+202205-26 11:03:12 info: DELETE /publicUsers/admin 1.758 ms - -
+
+202205-26 11:03:12 info: DELETE /publicUsers/manfred 2.088 ms - -
+
+202205-26 11:03:12 info: GET /publicUsers/ 1.474 ms - 2
+
+202205-26 11:03:12 info: Shutting down application
+202205-26 11:04:12 info: Started application in development mode
+202205-26 11:04:12 info: GET /publicUsers 21.216 ms - 2
+
+202205-26 11:04:12 info: GET /publicUsers/unknown 3.638 ms - 23
+
+202205-26 11:04:12 info: DELETE /publicUsers/admin 3.019 ms - -
+
+202205-26 11:04:12 info: GET /publicUsers/admin 2.568 ms - 23
+
+202205-26 11:04:12 info: DELETE /publicUsers/admin 1.915 ms - 23
+
+202205-26 11:04:13 info: POST /publicUsers 92.626 ms - 173
+
+202205-26 11:04:13 info: GET /publicUsers/admin 4.147 ms - 173
+
+202205-26 11:04:13 info: POST /publicUsers 83.117 ms - 191
+
+202205-26 11:04:13 info: POST /publicUsers 2.661 ms - 57
+
+202205-26 11:04:13 info: GET /publicUsers 3.396 ms - 367
+
+202205-26 11:04:13 info: PUT /publicUsers/manfred 3.409 ms - -
+
+202205-26 11:04:13 info: GET /publicUsers/manfred 2.628 ms - 179
+
+202205-26 11:04:13 info: true
+202205-26 11:04:13 info: PUT /publicUsers/manfred 79.114 ms - -
+
+202205-26 11:04:13 info: false
+202205-26 11:04:13 info: true
+202205-26 11:04:13 info: POST /publicUsers 3.212 ms - 21
+
+202205-26 11:04:13 info: DELETE /publicUsers/admin 1.619 ms - -
+
+202205-26 11:04:13 info: DELETE /publicUsers/manfred 1.883 ms - -
+
+202205-26 11:04:13 info: GET /publicUsers/ 1.738 ms - 2
+
+202205-26 11:04:13 info: Shutting down application
+202205-26 11:05:01 info: Started application in development mode
+202205-26 11:05:01 info: GET /publicUsers 13.550 ms - 2
+
+202205-26 11:05:01 info: GET /publicUsers/unknown 4.008 ms - 23
+
+202205-26 11:05:01 info: DELETE /publicUsers/admin 3.107 ms - -
+
+202205-26 11:05:01 info: GET /publicUsers/admin 2.456 ms - 23
+
+202205-26 11:05:01 info: DELETE /publicUsers/admin 2.089 ms - 23
+
+202205-26 11:05:02 info: POST /publicUsers 101.200 ms - 173
+
+202205-26 11:05:02 info: GET /publicUsers/admin 3.992 ms - 173
+
+202205-26 11:05:02 info: POST /publicUsers 82.376 ms - 191
+
+202205-26 11:05:02 info: POST /publicUsers 2.355 ms - 57
+
+202205-26 11:05:02 info: GET /publicUsers 2.929 ms - 367
+
+202205-26 11:05:02 info: PUT /publicUsers/manfred 3.615 ms - -
+
+202205-26 11:05:02 info: GET /publicUsers/manfred 2.539 ms - 179
+
+202205-26 11:05:02 info: true
+202205-26 11:05:02 info: PUT /publicUsers/manfred 78.819 ms - -
+
+202205-26 11:05:02 info: false
+202205-26 11:05:02 info: POST /publicUsers 4.042 ms - 21
+
+202205-26 11:05:02 info: DELETE /publicUsers/admin 2.129 ms - -
+
+202205-26 11:05:02 info: DELETE /publicUsers/manfred 1.667 ms - -
+
+202205-26 11:05:02 info: GET /publicUsers/ 1.346 ms - 2
+
+202205-26 11:05:02 info: Shutting down application
+202205-26 11:05:09 info: Started application in development mode
+202205-26 11:05:10 info: GET /publicUsers 11.995 ms - 2
+
+202205-26 11:05:10 info: GET /publicUsers/unknown 3.760 ms - 23
+
+202205-26 11:05:10 info: DELETE /publicUsers/admin 3.078 ms - -
+
+202205-26 11:05:10 info: GET /publicUsers/admin 2.274 ms - 23
+
+202205-26 11:05:10 info: DELETE /publicUsers/admin 2.059 ms - 23
+
+202205-26 11:05:10 info: POST /publicUsers 85.895 ms - 173
+
+202205-26 11:05:10 info: GET /publicUsers/admin 4.115 ms - 173
+
+202205-26 11:05:10 info: POST /publicUsers 86.746 ms - 191
+
+202205-26 11:05:10 info: POST /publicUsers 2.374 ms - 57
+
+202205-26 11:05:10 info: GET /publicUsers 2.940 ms - 367
+
+202205-26 11:05:10 info: PUT /publicUsers/manfred 3.386 ms - -
+
+202205-26 11:05:10 info: GET /publicUsers/manfred 2.550 ms - 179
+
+202205-26 11:05:10 info: true
+202205-26 11:05:10 info: PUT /publicUsers/manfred 79.069 ms - -
+
+202205-26 11:05:10 info: false
+202205-26 11:05:10 info: true
+202205-26 11:05:10 info: POST /publicUsers 3.203 ms - 21
+
+202205-26 11:05:10 info: DELETE /publicUsers/admin 1.666 ms - -
+
+202205-26 11:05:10 info: DELETE /publicUsers/manfred 1.681 ms - -
+
+202205-26 11:05:10 info: GET /publicUsers/ 1.567 ms - 2
+
+202205-26 11:05:10 info: Shutting down application
+202205-26 11:06:29 info: Started application in development mode
+202205-26 11:06:30 info: GET /publicUsers 12.188 ms - 2
+
+202205-26 11:06:30 info: GET /publicUsers/unknown 3.295 ms - 23
+
+202205-26 11:06:30 info: DELETE /publicUsers/admin 3.627 ms - -
+
+202205-26 11:06:30 info: GET /publicUsers/admin 2.593 ms - 23
+
+202205-26 11:06:30 info: DELETE /publicUsers/admin 1.925 ms - 23
+
+202205-26 11:06:30 info: POST /publicUsers 89.618 ms - 173
+
+202205-26 11:06:30 info: GET /publicUsers/admin 3.974 ms - 173
+
+202205-26 11:06:30 info: POST /publicUsers 87.542 ms - 191
+
+202205-26 11:06:30 info: POST /publicUsers 2.378 ms - 57
+
+202205-26 11:06:30 info: GET /publicUsers 3.031 ms - 367
+
+202205-26 11:06:30 info: PUT /publicUsers/manfred 3.294 ms - -
+
+202205-26 11:06:30 info: GET /publicUsers/manfred 2.753 ms - 179
+
+202205-26 11:06:30 info: true
+202205-26 11:06:30 info: PUT /publicUsers/manfred 79.575 ms - -
+
+202205-26 11:06:30 info: false
+202205-26 11:06:30 info: true
+202205-26 11:06:30 info: POST /publicUsers 3.169 ms - 21
+
+202205-26 11:06:30 info: DELETE /publicUsers/admin 1.509 ms - -
+
+202205-26 11:06:30 info: DELETE /publicUsers/manfred 1.841 ms - -
+
+202205-26 11:06:30 info: GET /publicUsers/ 1.731 ms - 2
+
+202205-26 11:06:30 info: Shutting down application
+{
+    "time": "2022-05-26T09:07:18.087Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T09:07:18.195Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T09:07:22.160Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:22.168Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:09:07:22 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:38.922Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:38 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "191",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:43.096Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:43 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:43.096Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:46.212Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:46 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:46.213Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T09:07:51.642Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:51 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:51.642Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T09:07:55.861Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:55 +0000]",
+        "method": "GET",
+        "url": "/users/admin",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "60",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:07:57.787Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:07:57 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:03.252Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:08:03 +0000]",
+        "method": "PUT",
+        "url": "/users/manfred",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:03.254Z",
+    "level": "info",
+    "message": false
+}
+{
+    "time": "2022-05-26T09:08:05.854Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:09:08:05 +0000]",
+        "method": "GET",
+        "url": "/publicusers",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "369",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T09:08:56.963Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T09:08:57.078Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+202205-26 11:09:02 info: Started application in development mode
+202205-26 11:09:03 info: GET /publicUsers 21.543 ms - 2
+
+202205-26 11:09:03 info: GET /publicUsers/unknown 3.658 ms - 23
+
+202205-26 11:09:03 info: DELETE /publicUsers/admin 3.016 ms - -
+
+202205-26 11:09:03 info: GET /publicUsers/admin 2.621 ms - 23
+
+202205-26 11:09:03 info: DELETE /publicUsers/admin 2.061 ms - 23
+
+202205-26 11:09:03 info: POST /publicUsers 84.299 ms - 173
+
+202205-26 11:09:03 info: GET /publicUsers/admin 4.380 ms - 173
+
+202205-26 11:09:03 info: POST /publicUsers 87.479 ms - 191
+
+202205-26 11:09:03 info: POST /publicUsers 2.785 ms - 57
+
+202205-26 11:09:03 info: GET /publicUsers 3.650 ms - 367
+
+202205-26 11:09:03 info: PUT /publicUsers/manfred 4.272 ms - -
+
+202205-26 11:09:03 info: GET /publicUsers/manfred 2.754 ms - 179
+
+202205-26 11:09:03 info: true
+202205-26 11:09:03 info: PUT /publicUsers/manfred 86.111 ms - -
+
+202205-26 11:09:03 info: false
+202205-26 11:09:03 info: true
+202205-26 11:09:03 info: POST /publicUsers 3.254 ms - 21
+
+202205-26 11:09:03 info: DELETE /publicUsers/admin 1.753 ms - -
+
+202205-26 11:09:03 info: DELETE /publicUsers/manfred 1.671 ms - -
+
+202205-26 11:09:03 info: GET /publicUsers/ 1.515 ms - 2
+
+202205-26 11:09:03 info: Shutting down application
+202205-26 11:09:38 info: Started application in development mode
+202205-26 11:09:38 info: GET /publicUsers 12.153 ms - 2
+
+202205-26 11:09:39 info: GET /publicUsers/unknown 3.742 ms - 23
+
+202205-26 11:09:39 info: DELETE /publicUsers/admin 2.923 ms - -
+
+202205-26 11:09:39 info: GET /publicUsers/admin 2.631 ms - 23
+
+202205-26 11:09:39 info: DELETE /publicUsers/admin 2.179 ms - 23
+
+202205-26 11:09:39 info: POST /publicUsers 82.965 ms - 173
+
+202205-26 11:09:39 info: GET /publicUsers/admin 3.847 ms - 173
+
+202205-26 11:09:39 info: POST /publicUsers 82.314 ms - 191
+
+202205-26 11:09:39 info: POST /publicUsers 2.662 ms - 57
+
+202205-26 11:09:39 info: GET /publicUsers 3.626 ms - 367
+
+202205-26 11:09:39 info: PUT /publicUsers/manfred 3.807 ms - -
+
+202205-26 11:09:39 info: GET /publicUsers/manfred 2.478 ms - 179
+
+202205-26 11:09:39 info: true
+202205-26 11:09:39 info: PUT /publicUsers/manfred 78.813 ms - -
+
+202205-26 11:09:39 info: false
+202205-26 11:09:39 info: true
+202205-26 11:09:39 info: POST /publicUsers 3.486 ms - 21
+
+202205-26 11:09:39 info: DELETE /publicUsers/admin 2.183 ms - -
+
+202205-26 11:09:39 info: DELETE /publicUsers/manfred 1.759 ms - -
+
+202205-26 11:09:39 info: GET /publicUsers/ 1.541 ms - 2
+
+202205-26 11:09:39 info: Shutting down application
+202205-26 11:10:03 info: Started application in development mode
+202205-26 11:10:03 info: GET /publicUsers 12.110 ms - 2
+
+202205-26 11:10:03 info: GET /publicUsers/unknown 3.105 ms - 23
+
+202205-26 11:10:03 info: DELETE /publicUsers/admin 3.312 ms - -
+
+202205-26 11:10:03 info: GET /publicUsers/admin 2.573 ms - 23
+
+202205-26 11:10:03 info: DELETE /publicUsers/admin 2.178 ms - 23
+
+202205-26 11:10:04 info: POST /publicUsers 93.356 ms - 173
+
+202205-26 11:10:04 info: GET /publicUsers/admin 4.069 ms - 173
+
+202205-26 11:10:04 info: POST /publicUsers 88.669 ms - 191
+
+202205-26 11:10:04 info: POST /publicUsers 2.345 ms - 57
+
+202205-26 11:10:04 info: GET /publicUsers 3.201 ms - 367
+
+202205-26 11:10:04 info: PUT /publicUsers/manfred 3.967 ms - -
+
+202205-26 11:10:04 info: GET /publicUsers/manfred 2.731 ms - 179
+
+202205-26 11:10:04 info: true
+202205-26 11:10:04 info: PUT /publicUsers/manfred 82.019 ms - -
+
+202205-26 11:10:04 info: false
+202205-26 11:10:04 info: true
+202205-26 11:10:04 info: POST /publicUsers 3.072 ms - 21
+
+202205-26 11:10:04 info: DELETE /publicUsers/admin 1.830 ms - -
+
+202205-26 11:10:04 info: DELETE /publicUsers/manfred 1.999 ms - -
+
+202205-26 11:10:04 info: GET /publicUsers/ 1.779 ms - 2
+
+202205-26 11:10:04 info: Shutting down application
+202205-26 11:10:21 info: Started application in development mode
+202205-26 11:10:21 info: GET /publicUsers 12.026 ms - 2
+
+202205-26 11:10:21 info: GET /publicUsers/unknown 3.253 ms - 23
+
+202205-26 11:10:21 info: DELETE /publicUsers/admin 3.348 ms - -
+
+202205-26 11:10:21 info: GET /publicUsers/admin 2.704 ms - 23
+
+202205-26 11:10:21 info: DELETE /publicUsers/admin 2.202 ms - 23
+
+202205-26 11:10:21 info: POST /publicUsers 83.439 ms - 173
+
+202205-26 11:10:21 info: GET /publicUsers/admin 4.434 ms - 173
+
+202205-26 11:10:21 info: POST /publicUsers 85.293 ms - 191
+
+202205-26 11:10:21 info: POST /publicUsers 2.755 ms - 57
+
+202205-26 11:10:21 info: GET /publicUsers 3.273 ms - 367
+
+202205-26 11:10:22 info: PUT /publicUsers/manfred 3.505 ms - -
+
+202205-26 11:10:22 info: GET /publicUsers/manfred 2.711 ms - 179
+
+202205-26 11:10:22 info: true
+202205-26 11:10:22 info: PUT /publicUsers/manfred 84.825 ms - -
+
+202205-26 11:10:22 info: false
+202205-26 11:10:22 info: true
+202205-26 11:10:22 info: POST /publicUsers 3.595 ms - 21
+
+202205-26 11:10:22 info: DELETE /publicUsers/admin 2.088 ms - -
+
+202205-26 11:10:22 info: DELETE /publicUsers/manfred 1.880 ms - -
+
+202205-26 11:10:22 info: GET /publicUsers/ 1.925 ms - 2
+
+202205-26 11:10:22 info: Shutting down application
+202205-26 11:11:07 info: Started application in development mode
+202205-26 11:11:08 info: GET /publicUsers 11.924 ms - 2
+
+202205-26 11:11:08 info: GET /publicUsers/unknown 3.569 ms - 23
+
+202205-26 11:11:08 info: DELETE /publicUsers/admin 2.868 ms - -
+
+202205-26 11:11:08 info: GET /publicUsers/admin 2.318 ms - 23
+
+202205-26 11:11:08 info: DELETE /publicUsers/admin 1.968 ms - 23
+
+202205-26 11:11:08 info: POST /publicUsers 84.452 ms - 173
+
+202205-26 11:11:08 info: GET /publicUsers/admin 4.228 ms - 173
+
+202205-26 11:11:08 info: POST /publicUsers 82.450 ms - 191
+
+202205-26 11:11:08 info: POST /publicUsers 2.675 ms - 57
+
+202205-26 11:11:08 info: GET /publicUsers 3.089 ms - 367
+
+202205-26 11:11:08 info: PUT /publicUsers/manfred 3.867 ms - -
+
+202205-26 11:11:08 info: GET /publicUsers/manfred 2.526 ms - 179
+
+202205-26 11:11:08 info: true
+202205-26 11:11:08 info: PUT /publicUsers/manfred 79.667 ms - -
+
+202205-26 11:11:08 info: false
+202205-26 11:11:08 info: true
+202205-26 11:11:08 info: POST /publicUsers 3.321 ms - 21
+
+202205-26 11:11:08 info: DELETE /publicUsers/admin 2.419 ms - -
+
+202205-26 11:11:08 info: DELETE /publicUsers/manfred 1.679 ms - -
+
+202205-26 11:11:08 info: GET /publicUsers/ 1.523 ms - 2
+
+202205-26 11:11:08 info: Shutting down application
+202205-26 11:14:26 info: Started application in development mode
+202205-26 11:14:27 info: GET /publicUsers 12.518 ms - 2
+
+202205-26 11:14:27 info: GET /publicUsers/unknown 3.202 ms - 23
+
+202205-26 11:14:27 info: DELETE /publicUsers/admin 3.095 ms - -
+
+202205-26 11:14:27 info: GET /publicUsers/admin 2.391 ms - 23
+
+202205-26 11:14:27 info: DELETE /publicUsers/admin 1.981 ms - 23
+
+202205-26 11:14:27 info: POST /publicUsers 83.994 ms - 173
+
+202205-26 11:14:27 info: GET /publicUsers/admin 4.184 ms - 173
+
+202205-26 11:14:27 info: POST /publicUsers 87.391 ms - 191
+
+202205-26 11:14:27 info: POST /publicUsers 2.539 ms - 57
+
+202205-26 11:14:27 info: GET /publicUsers 3.581 ms - 367
+
+202205-26 11:14:27 info: PUT /publicUsers/manfred 3.584 ms - -
+
+202205-26 11:14:27 info: GET /publicUsers/manfred 3.156 ms - 179
+
+202205-26 11:14:27 info: true
+202205-26 11:14:27 info: PUT /publicUsers/manfred 82.498 ms - -
+
+202205-26 11:14:27 info: false
+202205-26 11:14:28 info: true
+202205-26 11:14:28 info: POST /publicUsers 3.051 ms - 21
+
+202205-26 11:14:28 info: DELETE /publicUsers/admin 1.744 ms - -
+
+202205-26 11:14:28 info: DELETE /publicUsers/manfred 1.720 ms - -
+
+202205-26 11:14:28 info: GET /publicUsers/ 1.617 ms - 2
+
+202205-26 11:14:28 info: Shutting down application
+202205-26 11:15:08 info: Started application in development mode
+202205-26 11:15:09 info: GET /publicUsers 14.405 ms - 2
+
+202205-26 11:15:09 info: GET /publicUsers/unknown 3.326 ms - 23
+
+202205-26 11:15:09 info: DELETE /publicUsers/admin 3.272 ms - -
+
+202205-26 11:15:09 info: GET /publicUsers/admin 2.546 ms - 23
+
+202205-26 11:15:09 info: DELETE /publicUsers/admin 1.923 ms - 23
+
+202205-26 11:15:09 info: POST /publicUsers 84.279 ms - 173
+
+202205-26 11:15:09 info: GET /publicUsers/admin 3.826 ms - 173
+
+202205-26 11:15:09 info: POST /publicUsers 83.534 ms - 191
+
+202205-26 11:15:09 info: POST /publicUsers 2.628 ms - 57
+
+202205-26 11:15:09 info: GET /publicUsers 3.441 ms - 367
+
+202205-26 11:15:09 info: PUT /publicUsers/manfred 3.852 ms - -
+
+202205-26 11:15:09 info: GET /publicUsers/manfred 2.939 ms - 179
+
+202205-26 11:15:09 info: true
+202205-26 11:15:09 info: PUT /publicUsers/manfred 86.213 ms - -
+
+202205-26 11:15:09 info: false
+202205-26 11:15:09 info: false
+202205-26 11:15:09 info: POST /publicUsers 3.046 ms - 21
+
+202205-26 11:15:09 info: DELETE /publicUsers/admin 1.760 ms - -
+
+202205-26 11:15:09 info: DELETE /publicUsers/manfred 1.883 ms - -
+
+202205-26 11:15:09 info: GET /publicUsers/ 1.832 ms - 2
+
+202205-26 11:15:09 info: Shutting down application
+202205-26 11:15:58 info: Started application in development mode
+202205-26 11:15:59 info: GET /publicUsers 21.420 ms - 2
+
+202205-26 11:15:59 info: GET /publicUsers/unknown 3.385 ms - 23
+
+202205-26 11:15:59 info: DELETE /publicUsers/admin 3.874 ms - -
+
+202205-26 11:15:59 info: GET /publicUsers/admin 2.789 ms - 23
+
+202205-26 11:15:59 info: DELETE /publicUsers/admin 2.429 ms - 23
+
+202205-26 11:15:59 info: POST /publicUsers 83.186 ms - 173
+
+202205-26 11:15:59 info: GET /publicUsers/admin 4.523 ms - 173
+
+202205-26 11:15:59 info: POST /publicUsers 82.001 ms - 191
+
+202205-26 11:15:59 info: POST /publicUsers 2.417 ms - 57
+
+202205-26 11:15:59 info: GET /publicUsers 2.987 ms - 367
+
+202205-26 11:15:59 info: PUT /publicUsers/manfred 3.762 ms - -
+
+202205-26 11:15:59 info: GET /publicUsers/manfred 2.621 ms - 179
+
+202205-26 11:15:59 info: true
+202205-26 11:15:59 info: PUT /publicUsers/manfred 80.694 ms - -
+
+202205-26 11:15:59 info: false
+202205-26 11:16:00 info: false
+202205-26 11:16:00 info: POST /publicUsers 3.372 ms - 21
+
+202205-26 11:16:00 info: DELETE /publicUsers/admin 1.800 ms - -
+
+202205-26 11:16:00 info: DELETE /publicUsers/manfred 2.049 ms - -
+
+202205-26 11:16:00 info: GET /publicUsers/ 1.636 ms - 2
+
+202205-26 11:16:00 info: Shutting down application
+202205-26 11:16:42 info: Started application in development mode
+202205-26 11:16:42 info: GET /publicUsers 21.708 ms - 2
+
+202205-26 11:16:42 info: GET /publicUsers/unknown 3.603 ms - 23
+
+202205-26 11:16:42 info: DELETE /publicUsers/admin 3.184 ms - -
+
+202205-26 11:16:42 info: GET /publicUsers/admin 2.375 ms - 23
+
+202205-26 11:16:42 info: DELETE /publicUsers/admin 2.233 ms - 23
+
+202205-26 11:16:42 info: POST /publicUsers 89.083 ms - 173
+
+202205-26 11:16:42 info: GET /publicUsers/admin 3.894 ms - 173
+
+202205-26 11:16:42 info: POST /publicUsers 90.314 ms - 191
+
+202205-26 11:16:42 info: POST /publicUsers 2.293 ms - 57
+
+202205-26 11:16:42 info: GET /publicUsers 2.937 ms - 367
+
+202205-26 11:16:42 info: PUT /publicUsers/manfred 4.023 ms - -
+
+202205-26 11:16:42 info: GET /publicUsers/manfred 2.708 ms - 179
+
+202205-26 11:16:43 info: true
+202205-26 11:16:43 info: PUT /publicUsers/manfred 85.069 ms - -
+
+202205-26 11:16:43 info: false
+202205-26 11:16:43 info: true
+202205-26 11:16:43 info: POST /publicUsers 3.275 ms - 21
+
+202205-26 11:16:43 info: DELETE /publicUsers/admin 1.569 ms - -
+
+202205-26 11:16:43 info: DELETE /publicUsers/manfred 1.711 ms - -
+
+202205-26 11:16:43 info: GET /publicUsers/ 1.535 ms - 2
+
+202205-26 11:16:43 info: Shutting down application
+202205-26 11:17:26 info: Started application in development mode
+202205-26 11:17:27 info: GET /publicUsers 12.841 ms - 2
+
+202205-26 11:17:27 info: GET /publicUsers/unknown 3.357 ms - 23
+
+202205-26 11:17:27 info: DELETE /publicUsers/admin 5.238 ms - -
+
+202205-26 11:17:27 info: GET /publicUsers/admin 2.559 ms - 23
+
+202205-26 11:17:27 info: DELETE /publicUsers/admin 2.048 ms - 23
+
+202205-26 11:17:27 info: POST /publicUsers 89.590 ms - 173
+
+202205-26 11:17:27 info: GET /publicUsers/admin 3.946 ms - 173
+
+202205-26 11:17:27 info: POST /publicUsers 88.312 ms - 191
+
+202205-26 11:17:27 info: POST /publicUsers 2.755 ms - 57
+
+202205-26 11:17:27 info: GET /publicUsers 2.865 ms - 367
+
+202205-26 11:17:27 info: PUT /publicUsers/manfred 3.755 ms - -
+
+202205-26 11:17:27 info: GET /publicUsers/manfred 2.673 ms - 179
+
+202205-26 11:17:27 info: true
+202205-26 11:17:27 info: PUT /publicUsers/manfred 81.133 ms - -
+
+202205-26 11:17:27 info: false
+202205-26 11:17:28 info: true
+202205-26 11:17:28 info: POST /publicUsers 3.319 ms - 21
+
+202205-26 11:17:28 info: DELETE /publicUsers/admin 1.556 ms - -
+
+202205-26 11:17:28 info: DELETE /publicUsers/manfred 1.708 ms - -
+
+202205-26 11:17:28 info: GET /publicUsers/ 1.566 ms - 2
+
+202205-26 11:17:28 info: Shutting down application
+202205-26 11:22:37 info: Started application in development mode
+202205-26 11:22:38 info: GET /publicUsers 21.680 ms - 2
+
+202205-26 11:22:38 info: GET /publicUsers/unknown 5.656 ms - 23
+
+202205-26 11:22:38 info: DELETE /publicUsers/admin 2.984 ms - -
+
+202205-26 11:22:38 info: GET /publicUsers/admin 2.148 ms - 23
+
+202205-26 11:22:38 info: DELETE /publicUsers/admin 1.877 ms - 23
+
+202205-26 11:22:38 info: POST /publicUsers 87.006 ms - 173
+
+202205-26 11:22:38 info: GET /publicUsers/admin 3.767 ms - 173
+
+202205-26 11:22:38 info: POST /publicUsers 82.861 ms - 191
+
+202205-26 11:22:38 info: POST /publicUsers 2.310 ms - 57
+
+202205-26 11:22:38 info: GET /publicUsers 3.371 ms - 367
+
+202205-26 11:22:38 info: PUT /publicUsers/manfred 3.800 ms - -
+
+202205-26 11:22:38 info: GET /publicUsers/manfred 2.599 ms - 179
+
+202205-26 11:22:38 info: true
+202205-26 11:22:38 info: PUT /publicUsers/manfred 82.917 ms - -
+
+202205-26 11:22:38 info: false
+202205-26 11:22:38 info: true
+202205-26 11:22:38 info: POST /publicUsers 3.657 ms - 21
+
+202205-26 11:22:39 info: DELETE /publicUsers/admin 1.395 ms - -
+
+202205-26 11:22:39 info: DELETE /publicUsers/manfred 1.525 ms - -
+
+202205-26 11:22:39 info: GET /publicUsers/ 1.460 ms - 2
+
+202205-26 11:22:39 info: Shutting down application
+202205-26 11:23:13 info: Started application in development mode
+202205-26 11:23:14 info: GET /publicUsers 13.410 ms - 2
+
+202205-26 11:23:14 info: GET /publicUsers/unknown 3.111 ms - 23
+
+202205-26 11:23:14 info: DELETE /publicUsers/admin 2.916 ms - -
+
+202205-26 11:23:14 info: GET /publicUsers/admin 2.238 ms - 23
+
+202205-26 11:23:14 info: DELETE /publicUsers/admin 1.929 ms - 23
+
+202205-26 11:23:14 info: POST /publicUsers 83.104 ms - 173
+
+202205-26 11:23:14 info: GET /publicUsers/admin 4.044 ms - 173
+
+202205-26 11:23:14 info: POST /publicUsers 82.618 ms - 191
+
+202205-26 11:23:14 info: POST /publicUsers 2.674 ms - 57
+
+202205-26 11:23:14 info: GET /publicUsers 3.248 ms - 367
+
+202205-26 11:23:14 info: PUT /publicUsers/manfred 3.987 ms - -
+
+202205-26 11:23:14 info: GET /publicUsers/manfred 2.898 ms - 179
+
+202205-26 11:23:14 info: true
+202205-26 11:23:14 info: PUT /publicUsers/manfred 83.867 ms - -
+
+202205-26 11:23:14 info: false
+202205-26 11:23:14 info: true
+202205-26 11:23:14 info: POST /publicUsers 3.183 ms - 21
+
+202205-26 11:23:14 info: DELETE /publicUsers/admin 1.739 ms - -
+
+202205-26 11:23:14 info: DELETE /publicUsers/manfred 1.966 ms - -
+
+202205-26 11:23:14 info: GET /publicUsers/ 1.585 ms - 2
+
+202205-26 11:23:14 info: Shutting down application
+202205-26 11:23:24 info: Started application in development mode
+202205-26 11:23:25 info: GET /publicUsers 12.736 ms - 2
+
+202205-26 11:23:25 info: GET /publicUsers/unknown 4.995 ms - 23
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 3.420 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/admin 2.231 ms - 23
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 1.965 ms - 23
+
+202205-26 11:23:25 info: POST /publicUsers 84.040 ms - 173
+
+202205-26 11:23:25 info: GET /publicUsers/admin 4.208 ms - 173
+
+202205-26 11:23:25 info: POST /publicUsers 99.826 ms - 191
+
+202205-26 11:23:25 info: POST /publicUsers 2.751 ms - 57
+
+202205-26 11:23:25 info: GET /publicUsers 3.319 ms - 367
+
+202205-26 11:23:25 info: PUT /publicUsers/manfred 4.334 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/manfred 2.899 ms - 179
+
+202205-26 11:23:25 info: true
+202205-26 11:23:25 info: PUT /publicUsers/manfred 85.141 ms - -
+
+202205-26 11:23:25 info: false
+202205-26 11:23:25 info: true
+202205-26 11:23:25 info: POST /publicUsers 3.466 ms - 21
+
+202205-26 11:23:25 info: DELETE /publicUsers/admin 2.200 ms - -
+
+202205-26 11:23:25 info: DELETE /publicUsers/manfred 1.856 ms - -
+
+202205-26 11:23:25 info: GET /publicUsers/ 1.443 ms - 2
+
+202205-26 11:23:25 info: Shutting down application
+{
+    "time": "2022-05-26T10:28:26.042Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T10:28:26.602Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T10:28:27.783Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:28:27 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:28:42.506Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:28:42 +0000]",
+        "method": "GET",
+        "url": "/forumMessages/62824f7ef7fe5effd82b77de",
+        "http-version": "HTTP/1.1",
+        "status": "404",
+        "content-length": "32",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:20.040Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:20 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:25.871Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T10:29:25.874Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:10:29:25 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:33.270Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:33 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:44.905Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:44 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:29:48.326Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:29:48 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:02.046Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:02 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "405",
+        "content-length": "57",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:04.986Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T10:30:04.987Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "manfred",
+        "date": "[26/May/2022:10:30:04 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:08.011Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:08 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "138",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:15.577Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:15 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:17.435Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:17 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "198",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:51.587Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:51 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628f56b04dae0a49328bb7ae",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:30:55.665Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:10:30:55 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628f56b04dae0a49328bb7ae/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T10:33:02.710Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T10:33:03.206Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+202205-26 12:33:07 info: Started application in development mode
+202205-26 12:33:08 info: GET /publicUsers 20.963 ms - 2
+
+202205-26 12:33:08 info: GET /publicUsers/unknown 3.154 ms - 23
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 2.963 ms - -
+
+202205-26 12:33:08 info: GET /publicUsers/admin 2.448 ms - 23
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 2.171 ms - 23
+
+202205-26 12:33:08 info: POST /publicUsers 84.064 ms - 173
+
+202205-26 12:33:08 info: GET /publicUsers/admin 3.973 ms - 173
+
+202205-26 12:33:08 info: POST /publicUsers 86.943 ms - 191
+
+202205-26 12:33:08 info: POST /publicUsers 2.591 ms - 57
+
+202205-26 12:33:08 info: GET /publicUsers 2.940 ms - 367
+
+202205-26 12:33:08 info: PUT /publicUsers/manfred 3.841 ms - -
+
+202205-26 12:33:08 info: GET /publicUsers/manfred 2.501 ms - 179
+
+202205-26 12:33:08 info: true
+202205-26 12:33:08 info: PUT /publicUsers/manfred 86.548 ms - -
+
+202205-26 12:33:08 info: false
+202205-26 12:33:08 info: GET /publicUsers/manfred 1.987 ms - 179
+
+202205-26 12:33:08 info: false
+202205-26 12:33:08 info: POST /publicUsers 3.248 ms - 21
+
+202205-26 12:33:08 info: DELETE /publicUsers/admin 1.736 ms - -
+
+202205-26 12:33:08 info: DELETE /publicUsers/manfred 1.866 ms - -
+
+202205-26 12:33:09 info: GET /publicUsers/ 1.997 ms - 2
+
+202205-26 12:33:09 info: Shutting down application
+202205-26 12:33:36 info: Started application in development mode
+202205-26 12:33:36 info: GET /publicUsers 12.922 ms - 2
+
+202205-26 12:33:36 info: GET /publicUsers/unknown 2.946 ms - 23
+
+202205-26 12:33:36 info: DELETE /publicUsers/admin 2.838 ms - -
+
+202205-26 12:33:36 info: GET /publicUsers/admin 2.177 ms - 23
+
+202205-26 12:33:36 info: DELETE /publicUsers/admin 1.857 ms - 23
+
+202205-26 12:33:36 info: POST /publicUsers 83.271 ms - 173
+
+202205-26 12:33:36 info: GET /publicUsers/admin 4.095 ms - 173
+
+202205-26 12:33:36 info: POST /publicUsers 84.831 ms - 191
+
+202205-26 12:33:36 info: POST /publicUsers 2.545 ms - 57
+
+202205-26 12:33:36 info: GET /publicUsers 2.918 ms - 367
+
+202205-26 12:33:36 info: PUT /publicUsers/manfred 3.790 ms - -
+
+202205-26 12:33:36 info: GET /publicUsers/manfred 2.562 ms - 179
+
+202205-26 12:33:37 info: true
+202205-26 12:33:37 info: PUT /publicUsers/manfred 83.934 ms - -
+
+202205-26 12:33:37 info: false
+202205-26 12:33:37 info: GET /publicUsers/manfred 1.952 ms - 179
+
+202205-26 12:33:37 info: false
+202205-26 12:33:37 info: POST /publicUsers 3.144 ms - 21
+
+202205-26 12:33:37 info: DELETE /publicUsers/admin 1.640 ms - -
+
+202205-26 12:33:37 info: DELETE /publicUsers/manfred 1.576 ms - -
+
+202205-26 12:33:37 info: GET /publicUsers/ 1.983 ms - 2
+
+202205-26 12:33:37 info: Shutting down application
+202205-26 12:34:12 info: Started application in development mode
+202205-26 12:34:12 info: GET /publicUsers 11.804 ms - 2
+
+202205-26 12:34:12 info: GET /publicUsers/unknown 3.192 ms - 23
+
+202205-26 12:34:12 info: DELETE /publicUsers/admin 3.151 ms - -
+
+202205-26 12:34:12 info: GET /publicUsers/admin 2.545 ms - 23
+
+202205-26 12:34:12 info: DELETE /publicUsers/admin 1.952 ms - 23
+
+202205-26 12:34:12 info: POST /publicUsers 85.151 ms - 173
+
+202205-26 12:34:12 info: GET /publicUsers/admin 3.881 ms - 173
+
+202205-26 12:34:12 info: POST /publicUsers 81.317 ms - 191
+
+202205-26 12:34:12 info: POST /publicUsers 2.703 ms - 57
+
+202205-26 12:34:12 info: GET /publicUsers 3.404 ms - 367
+
+202205-26 12:34:12 info: PUT /publicUsers/manfred 3.646 ms - -
+
+202205-26 12:34:12 info: GET /publicUsers/manfred 2.804 ms - 179
+
+202205-26 12:34:12 info: true
+202205-26 12:34:13 info: PUT /publicUsers/manfred 83.211 ms - -
+
+202205-26 12:34:13 info: false
+202205-26 12:34:13 info: GET /publicUsers/manfred 2.404 ms - 179
+
+202205-26 12:34:13 info: false
+202205-26 12:34:13 info: POST /publicUsers 3.109 ms - 21
+
+202205-26 12:34:13 info: DELETE /publicUsers/admin 1.707 ms - -
+
+202205-26 12:34:13 info: DELETE /publicUsers/manfred 1.785 ms - -
+
+202205-26 12:34:13 info: GET /publicUsers/ 1.900 ms - 2
+
+202205-26 12:34:13 info: Shutting down application

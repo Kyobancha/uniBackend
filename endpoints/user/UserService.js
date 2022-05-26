@@ -1,3 +1,4 @@
+const logger = require("../../config/winston");
 const { User } = require("./UserModel");
 
 function authenticate(userId, password){
@@ -86,25 +87,32 @@ function update(req){
     return new Promise((resolve, reject) => {
         User.findOne({userID: req.params.userID}).exec()
         .then(user => {
-            user;
             if(user){
                 user.userID = (req.body.userID ? req.body.userID : user.userID);
                 user.userName = (req.body.userName ? req.body.userName : user.userName);
                 user.isAdministrator = (req.body.isAdministrator ? req.body.isAdministrator : user.isAdministrator);
                 if(req.body.password){
                     user.comparePassword(req.body.password, (error, isMatch) => {
+                        logger.debug("this is the password: " + req.body.password)
                         if(error){
+                            logger.debug("this is an error")
                             throw new Error("This is our fault, sorry!");
                         }
                         if(!isMatch){
+                            logger.debug("this is a new password")
                             user.password = req.body.password;
+                            user.save(); //needed since we are runnign async logic
+                        } else{
+                            logger.debug("the passwords are the same")
                         }
                     });
+                } else{ //needed since we are runnign async logic
+                    logger.debug("no password given, no worries")
+                    user.save();
                 }
-                user.save();
                 resolve(204);
             } else{
-                reject(new Error("This is our fault, sorry!"));
+                resolve(404);
             }
         })
         .catch(() => {

@@ -1,6 +1,7 @@
 const config = require('config');
 const jwt = require('jsonwebtoken');
 
+//expects a bearer-token with the form "Bearer <token>"
 function isAuthenticated(req, res, next) {
     if (typeof req.headers.authorization !== "undefined") {
         let token = req.headers.authorization.split(" ")[1];
