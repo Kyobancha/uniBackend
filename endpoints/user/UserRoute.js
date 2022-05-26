@@ -61,7 +61,7 @@ router.get('/', isAuthenticated, (req, res) => {
             } else{
                 res.status(201);
                 res.send(result);
-                console.log('User saved')
+                logger.log('User saved')
             }
         })
         .catch(error => {      

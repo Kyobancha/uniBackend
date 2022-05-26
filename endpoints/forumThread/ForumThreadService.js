@@ -56,6 +56,7 @@ function update(req){
                 thread.save();
                 resolve(204);
             } else {
+                console.log("can't find thread")
                 reject(new Error("This is our fault, sorry!"))
             }
         })

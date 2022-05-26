@@ -2735,3 +2735,513 @@
     "level": "info",
     "message": "listening on 443"
 }
+{
+    "time": "2022-05-26T21:23:45.349Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T21:23:45.845Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T21:41:20.273Z",
+    "level": "info",
+    "message": "Started application in production mode"
+}
+{
+    "time": "2022-05-26T21:41:20.766Z",
+    "level": "info",
+    "message": "listening on 443"
+}
+{
+    "time": "2022-05-26T21:41:25.364Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T21:41:25.373Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "admin",
+        "date": "[26/May/2022:21:41:25 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:41:32.649Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:41:32 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "171",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:41:46.242Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:41:46 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:41:52.292Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:41:52 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "198",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:41:58.922Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:41:58 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "399",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:06.004Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:06 +0000]",
+        "method": "DELETE",
+        "url": "/forumMessages/628ff420d000de7945d1ce63",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:10.360Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:10 +0000]",
+        "method": "GET",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:24.735Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:24 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628ff40cd000de7945d1ce60/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:29.013Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:29 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628ff40cd000de7945d1ce60",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:42.800Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:42 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:49.478Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:49 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:42:56.634Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:42:56 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "171",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:06.086Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:06 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628ff460d000de7945d1ce6d",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:07.373Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:07 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628ff460d000de7945d1ce6d/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "2",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:23.821Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:23 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:47.589Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:47 +0000]",
+        "method": "POST",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "405",
+        "content-length": "57",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:51.542Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:51 +0000]",
+        "method": "GET",
+        "url": "/users",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "139",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:43:55.980Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:43:55 +0000]",
+        "method": "GET",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "345",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:03.677Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:03 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "401",
+        "content-length": "26",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:34.372Z",
+    "level": "info",
+    "message": true
+}
+{
+    "time": "2022-05-26T21:44:34.374Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "manfred",
+        "date": "[26/May/2022:21:44:34 +0000]",
+        "method": "GET",
+        "url": "/authenticate",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "43",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:36.498Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:36 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "138",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:46.647Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:46 +0000]",
+        "method": "POST",
+        "url": "/forumThreads",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "138",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:49.998Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:49 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "198",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:52.258Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:52 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "201",
+        "content-length": "198",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:54.706Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:54 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628ff4ced000de7945d1ce79",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "399",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:56.101Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:56 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628ff4ced000de7945d1ce79/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "399",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:57.652Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:57 +0000]",
+        "method": "DELETE",
+        "url": "/forumMessages/628ff4d4d000de7945d1ce7e",
+        "http-version": "HTTP/1.1",
+        "status": "204",
+        "content-length": "-",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:58.776Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:58 +0000]",
+        "method": "GET",
+        "url": "/forumMessages?forumThreadID=628ff4ced000de7945d1ce79",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:44:59.315Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:44:59 +0000]",
+        "method": "GET",
+        "url": "/forumThreads/628ff4ced000de7945d1ce79/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "200",
+        "content-length": "200",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}
+{
+    "time": "2022-05-26T21:45:03.341Z",
+    "level": "info",
+    "message": {
+        "remote-addr": "::ffff:127.0.0.1",
+        "remote-user": "-",
+        "date": "[26/May/2022:21:45:03 +0000]",
+        "method": "POST",
+        "url": "/forumMessages",
+        "http-version": "HTTP/1.1",
+        "status": "400",
+        "content-length": "25",
+        "referrer": "-",
+        "user-agent": "vscode-restclient"
+    }
+}

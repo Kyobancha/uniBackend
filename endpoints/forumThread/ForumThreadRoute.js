@@ -50,7 +50,6 @@ router.get('/', (req, res) => {
     }
 })
 .get('/:id', (req, res) => {
-    console.log("this one not")
     ForumThreadService.get(req)
     .then(thread => {
         if(thread){

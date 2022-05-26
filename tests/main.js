@@ -1,8 +1,6 @@
 const database = require("../database/database.js");
 const httpServer = require("../httpServer.js");
-const request = require("supertest");
 const logger = require("../config/winston.js");
-const assert = require("chai").assert;
 
 let app;
 
@@ -22,18 +20,18 @@ describe("All tests", () => {
         }
     });
 
-    describe.skip("Execute Application Tests", function () {
-        require("./mochaTests/applicationTests");
-    });
-    describe.skip("Login Tests", function () {
-        require("./mochaTests/loginTests");
-    });
+    // describe.skip("Execute Application Tests", function () {
+    //     require("./mochaTests/applicationTests");
+    // });
+    // describe.skip("Login Tests", function () {
+    //     require("./mochaTests/loginTests");
+    // });
     describe("Public User Service Tests", function () {
         require("./mochaTests/publicUserTests");
     });
-    // describe("User Service Tests", function () {
-    //     require("./mochaTests/userTests");
-    // });
+    describe.skip("User Service Tests", function () {
+        require("./mochaTests/userTests");
+    });
     describe.skip("Forum Thread Tests", function () {
         require("./mochaTests/forumThreadTests");
     });
