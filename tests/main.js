@@ -20,7 +20,7 @@ describe("All tests", () => {
         }
     });
 
-    // describe.skip("Execute Application Tests", function () {
+    // describe("Execute Application Tests", function () {
     //     require("./mochaTests/applicationTests");
     // });
     // describe.skip("Login Tests", function () {
@@ -29,13 +29,13 @@ describe("All tests", () => {
     describe("Public User Service Tests", function () {
         require("./mochaTests/publicUserTests");
     });
-    describe.skip("User Service Tests", function () {
-        require("./mochaTests/userTests");
-    });
-    describe.skip("Forum Thread Tests", function () {
-        require("./mochaTests/forumThreadTests");
-    });
-    describe.skip("Forum Messages Tests", function () {
-        require("./mochaTests/forumMessageTests");
-    });
+    // describe.skip("User Service Tests", function () {
+    //     require("./mochaTests/userTests");
+    // });
+    // describe.skip("Forum Thread Tests", function () {
+    //     require("./mochaTests/forumThreadTests");
+    // });
+    // describe("Forum Messages Tests", function () {
+    //     require("./mochaTests/forumMessageTests");
+    // });
 });
