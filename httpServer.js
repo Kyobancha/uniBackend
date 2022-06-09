@@ -14,6 +14,7 @@ const winston = require("./config/winston");
 const morgan = require("morgan");
 const logger = require("./config/winston");
 const config = require("config");
+const cors = require("cors");
 
 let app;
 let server;
@@ -33,6 +34,7 @@ function startApp() {
     app = express();
 
     //needed so we can actually read the request body
+    app.use(cors())
     app.use(bodyParser.json());
     app.use(morgan(config.get('morgan.format'), { stream: winston.stream }));
     app.get("/", (req, res) => {
