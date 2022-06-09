@@ -15,7 +15,7 @@ In case you are interested in the implemented tests, feel free to run ```npm tes
 | --------------- | ----------- |
 | /               | displays a default text, nothing else.       |
 | /authenticate   | using basic auth, a registered user can login. The credentials will be validated. |
-| /publicusers    | for test purpose. Almost identical to the endpoint */users*, with the difference, that it will output the hashed password on HTTP GET as well. |
+| /publicusers    | for test purpose. Almost identical to the endpoint */users*, with the difference, that it needs no authentication and will output the hashed password on HTTP GET as well. |
 | /users          | endpoint for admins only. manages a collection of users |
 | /forumThreads   | public endpoint. Each user can have their own threads and fill them with messages. To manage their forumThreads, they need to be authenticated. |
 | /forumMessages  | public endpoint. Manages messages with a reference on their owners and threads. |
