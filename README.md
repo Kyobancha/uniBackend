@@ -1,7 +1,11 @@
 # uniBackend
 
 ## About
-This is a project (WIP) for future references and has been coded as part of a uni class called "Web Engineering II". It is a simple REST-backend (level 2) for a forum using MongoDB (with Mongoose) and Express. Please note that config files have already been provided in this repository on purpose to give you the best user experience possible.
+This is a project (WIP) for future references and has been coded as part of a uni class called "Web Engineering II". It is a simple REST-backend (level 2) for a forum using MongoDB (with Mongoose) and Express. Please note that config files have already been provided in this repository on purpose to give you the best user experience possible. This project will be deployed on web for more convenience in the future.
+
+## Dependencies
+ - MongoDB Server 5.0.9
+ - Node v16.15.1
 
 ## How to run the project
 To run this project, first move into the project's root directory using your console and enter ```npm install```. To start this project on Windows, run ```npm run start-pc```.
