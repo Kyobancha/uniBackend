@@ -22,6 +22,7 @@ let server;
 function startServer(){
     server = https.createServer({ key: key, cert: cert }, getApp());
     server.listen(443, () => {
+        console.log("listening on 443")
         logger.info("listening on 443");
     });
 }
@@ -34,7 +35,9 @@ function startApp() {
     app = express();
 
     //needed so we can actually read the request body
-    app.use(cors())
+    app.use(cors({
+        exposedHeaders: "Authorization"
+    }))
     app.use(bodyParser.json());
     app.use(morgan(config.get('morgan.format'), { stream: winston.stream }));
     app.get("/", (req, res) => {
